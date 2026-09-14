@@ -1,5 +1,27 @@
 {
   "playlistId": "PL3wGjWZFPUy-_6vqVV9L5Ns8coTmFAnyC",
-  "updatedAt": null,
-  "videos": []
+  "updatedAt": "2026-09-14T17:07:45.744Z",
+  "videos": [
+    {
+      "id": "pT4lN3jG9P4",
+      "title": "忘れ花｜忘了你的名字與聲音，為什麼心還記得？｜Yu Stellar｜星語",
+      "publishedAt": "2026-09-09T01:30:32+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/pT4lN3jG9P4/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=pT4lN3jG9P4"
+    },
+    {
+      "id": "BDwkeZ4cNF8",
+      "title": "空房間的回聲｜房間越安靜，想念越大聲",
+      "publishedAt": "2026-08-24T21:30:33+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/BDwkeZ4cNF8/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=BDwkeZ4cNF8"
+    },
+    {
+      "id": "UMBjLBq2qw4",
+      "title": "雨停以前別回頭，因為眼淚還沒學會放手",
+      "publishedAt": "2026-08-24T09:30:00+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/UMBjLBq2qw4/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=UMBjLBq2qw4"
+    }
+  ]
 }
