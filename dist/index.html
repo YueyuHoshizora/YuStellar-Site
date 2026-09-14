@@ -26,6 +26,7 @@
       </a>
       <nav aria-label="主要導覽">
         <a href="#music">音樂</a>
+        <a href="#videos">影像</a>
         <a href="#about">關於</a>
         <a href="#contact">聯絡</a>
       </nav>
@@ -36,6 +37,7 @@
 
     <nav class="mobile-nav" id="mobile-nav" aria-label="行動版導覽" hidden>
       <a href="#music">音樂</a>
+      <a href="#videos">影像</a>
       <a href="#about">關於</a>
       <a href="#contact">聯絡</a>
     </nav>
@@ -81,12 +83,34 @@
         </article>
       </section>
 
+      <section class="videos section" id="videos" aria-labelledby="videos-title">
+        <div class="section-heading reveal">
+          <p class="section-number">02 / VIDEO</p>
+          <div>
+            <h2 id="videos-title">最新影像，<br />從頻率裡浮現。</h2>
+            <a
+              class="playlist-link"
+              href="https://www.youtube.com/playlist?list=PL3wGjWZFPUy-_6vqVV9L5Ns8coTmFAnyC"
+              target="_blank"
+              rel="noopener noreferrer"
+            >觀看完整播放清單 <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+
+        <div class="video-grid reveal" id="video-grid" aria-live="polite" aria-busy="true">
+          <div class="video-state">
+            <span class="video-state-mark" aria-hidden="true">✦</span>
+            <p>正在接收最新影像訊號⋯</p>
+          </div>
+        </div>
+      </section>
+
       <section class="manifesto section" id="about" aria-labelledby="about-title">
         <div class="portrait-slice reveal" aria-hidden="true">
           <img src="./assets/stellar-hero.png" alt="" />
         </div>
         <div class="manifesto-copy reveal">
-          <p class="section-number">02 / ABOUT</p>
+          <p class="section-number">03 / ABOUT</p>
           <h2 id="about-title">在喧囂退去之後，<br />聽見真正的自己。</h2>
           <p class="lead">星語，是一名來自台北的獨立音樂創作人。</p>
           <p>以細膩的人聲、電子質地與夜行般的節奏，收集城市裡短暫閃爍的情緒。作品關於未說出口的告別，也關於在黑暗裡仍然選擇發光的人。</p>
@@ -95,7 +119,7 @@
       </section>
 
       <section class="contact section" id="contact" aria-labelledby="contact-title">
-        <p class="section-number reveal">03 / CONTACT</p>
+        <p class="section-number reveal">04 / CONTACT</p>
         <h2 id="contact-title" class="reveal">讓我們在<br /><em>同一個頻率</em>相遇。</h2>
         <p class="contact-note reveal">演出、合作與其他邀請，歡迎來信。</p>
         <button class="email-button reveal" type="button" data-email="hello@yustellar.idv.tw">
