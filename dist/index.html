@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#080912" />
+    <meta name="description" content="星語｜獨立音樂創作人。把夜裡沒有說完的話，寫成歌。" />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href="./assets/stellar-hero.png" as="image" fetchpriority="high" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>星語 — 獨立音樂創作人</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳至主要內容</a>
+    <div class="grain" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="星語首頁">
+        <span class="brand-mark" aria-hidden="true">✦</span>
+        <span>星語</span>
+      </a>
+      <nav aria-label="主要導覽">
+        <a href="#music">音樂</a>
+        <a href="#about">關於</a>
+        <a href="#contact">聯絡</a>
+      </nav>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="開啟選單">
+        <span></span><span></span>
+      </button>
+    </header>
+
+    <nav class="mobile-nav" id="mobile-nav" aria-label="行動版導覽" hidden>
+      <a href="#music">音樂</a>
+      <a href="#about">關於</a>
+      <a href="#contact">聯絡</a>
+    </nav>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <img class="hero-image" src="./assets/stellar-hero.png" alt="星光與聲波交織的夜色中，一位創作者靜立其中" />
+        <div class="hero-shade" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> Independent artist · Taipei</p>
+          <h1 id="hero-title">星語</h1>
+          <p class="hero-line">把夜裡沒有說完的話，<br />寫成歌。</p>
+          <a class="text-link" href="#music">進入聲音宇宙 <span aria-hidden="true">↘</span></a>
+        </div>
+        <div class="hero-meta" aria-hidden="true">
+          <span>YUSTELLAR</span>
+          <span>25°02′N · 121°33′E</span>
+        </div>
+        <a class="scroll-cue" href="#music" aria-label="向下瀏覽音樂作品"><span></span>SCROLL</a>
+      </section>
+
+      <section class="music section" id="music" aria-labelledby="music-title">
+        <div class="section-heading reveal">
+          <p class="section-number">01 / MUSIC</p>
+          <h2 id="music-title">下一段聲音，<br />正在靠近。</h2>
+        </div>
+
+        <article class="release-card reveal">
+          <div class="cover-art" aria-hidden="true">
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+            <div class="cover-star">✦</div>
+            <p>星語<br /><span>YU STELLAR</span></p>
+          </div>
+          <div class="release-info">
+            <p class="release-kicker">NEW SIGNAL · COMING SOON</p>
+            <h3>首支作品<br />準備中</h3>
+            <p>旋律從深夜浮現，沿著城市的微光緩慢成形。第一段訊號即將抵達，請保持收聽。</p>
+            <div class="signal" aria-label="音訊波形裝飾">
+              <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="manifesto section" id="about" aria-labelledby="about-title">
+        <div class="portrait-slice reveal" aria-hidden="true">
+          <img src="./assets/stellar-hero.png" alt="" />
+        </div>
+        <div class="manifesto-copy reveal">
+          <p class="section-number">02 / ABOUT</p>
+          <h2 id="about-title">在喧囂退去之後，<br />聽見真正的自己。</h2>
+          <p class="lead">星語，是一名來自台北的獨立音樂創作人。</p>
+          <p>以細膩的人聲、電子質地與夜行般的節奏，收集城市裡短暫閃爍的情緒。作品關於未說出口的告別，也關於在黑暗裡仍然選擇發光的人。</p>
+          <p class="signature">星語 <span>✦</span></p>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact" aria-labelledby="contact-title">
+        <p class="section-number reveal">03 / CONTACT</p>
+        <h2 id="contact-title" class="reveal">讓我們在<br /><em>同一個頻率</em>相遇。</h2>
+        <p class="contact-note reveal">演出、合作與其他邀請，歡迎來信。</p>
+        <button class="email-button reveal" type="button" data-email="hello@yustellar.idv.tw">
+          <span>hello@yustellar.idv.tw</span>
+          <span class="email-action">複製信箱</span>
+        </button>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-brand"><span>星語</span><small>YU STELLAR</small></div>
+      <p>© <span id="year"></span> 星語. ALL RIGHTS RESERVED.</p>
+      <a href="#top">BACK TO TOP ↑</a>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
