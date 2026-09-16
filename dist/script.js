@@ -141,10 +141,10 @@ if (videoGrid) {
 
 // --- Cookie consent banner (shared across all pages) ---
 (function setupCookieBanner() {
-  const banner = document.querySelector('#cookie-banner');
+  const banner = document.querySelector('#ys-notice');
   if (!banner) return;
 
-  const CONSENT_KEY = 'ys_cookie_consent';
+  const CONSENT_KEY = 'ys_notice_pref';
 
   function getConsent() {
     try {
@@ -166,9 +166,9 @@ if (videoGrid) {
     banner.hidden = false;
   }
 
-  banner.querySelectorAll('[data-cookie-action]').forEach((button) => {
+  banner.querySelectorAll('[data-ys-action]').forEach((button) => {
     button.addEventListener('click', () => {
-      setConsent(button.dataset.cookieAction);
+      setConsent(button.dataset.ysAction);
       banner.hidden = true;
     });
   });
