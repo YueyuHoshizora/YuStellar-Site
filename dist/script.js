@@ -7,7 +7,12 @@ const playlistUrl = 'https://www.youtube.com/playlist?list=PL3wGjWZFPUy-_6vqVV9L
 // Small strings that vary by page language. Every page sets <html lang="...">
 // itself (zh-Hant for the default site, en for the /en/ mirror), so we just
 // read that instead of needing a separate per-page config.
-const LANG = document.documentElement.lang.startsWith('en') ? 'en' : 'zh';
+const LANG = (() => {
+  const lang = document.documentElement.lang;
+  if (lang.startsWith('en')) return 'en';
+  if (lang.startsWith('ja')) return 'ja';
+  return 'zh';
+})();
 const STRINGS = {
   zh: {
     openMenu: '開啟選單',
@@ -28,6 +33,16 @@ const STRINGS = {
     goToYouTube: 'Go to YouTube ↗',
     playVideo: (title) => `Play video: ${title}`,
     dateLocale: 'en-US',
+  },
+  ja: {
+    openMenu: 'メニューを開く',
+    closeMenu: 'メニューを閉じる',
+    copied: 'コピーしました',
+    copyEmail: 'メールをコピー',
+    videoSyncing: '最新の映像を同期中です。再生リストに直接アクセスすることもできます。',
+    goToYouTube: 'YouTube で見る ↗',
+    playVideo: (title) => `動画を再生：${title}`,
+    dateLocale: 'ja-JP',
   },
 }[LANG];
 

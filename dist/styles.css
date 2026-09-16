@@ -69,9 +69,11 @@ button { color: inherit; font: inherit; }
 .menu-button[aria-expanded='true'] span:last-child { transform: translateY(-4px) rotate(-45deg); }
 .mobile-nav { position: fixed; inset: 0; z-index: 25; padding: 9rem 1.5rem 2rem; background: rgba(8, 9, 18, .97); }
 .mobile-nav a { display: block; padding: 1.2rem 0; border-bottom: 1px solid var(--line); font-size: 2rem; }
+.lang-switch-group { display: flex; align-items: center; gap: .5rem; }
 .lang-switch { padding: .35rem .8rem; border: 1px solid var(--line); border-radius: 999px; opacity: .85; }
 .lang-switch:hover { border-color: #e5a8ff; opacity: 1; }
-.mobile-nav .lang-switch { display: inline-block; margin-top: .5rem; padding: .5rem 1rem; font-size: 1rem; border: 1px solid var(--line); border-radius: 999px; }
+.mobile-nav .lang-switch-group { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: .75rem; }
+.mobile-nav .lang-switch { padding: .5rem 1rem; font-size: 1rem; border: 1px solid var(--line); border-radius: 999px; }
 
 .hero {
   position: relative;

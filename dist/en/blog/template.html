@@ -7,8 +7,9 @@
   2. Replace the title, date, and body below with the translated content
   3. Add a matching .blog-card to .blog-list in blog/index.html
   4. Add this new URL to ../../sitemap.xml (optional, but recommended)
-  5. Make sure the zh-Hant version (../../blog/REPLACE-WITH-SLUG.html) links
-     back here via its lang-switch link (see AGENTS.md, "多語系" section)
+  5. Make sure the zh-Hant version (../../blog/REPLACE-WITH-SLUG.html) and the
+     Japanese version (../../ja/blog/REPLACE-WITH-SLUG.html) both link back here
+     via their lang-switch links (see AGENTS.md, "多語系" section)
 -->
 <!doctype html>
 <html lang="en">
@@ -20,6 +21,7 @@
     <link rel="canonical" href="https://yustellar.idv.tw/en/blog/REPLACE-WITH-SLUG.html" />
     <link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/REPLACE-WITH-SLUG.html" />
     <link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/REPLACE-WITH-SLUG.html" />
+    <link rel="alternate" hreflang="ja" href="https://yustellar.idv.tw/ja/blog/REPLACE-WITH-SLUG.html" />
     <link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/REPLACE-WITH-SLUG.html" />
     <meta property="og:type" content="article" />
     <meta property="og:site_name" content="Yu Stellar｜星語" />
@@ -52,7 +54,10 @@
         <a href="./index.html">Journal</a>
         <a href="../index.html#about">About</a>
         <a href="../index.html#contact">Contact</a>
-        <a class="lang-switch" href="../../blog/REPLACE-WITH-SLUG.html">中文</a>
+        <span class="lang-switch-group">
+          <a class="lang-switch" href="../../blog/REPLACE-WITH-SLUG.html">中文</a>
+          <a class="lang-switch" href="../../ja/blog/REPLACE-WITH-SLUG.html">日本語</a>
+        </span>
       </nav>
       <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
         <span></span><span></span>
@@ -65,7 +70,10 @@
       <a href="./index.html">Journal</a>
       <a href="../index.html#about">About</a>
       <a href="../index.html#contact">Contact</a>
-      <a class="lang-switch" href="../../blog/REPLACE-WITH-SLUG.html">中文</a>
+      <span class="lang-switch-group">
+        <a class="lang-switch" href="../../blog/REPLACE-WITH-SLUG.html">中文</a>
+        <a class="lang-switch" href="../../ja/blog/REPLACE-WITH-SLUG.html">日本語</a>
+      </span>
     </nav>
 
     <main id="main">

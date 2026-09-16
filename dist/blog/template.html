@@ -5,8 +5,9 @@
   2. 把下面的標題、日期、內文換成新文章的內容
   3. 到 blog/index.html 的 .blog-list 裡加一張新的 .blog-card 連結到這篇文章
   4. 到 ../sitemap.xml 補上這個新網址（可選，但建議做）
-  5. 同步到 ../en/blog/template.html 建立英文版對應文章（見 AGENTS.md「多語系」章節），
-     並把下面 hreflang / lang-switch 連結裡的 REPLACE-WITH-SLUG 換成實際檔名
+  5. 同步到 ../en/blog/template.html 與 ../ja/blog/template.html 建立英文、日文版對應文章
+     （見 AGENTS.md「多語系」章節），並把下面 hreflang / lang-switch 連結裡的
+     REPLACE-WITH-SLUG 換成實際檔名
 -->
 <!doctype html>
 <html lang="zh-Hant">
@@ -18,6 +19,7 @@
     <link rel="canonical" href="https://yustellar.idv.tw/blog/REPLACE-WITH-SLUG.html" />
     <link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/REPLACE-WITH-SLUG.html" />
     <link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/REPLACE-WITH-SLUG.html" />
+    <link rel="alternate" hreflang="ja" href="https://yustellar.idv.tw/ja/blog/REPLACE-WITH-SLUG.html" />
     <link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/REPLACE-WITH-SLUG.html" />
     <meta property="og:type" content="article" />
     <meta property="og:site_name" content="星語｜Yu Stellar" />
@@ -50,7 +52,10 @@
         <a href="./index.html">日誌</a>
         <a href="../index.html#about">關於</a>
         <a href="../index.html#contact">聯絡</a>
-        <a class="lang-switch" href="../en/blog/REPLACE-WITH-SLUG.html">EN</a>
+        <span class="lang-switch-group">
+          <a class="lang-switch" href="../en/blog/REPLACE-WITH-SLUG.html">EN</a>
+          <a class="lang-switch" href="../ja/blog/REPLACE-WITH-SLUG.html">日本語</a>
+        </span>
       </nav>
       <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="開啟選單">
         <span></span><span></span>
@@ -63,7 +68,10 @@
       <a href="./index.html">日誌</a>
       <a href="../index.html#about">關於</a>
       <a href="../index.html#contact">聯絡</a>
-      <a class="lang-switch" href="../en/blog/REPLACE-WITH-SLUG.html">EN</a>
+      <span class="lang-switch-group">
+        <a class="lang-switch" href="../en/blog/REPLACE-WITH-SLUG.html">EN</a>
+        <a class="lang-switch" href="../ja/blog/REPLACE-WITH-SLUG.html">日本語</a>
+      </span>
     </nav>
 
     <main id="main">

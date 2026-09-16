@@ -1,0 +1,107 @@
+<!--
+  新しいジャーナル記事の日本語版テンプレート。サイトナビゲーションやsitemapには表示されません。
+  使い方：
+  1. このファイルをコピーし、../../blog/ にある対応する中文版と同じスラッグ名に変更する
+     （例：my-new-post.html）
+  2. 下のタイトル、日付、本文を翻訳内容に置き換える
+  3. blog/index.html の .blog-list に対応する .blog-card を追加する
+  4. ../../sitemap.xml に新しいURLを追加する（任意だが推奨）
+  5. 中文版（../../blog/REPLACE-WITH-SLUG.html）と英語版
+     （../../en/blog/REPLACE-WITH-SLUG.html）の両方から、lang-switch リンクで
+     このページへ戻れるようにする（AGENTS.md の「多語系」セクション参照）
+-->
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#080912" />
+    <meta name="description" content="この記事の一文要約をここに入れる（検索結果やSNSシェア用）。" />
+    <link rel="canonical" href="https://yustellar.idv.tw/ja/blog/REPLACE-WITH-SLUG.html" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/REPLACE-WITH-SLUG.html" />
+    <link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/REPLACE-WITH-SLUG.html" />
+    <link rel="alternate" hreflang="ja" href="https://yustellar.idv.tw/ja/blog/REPLACE-WITH-SLUG.html" />
+    <link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/REPLACE-WITH-SLUG.html" />
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="星語｜Yu Stellar" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta property="og:url" content="https://yustellar.idv.tw/ja/blog/REPLACE-WITH-SLUG.html" />
+    <meta property="og:title" content="記事タイトル — 星語ジャーナル" />
+    <meta property="og:description" content="この記事の一文要約をここに入れる（検索結果やSNSシェア用）。" />
+    <meta property="og:image" content="https://yustellar.idv.tw/assets/og-image.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="記事タイトル — 星語ジャーナル" />
+    <meta name="twitter:description" content="この記事の一文要約をここに入れる（検索結果やSNSシェア用）。" />
+    <meta name="twitter:image" content="https://yustellar.idv.tw/assets/og-image.jpg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../../styles.css?v=__ASSET_VERSION__" />
+    <title>記事タイトル — 星語ジャーナル</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">メインコンテンツへスキップ</a>
+    <div class="grain" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="../index.html" aria-label="星語ホーム">
+        <span class="brand-mark" aria-hidden="true">✦</span>
+        <span>Yu Stellar</span>
+      </a>
+      <nav aria-label="メインナビゲーション">
+        <a href="../index.html#listen">音楽</a>
+        <a href="../index.html#videos">映像</a>
+        <a href="./index.html">ジャーナル</a>
+        <a href="../index.html#about">アバウト</a>
+        <a href="../index.html#contact">コンタクト</a>
+        <span class="lang-switch-group">
+          <a class="lang-switch" href="../../blog/REPLACE-WITH-SLUG.html">中文</a>
+          <a class="lang-switch" href="../../en/blog/REPLACE-WITH-SLUG.html">EN</a>
+        </span>
+      </nav>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="メニューを開く">
+        <span></span><span></span>
+      </button>
+    </header>
+
+    <nav class="mobile-nav" id="mobile-nav" aria-label="モバイルナビゲーション" hidden>
+      <a href="../index.html#listen">音楽</a>
+      <a href="../index.html#videos">映像</a>
+      <a href="./index.html">ジャーナル</a>
+      <a href="../index.html#about">アバウト</a>
+      <a href="../index.html#contact">コンタクト</a>
+      <span class="lang-switch-group">
+        <a class="lang-switch" href="../../blog/REPLACE-WITH-SLUG.html">中文</a>
+        <a class="lang-switch" href="../../en/blog/REPLACE-WITH-SLUG.html">EN</a>
+      </span>
+    </nav>
+
+    <main id="main">
+      <article class="section blog-post">
+        <a class="blog-back" href="./index.html">← ジャーナルに戻る</a>
+        <p class="section-number">JOURNAL</p>
+        <h1 class="blog-post-title">記事タイトル</h1>
+        <p class="blog-post-meta">YYYY.MM.DD</p>
+
+        <div class="prose reveal">
+          <p>ここから本文を書き始める。&lt;p&gt;段落を複数使ってもよいし、&lt;h3&gt;で小見出しを付けてもよい。</p>
+        </div>
+      </article>
+    </main>
+
+    <footer>
+      <div class="footer-brand"><span>Yu Stellar</span><small>星語</small></div>
+      <p>© <span id="year"></span> Yu Stellar. ALL RIGHTS RESERVED. · <a href="../privacy.html">プライバシーポリシー</a></p>
+      <a href="#top">BACK TO TOP ↑</a>
+    </footer>
+
+    <div class="ys-notice" id="ys-notice" hidden>
+      <p>本サイトでは基本機能を維持するためにCookieを使用しています。将来的に広告サービスを有効にした場合、パーソナライズ広告にも使用される可能性があります。詳しくは<a href="../privacy.html">プライバシーポリシー</a>をご覧ください。</p>
+      <div class="ys-notice-actions">
+        <button type="button" data-ys-action="accept">同意する</button>
+        <button type="button" data-ys-action="decline">パーソナライズを拒否</button>
+      </div>
+    </div>
+
+    <script src="../../script.js?v=__ASSET_VERSION__"></script>
+  </body>
+</html>

@@ -36,20 +36,21 @@ dist/
   privacy.html         隱私權政策
   blog/                日誌（部落格），index.html 為列表頁，其餘為文章
   en/                  英文版（結構完全鏡射中文版，見下方「多語系」）
+  ja/                  日文版（結構同樣完全鏡射中文版）
   data/latest-videos.json   YouTube 最新影片資料（CI 自動產生，勿手動編輯）
   assets/               圖片
   script.js / styles.css   全站共用
   robots.txt / sitemap.xml
 ```
 
-## 多語系（中文為主、英文為輔）
+## 多語系（中文為主，英文／日文為輔）
 
 - 預設語言（網站根目錄 `dist/*.html`）是繁體中文（`lang="zh-Hant"`），這是主要版本。
-- 英文版鏡射在 `dist/en/` 底下，路徑結構與中文版完全對應（例如 `dist/blog/why-yu-stellar.html` ↔ `dist/en/blog/why-yu-stellar.html`），`lang="en"`。
-- 每個頁面的 `<head>` 都要有 `hreflang` 互相指向對方語言版本，並包含 `x-default` 指回中文版（中文是預設）。
-- 兩個語言版本的 nav、footer、cookie 橫幅文字要各自完整翻譯，不要中英混雜在同一頁。
-- `script.js` 內的動態文字（例如「複製信箱」「開啟選單」）透過讀取 `document.documentElement.lang` 切換 `STRINGS` 字典（zh/en 兩組），新增任何腳本產生的文字時要比照這個模式加進 `STRINGS`，不要在 JS 裡直接寫死中文或英文。
-- 新增日誌文章時，中英文版本要同時建立、互相對應；如果只先寫得出中文，至少要在英文版留一個對應頁面（可先簡短摘要），不要讓兩個語言版本的文章清單長期不同步。
+- 英文版鏡射在 `dist/en/` 底下、日文版鏡射在 `dist/ja/` 底下，路徑結構都與中文版完全對應（例如 `dist/blog/why-yu-stellar.html` ↔ `dist/en/blog/why-yu-stellar.html` ↔ `dist/ja/blog/why-yu-stellar.html`），分別是 `lang="en"` / `lang="ja"`。
+- 每個頁面的 `<head>` 都要有三語 `hreflang`（`zh-Hant` / `en` / `ja`）互相指向對方語言版本，並包含 `x-default` 指回中文版（中文是預設）。`sitemap.xml` 也要用 `xhtml:link` 同步標註三語 alternate。
+- 三個語言版本的 nav、footer、cookie 橫幅文字要各自完整翻譯，不要混雜在同一頁。每個頁面的語言切換連結（`.lang-switch-group` 內的兩個 `.lang-switch`）永遠指向「另外兩種」語言，不要連回自己。
+- `script.js` 內的動態文字（例如「複製信箱」「開啟選單」）透過讀取 `document.documentElement.lang` 切換 `STRINGS` 字典（zh/en/ja 三組），新增任何腳本產生的文字時要比照這個模式加進 `STRINGS`，不要在 JS 裡直接寫死任何一種語言。
+- 新增日誌文章時，三個語言版本要同時建立、互相對應；如果暫時只寫得出中文，至少要在英文版與日文版各留一個對應頁面（可先簡短摘要），不要讓三個語言版本的文章清單長期不同步。`blog/template.html`、`en/blog/template.html`、`ja/blog/template.html` 三份範本要保持互相對應。
 
 ## YouTube 影片同步機制
 
