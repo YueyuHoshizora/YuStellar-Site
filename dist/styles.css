@@ -78,6 +78,7 @@ button { color: inherit; font: inherit; }
   overflow: hidden;
   isolation: isolate;
 }
+picture:has(.hero-image) { display: contents; }
 .hero-image { position: absolute; inset: 0; z-index: -3; width: 100%; height: 100%; object-fit: cover; object-position: 52% center; animation: drift 16s ease-in-out infinite alternate; }
 .hero-shade { position: absolute; inset: 0; z-index: -2; background: linear-gradient(90deg, rgba(3, 6, 15, .95) 0%, rgba(3, 6, 15, .72) 35%, rgba(3, 6, 15, .05) 72%), linear-gradient(0deg, rgba(3, 6, 15, .68), transparent 45%); }
 .hero-copy { width: min(780px, 82vw); margin: 5rem 0 0 clamp(1.25rem, 9vw, 10rem); }

@@ -19,7 +19,7 @@
     <meta name="twitter:image" content="https://yustellar.idv.tw/assets/og-image.jpg" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
-    <link rel="preload" href="./assets/stellar-hero.png" as="image" fetchpriority="high" />
+    <link rel="preload" href="./assets/stellar-hero.webp" as="image" type="image/webp" fetchpriority="high" />
     <link rel="stylesheet" href="./styles.css?v=__ASSET_VERSION__" />
     <title>星語 — 獨立音樂創作人</title>
     <script type="application/ld+json">
@@ -70,7 +70,10 @@
 
     <main id="main">
       <section class="hero" id="top" aria-labelledby="hero-title">
-        <img class="hero-image" src="./assets/stellar-hero.png" alt="星光與聲波交織的夜色中，一位女性創作者靜立其中" />
+        <picture>
+          <source srcset="./assets/stellar-hero.webp" type="image/webp" />
+          <img class="hero-image" src="./assets/stellar-hero.jpg" alt="星光與聲波交織的夜色中，一位女性創作者靜立其中" />
+        </picture>
         <div class="hero-shade" aria-hidden="true"></div>
         <div class="hero-copy">
           <p class="eyebrow"><span></span> Independent artist · Taipei</p>
@@ -131,7 +134,7 @@
 
       <section class="manifesto section" id="about" aria-labelledby="about-title">
         <div class="portrait-slice reveal" aria-hidden="true">
-          <img src="./assets/stellar-hero.png" alt="" />
+          <img src="./assets/stellar-hero.webp" alt="" loading="lazy" />
         </div>
         <div class="manifesto-copy reveal">
           <p class="section-number">03 / ABOUT</p>
