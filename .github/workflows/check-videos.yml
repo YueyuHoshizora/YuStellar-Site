@@ -1,0 +1,51 @@
+name: Check for new YouTube videos
+
+# Runs every 5 minutes. This job only fetches the latest videos and
+# compares them against what's already committed -- it does NOT deploy
+# the site itself. If (and only if) the video list actually changed, it
+# commits the updated data file and pushes to main, which triggers the
+# real "Deploy static site to Pages" workflow via its own `push` trigger.
+# A no-op check (the common case) costs one cheap Actions run and zero
+# deploys.
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: check-videos
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Refresh latest YouTube videos
+        run: node scripts/fetch-youtube-videos.mjs
+        continue-on-error: true
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+
+      - name: Commit and push if the video list changed
+        run: |
+          if git diff --quiet -- dist/data/latest-videos.json; then
+            echo "No change in dist/data/latest-videos.json; nothing to do."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add dist/data/latest-videos.json
+          git commit -m "chore: sync latest YouTube videos"
+          git push

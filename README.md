@@ -16,10 +16,12 @@ python3 -m http.server 4173 --directory dist
 
 首頁會顯示指定播放清單中發布日期最新的三支公開影片。
 
-資料同步分成兩層：
+資料同步分成兩個 workflow：
 
-- **GitHub Actions**（`.github/workflows/pages.yml`）：每次部署（push 到 main，或手動 / 被觸發執行）都會先透過 **YouTube Data API v3** 重新抓一次資料，寫進 `dist/data/latest-videos.json`，再部署到 GitHub Pages。
-- **Cloudflare Worker**（`cf-worker/`）：每 5 分鐘檢查一次播放清單有沒有變化，有變化才呼叫 GitHub API 觸發上面這個部署流程；沒有變化就什麼都不做，不會浪費部署次數。設定步驟見 [`cf-worker/README.md`](cf-worker/README.md)。
+- **`Check for new YouTube videos`**（`.github/workflows/check-videos.yml`）：每 5 分鐘跑一次，透過 **YouTube Data API v3** 抓一次資料，跟目前 repo 裡的 `dist/data/latest-videos.json` 比對。**沒有變化就到此結束，不會觸發部署**；有變化才會把新的資料 commit、push 回 main。
+- **`Deploy static site to Pages`**（`.github/workflows/pages.yml`）：由 push 到 main 觸發（包含上面那個 workflow 自動 push 的 commit），或手動執行。會重新抓一次最新資料、蓋好版本號，再部署到 GitHub Pages。
+
+這樣設計是因為「每 5 分鐘檢查一次」跟「整站重新部署」是兩件成本差很多的事：檢查很便宜，但部署一次要跑完整套 build + deploy，5 分鐘跑一次部署太浪費，所以拆成「先用便宜的方式檢查，真的有新影片才觸發昂貴的部署」。
 
 需要設定一組 GitHub Actions 密鑰 `YOUTUBE_API_KEY`：
 
@@ -30,6 +32,6 @@ python3 -m http.server 4173 --directory dist
 
 如果這組密鑰沒有設定，或是 API 額度用完／暫時打不通，同步這一步會被跳過（不會讓整個部署失敗），網站會沿用上一次成功同步到的 `dist/data/latest-videos.json`。
 
-需要立即更新時，可以手動執行 `Deploy static site to Pages` 工作流程，或打 Worker 的 `/check` 端點（見 `cf-worker/README.md`）。
+需要立即更新時，可以到 GitHub 的 **Actions** 分頁手動執行 `Check for new YouTube videos`（只檢查，有變化才部署）或 `Deploy static site to Pages`（強制重新抓一次並部署）。
 
 本機測試同步腳本時，需要先 `export YOUTUBE_API_KEY=你的金鑰` 再執行 `node scripts/fetch-youtube-videos.mjs`。
