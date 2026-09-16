@@ -84,7 +84,7 @@ async function refreshVideos() {
       url: `https://www.youtube.com/watch?v=${video.id}`,
     }))
     .sort((a, b) => Date.parse(b.publishedAt) - Date.parse(a.publishedAt))
-    .slice(0, 3);
+    .slice(0, 6);
 
   if (!videos.length) {
     throw new Error('No eligible videos remained after filtering out Shorts/live streams.');

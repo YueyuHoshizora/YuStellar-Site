@@ -166,7 +166,7 @@ async function loadLatestVideos() {
     const response = await fetch('/data/latest-videos.json', { cache: 'no-cache' });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const data = await response.json();
-    const videos = Array.isArray(data.videos) ? data.videos.slice(0, 3) : [];
+    const videos = Array.isArray(data.videos) ? data.videos.slice(0, 6) : [];
     if (!videos.length) {
       showVideoFallback();
       return;
