@@ -3,9 +3,10 @@ name: Deploy static site to Pages
 on:
   push:
     branches: [main]
+  # Triggered on demand by the Cloudflare Worker in cf-worker/ whenever it
+  # notices the YouTube playlist changed (checks every 5 minutes). See
+  # cf-worker/README.md.
   workflow_dispatch:
-  schedule:
-    - cron: '17 */6 * * *'
 
 permissions:
   contents: read

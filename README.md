@@ -14,7 +14,12 @@ python3 -m http.server 4173 --directory dist
 
 ## 最新 YouTube 影片
 
-首頁會顯示指定播放清單中發布日期最新的三支公開影片。GitHub Actions 會在每次部署前及每六小時透過 **YouTube Data API v3** 同步資料。
+首頁會顯示指定播放清單中發布日期最新的三支公開影片。
+
+資料同步分成兩層：
+
+- **GitHub Actions**（`.github/workflows/pages.yml`）：每次部署（push 到 main，或手動 / 被觸發執行）都會先透過 **YouTube Data API v3** 重新抓一次資料，寫進 `dist/data/latest-videos.json`，再部署到 GitHub Pages。
+- **Cloudflare Worker**（`cf-worker/`）：每 5 分鐘檢查一次播放清單有沒有變化，有變化才呼叫 GitHub API 觸發上面這個部署流程；沒有變化就什麼都不做，不會浪費部署次數。設定步驟見 [`cf-worker/README.md`](cf-worker/README.md)。
 
 需要設定一組 GitHub Actions 密鑰 `YOUTUBE_API_KEY`：
 
@@ -25,6 +30,6 @@ python3 -m http.server 4173 --directory dist
 
 如果這組密鑰沒有設定，或是 API 額度用完／暫時打不通，同步這一步會被跳過（不會讓整個部署失敗），網站會沿用上一次成功同步到的 `dist/data/latest-videos.json`。
 
-需要立即更新時，可以手動執行 `Deploy static site to Pages` 工作流程。
+需要立即更新時，可以手動執行 `Deploy static site to Pages` 工作流程，或打 Worker 的 `/check` 端點（見 `cf-worker/README.md`）。
 
-本機測試這支腳本時，需要先 `export YOUTUBE_API_KEY=你的金鑰` 再執行 `node scripts/fetch-youtube-videos.mjs`。
+本機測試同步腳本時，需要先 `export YOUTUBE_API_KEY=你的金鑰` 再執行 `node scripts/fetch-youtube-videos.mjs`。
