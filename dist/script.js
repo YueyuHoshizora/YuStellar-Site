@@ -159,7 +159,11 @@ function createVideoCard(video, index) {
 
 async function loadLatestVideos() {
   try {
-    const response = await fetch('./data/latest-videos.json', { cache: 'no-cache' });
+    // Absolute, site-root-relative path -- this file is shared by pages at
+    // every depth (/, /blog/, /en/, /en/blog/, /ja/blog/, ...), and a
+    // relative './data/...' would resolve differently (and 404) depending on
+    // which directory the current page lives in.
+    const response = await fetch('/data/latest-videos.json', { cache: 'no-cache' });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const data = await response.json();
     const videos = Array.isArray(data.videos) ? data.videos.slice(0, 3) : [];
