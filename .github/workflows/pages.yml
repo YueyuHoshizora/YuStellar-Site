@@ -32,6 +32,8 @@ jobs:
       - name: Refresh latest YouTube videos
         run: node scripts/fetch-youtube-videos.mjs
         continue-on-error: true
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
       - name: Stamp asset version for cache-busting
         run: find dist -name '*.html' -print0 | xargs -0 sed -i "s/__ASSET_VERSION__/${GITHUB_SHA::8}-${GITHUB_RUN_NUMBER}/g"
       - uses: actions/configure-pages@v5
