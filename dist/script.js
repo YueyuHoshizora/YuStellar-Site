@@ -5,30 +5,35 @@ const videoGrid = document.querySelector('#video-grid');
 const playlistUrl = 'https://www.youtube.com/playlist?list=PL3wGjWZFPUy-_6vqVV9L5Ns8coTmFAnyC';
 
 function closeMenu() {
+  if (!menuButton || !mobileNav) return;
   menuButton.setAttribute('aria-expanded', 'false');
   menuButton.setAttribute('aria-label', '開啟選單');
   mobileNav.hidden = true;
 }
 
-menuButton.addEventListener('click', () => {
-  const isOpen = menuButton.getAttribute('aria-expanded') === 'true';
-  menuButton.setAttribute('aria-expanded', String(!isOpen));
-  menuButton.setAttribute('aria-label', isOpen ? '開啟選單' : '關閉選單');
-  mobileNav.hidden = isOpen;
-});
+if (menuButton && mobileNav) {
+  menuButton.addEventListener('click', () => {
+    const isOpen = menuButton.getAttribute('aria-expanded') === 'true';
+    menuButton.setAttribute('aria-expanded', String(!isOpen));
+    menuButton.setAttribute('aria-label', isOpen ? '開啟選單' : '關閉選單');
+    mobileNav.hidden = isOpen;
+  });
 
-mobileNav.querySelectorAll('a').forEach((link) => link.addEventListener('click', closeMenu));
+  mobileNav.querySelectorAll('a').forEach((link) => link.addEventListener('click', closeMenu));
+}
 
-emailButton.addEventListener('click', async () => {
-  const action = emailButton.querySelector('.email-action');
-  try {
-    await navigator.clipboard.writeText(emailButton.dataset.email);
-    action.textContent = '已複製';
-    setTimeout(() => { action.textContent = '複製信箱'; }, 1800);
-  } catch {
-    window.location.href = `mailto:${emailButton.dataset.email}`;
-  }
-});
+if (emailButton) {
+  emailButton.addEventListener('click', async () => {
+    const action = emailButton.querySelector('.email-action');
+    try {
+      await navigator.clipboard.writeText(emailButton.dataset.email);
+      action.textContent = '已複製';
+      setTimeout(() => { action.textContent = '複製信箱'; }, 1800);
+    } catch {
+      window.location.href = `mailto:${emailButton.dataset.email}`;
+    }
+  });
+}
 
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
@@ -40,7 +45,8 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.12 });
 
 document.querySelectorAll('.reveal').forEach((element) => observer.observe(element));
-document.querySelector('#year').textContent = new Date().getFullYear();
+const yearEl = document.querySelector('#year');
+if (yearEl) yearEl.textContent = new Date().getFullYear();
 
 function showVideoFallback() {
   videoGrid.replaceChildren();
@@ -128,4 +134,42 @@ async function loadLatestVideos() {
   }
 }
 
-loadLatestVideos();
+if (videoGrid) {
+  loadLatestVideos();
+}
+
+
+// --- Cookie consent banner (shared across all pages) ---
+(function setupCookieBanner() {
+  const banner = document.querySelector('#cookie-banner');
+  if (!banner) return;
+
+  const CONSENT_KEY = 'ys_cookie_consent';
+
+  function getConsent() {
+    try {
+      return window.localStorage.getItem(CONSENT_KEY);
+    } catch {
+      return null;
+    }
+  }
+
+  function setConsent(value) {
+    try {
+      window.localStorage.setItem(CONSENT_KEY, value);
+    } catch {
+      /* localStorage unavailable (e.g. private browsing) — banner will just show again next visit */
+    }
+  }
+
+  if (!getConsent()) {
+    banner.hidden = false;
+  }
+
+  banner.querySelectorAll('[data-cookie-action]').forEach((button) => {
+    button.addEventListener('click', () => {
+      setConsent(button.dataset.cookieAction);
+      banner.hidden = true;
+    });
+  });
+})();
