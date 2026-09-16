@@ -231,6 +231,9 @@ footer { display: flex; justify-content: space-between; align-items: end; gap: 2
 /* ---------------------------------------------------------------- */
 /* Cookie consent banner                                             */
 /* ---------------------------------------------------------------- */
+.ys-notice[hidden] {
+  display: none;
+}
 .ys-notice {
   position: fixed;
   left: 1.25rem;
