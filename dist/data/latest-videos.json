@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-09-16T09:10:37.595Z",
+  "updatedAt": "2026-09-16T14:12:58.317Z",
   "videos": [
+    {
+      "id": "Ry_wW8Zs4zM",
+      "title": "我把窗打開，也把今天重新放進來｜把窗打開｜Yu Stellar｜星語",
+      "publishedAt": "2026-09-16T09:30:06Z",
+      "thumbnail": "https://i.ytimg.com/vi/Ry_wW8Zs4zM/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Ry_wW8Zs4zM"
+    },
     {
       "id": "IRyuDXF3zrU",
       "title": "原來你也走了很遠，才終於懂我的沉默｜你也走了很遠｜Yu Stellar｜星語",
@@ -15,13 +22,6 @@
       "publishedAt": "2026-09-15T09:30:15Z",
       "thumbnail": "https://i.ytimg.com/vi/M4LBN1LsIsw/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=M4LBN1LsIsw"
-    },
-    {
-      "id": "-sbjaxnFS_Y",
-      "title": "我不再問如果，決定把遺憾活成答案｜把遺憾活成答案｜Yu Stellar｜星語",
-      "publishedAt": "2026-09-14T21:30:00Z",
-      "thumbnail": "https://i.ytimg.com/vi/-sbjaxnFS_Y/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=-sbjaxnFS_Y"
     }
   ]
 }
