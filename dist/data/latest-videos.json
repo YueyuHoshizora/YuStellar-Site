@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-09-16T19:08:33.643Z",
+  "updatedAt": "2026-09-16T23:44:42.530Z",
   "videos": [
+    {
+      "id": "kwEQLyh-Dfs",
+      "title": "多年後的那場雨，讓我們再次站在彼此面前｜同一場雨｜Yu Stellar｜星語",
+      "publishedAt": "2026-09-16T21:30:30Z",
+      "thumbnail": "https://i.ytimg.com/vi/kwEQLyh-Dfs/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=kwEQLyh-Dfs"
+    },
     {
       "id": "Ry_wW8Zs4zM",
       "title": "我把窗打開，也把今天重新放進來｜把窗打開｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-09-14T09:30:27Z",
       "thumbnail": "https://i.ytimg.com/vi/p78pX6PTsFI/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=p78pX6PTsFI"
-    },
-    {
-      "id": "nXMpNlR50t8",
-      "title": "沒有你的房間，我終於學會把日子過好｜沒有你的新生活｜Yu Stellar｜星語",
-      "publishedAt": "2026-09-13T21:30:11Z",
-      "thumbnail": "https://i.ytimg.com/vi/nXMpNlR50t8/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=nXMpNlR50t8"
     }
   ]
 }
