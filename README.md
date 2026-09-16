@@ -23,6 +23,8 @@ python3 -m http.server 4173 --directory dist
 
 這樣設計是因為「每 5 分鐘檢查一次」跟「整站重新部署」是兩件成本差很多的事：檢查很便宜，但部署一次要跑完整套 build + deploy，5 分鐘跑一次部署太浪費，所以拆成「先用便宜的方式檢查，真的有新影片才觸發昂貴的部署」。另外，用 `GITHUB_TOKEN` 推送的 commit 不會自動觸發其他 workflow 的 `push` 事件（GitHub 內建的防迴圈機制），所以 `check-videos.yml` 在真的有變化時，會額外用 `gh workflow run` 明確觸發部署，而不是依賴 push 事件自動串接。
 
+> **`cf-worker/`**：這個資料夾放的是一個「打算取代 `check-videos.yml`」的 Cloudflare Worker（用 Cron Trigger、5 分鐘跑一次），目前還在準備部署階段，尚未正式啟用。它是**獨立的 git repo**（放在這裡純粹是路徑方便），`.gitignore` 已經把 `cf-worker/` 整個排除，不會被這個 repo 追蹤。等確認 Worker 運作正常後，才會移除 `check-videos.yml` 並更新這裡的說明；詳見 `cf-worker/README.md`。
+
 需要設定一組 GitHub Actions 密鑰 `YOUTUBE_API_KEY`：
 
 1. 到 [Google Cloud Console](https://console.cloud.google.com/) 建立（或選擇既有）專案

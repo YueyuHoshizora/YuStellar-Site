@@ -1,3 +1,7 @@
 .DS_Store
 .sites-runtime/
 site-bundle.tar.gz
+
+# Standalone Cloudflare Worker repo for video sync; lives here for
+# convenience but is its own separate git repo, not part of this one.
+cf-worker/
