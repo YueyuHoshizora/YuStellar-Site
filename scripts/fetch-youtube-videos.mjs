@@ -60,4 +60,12 @@ async function refreshVideos() {
   console.log(`Updated ${OUTPUT_PATH} with ${videos.length} videos.`);
 }
 
-await refreshVideos();
+try {
+  await refreshVideos();
+} catch (error) {
+  // Don't let a flaky YouTube feed block the whole site deploy.
+  // Keep whatever dist/data/latest-videos.json already exists (from the
+  // last successful sync) and let the rest of the site deploy normally.
+  console.warn(`Skipping video sync: ${error.message}`);
+  console.warn('Keeping the previously synced dist/data/latest-videos.json as-is.');
+}
