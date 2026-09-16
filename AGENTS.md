@@ -68,6 +68,30 @@ dist/
 
 - 大型照片（如 Hero 圖）一律提供 WebP 主版本 + JPEG 備援（`<picture>` + `<source type="image/webp">`），不要直接引用未壓縮的原始 PNG。原始未壓縮素材放在 `assets-src/`（不部署），不要放進 `dist/`。
 
+## 字型載入
+
+- 字型（Noto Sans TC、Space Grotesk）**不要**用 `styles.css` 裡的 `@import` 載入——那會擋住 CSSOM 直到 `styles.css` 自己先被抓取、解析完才會發現字型請求，多一趟往返。改成每個頁面 `<head>` 裡、`styles.css` 連結**之前**放：
+  ```html
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&family=Space+Grotesk:wght@400;500;600&display=swap" />
+  ```
+  新增頁面（包含新的語言版本、新的日誌文章）都要比照加上這三行，不要漏掉，也不要在 CSS 裡重新加回 `@import`。
+
+## SEO
+
+- **結構化資料（JSON-LD）**：每種頁面類型都要有對應的 schema.org 標記，放在 `<title>` 標籤後面：
+  - 首頁（zh/en/ja 三版）：`MusicGroup`，含 `inLanguage`。
+  - 日誌文章：`@graph` 內同時放 `BlogPosting`（含 `headline`／`description`／`datePublished`／`inLanguage`／`author`／`publisher`）與 `BreadcrumbList`（首頁 → 日誌 → 這篇文章）。
+  - 日誌列表頁：`CollectionPage` + `BreadcrumbList`（首頁 → 日誌）。
+  - 隱私權政策頁：`WebPage` + `BreadcrumbList`（首頁 → 隱私權政策）。
+  - 新增頁面時比照同類型既有頁面的結構，`headline`/`description`/`url` 等欄位直接對應該頁的 `<h1>`／meta description／canonical，不要手動另外編一套文字。
+- **`content="..."` 屬性裡絕對不能出現沒跳脫的雙引號**（例如英文標題裡的引號）。曾經因為 `content="On the name "Yu Stellar," ..."` 這種寫法，讓瀏覽器把屬性值從第一個內部引號就截斷，等於整段 meta description 都壞掉。標題／描述裡如果需要引號，一律用排版引號 `“` `”`，不要用直引號 `"`。
+- **hreflang**：每個頁面的 `<head>` 都要有三語 `hreflang`（`zh-Hant`/`en`/`ja`）+ `x-default`（指回中文版），`sitemap.xml` 也要用 `xhtml:link` 同步標註（見上方「多語系」章節）。
+- **`og:locale` / `og:locale:alternate`**：每頁的 `og:locale` 是自己的語言，另外兩語都要各加一行 `og:locale:alternate`。
+- **`robots.txt` / `noindex`**：`blog/template.html`（及其 en/ja 對應檔）雖然會被部署、可被直接連到，但只是佔位範本，不該被搜尋引擎索引——三份都要有 `<meta name="robots" content="noindex, follow" />`。新增其他「不想被索引但仍需保留」的頁面時比照處理，不要直接從 `robots.txt` 擋掉整個路徑（那樣反而會讓其他正常頁面的連結權重傳遞受影響）。
+- **`sitemap.xml`**：只放會被索引的真實頁面（不放 `template.html`），每個 `<url>` 都要用 `xhtml:link` 標三語 alternate（含 `x-default`）。新增日誌文章或任何新頁面時，三語都要一起補進 sitemap。
+
 ## AdSense / 合規
 
 - `dist/ads.txt` 保留 publisher ID，但目前頁面上沒有載入任何 AdSense script（尚未重新申請）。若要重新加入，先確認 `dist/privacy.html`（及其英文版）內容仍然準確。

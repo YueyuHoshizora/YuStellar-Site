@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&family=Space+Grotesk:wght@400;500;600&display=swap');
+/* Fonts are loaded via <link rel="preconnect"> + <link rel="stylesheet">
+   in each page's <head> instead of @import here -- @import blocks CSSOM
+   construction until styles.css itself has been fetched and parsed, so the
+   font request couldn't even start until then. A <link> in <head> lets the
+   browser discover and fetch it in parallel with styles.css. See AGENTS.md
+   "字型載入" for the exact tags every page must include. */
 
 :root {
   color-scheme: dark;
