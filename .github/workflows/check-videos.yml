@@ -1,12 +1,17 @@
 name: Check for new YouTube videos
 
-# Runs every 5 minutes. This job only fetches the latest videos and
-# compares them against what's already committed -- it does NOT deploy
-# the site itself. If (and only if) the video list actually changed, it
-# commits the updated data file and pushes to main, which triggers the
-# real "Deploy static site to Pages" workflow via its own `push` trigger.
-# A no-op check (the common case) costs one cheap Actions run and zero
-# deploys.
+# Runs every 5 minutes. This job only fetches the latest videos (from the
+# channel's own "Uploads" playlist, i.e. whatever shows on the Videos tab)
+# and compares the video IDs against what's already committed -- ignoring
+# the updatedAt/publishedAt timestamps, which are noisy and change on every
+# run even when the video list itself hasn't. If (and only if) the actual
+# video list changed, it commits the updated data file, pushes to main, and
+# explicitly triggers the "Deploy static site to Pages" workflow.
+#
+# Note: a commit pushed using the default GITHUB_TOKEN does NOT trigger
+# other workflows' `on: push` listeners (GitHub's built-in loop
+# prevention), so we can't just rely on the push itself to trigger the
+# deploy -- we call `gh workflow run` explicitly instead.
 on:
   schedule:
     - cron: '*/5 * * * *'
@@ -14,6 +19,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: check-videos
@@ -37,15 +43,31 @@ jobs:
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
 
-      - name: Commit and push if the video list changed
+      - name: Check whether the video list actually changed
+        id: diff
         run: |
-          if git diff --quiet -- dist/data/latest-videos.json; then
-            echo "No change in dist/data/latest-videos.json; nothing to do."
-            exit 0
+          OLD_IDS=$(git show HEAD:dist/data/latest-videos.json | node scripts/extract-video-ids.mjs /dev/stdin)
+          NEW_IDS=$(node scripts/extract-video-ids.mjs dist/data/latest-videos.json)
+          echo "old=$OLD_IDS"
+          echo "new=$NEW_IDS"
+          if [ "$OLD_IDS" = "$NEW_IDS" ]; then
+            echo "No real change in the video list; nothing to do."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
+      - name: Commit and push
+        if: steps.diff.outputs.changed == 'true'
+        run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add dist/data/latest-videos.json
           git commit -m "chore: sync latest YouTube videos"
           git push
+
+      - name: Trigger the Pages deploy
+        if: steps.diff.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run pages.yml --ref main

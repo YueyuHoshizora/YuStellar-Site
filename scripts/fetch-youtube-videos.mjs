@@ -1,7 +1,12 @@
 import { mkdir, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 
-const PLAYLIST_ID = 'PL3wGjWZFPUy-_6vqVV9L5Ns8coTmFAnyC';
+// Channel's own "Uploads" playlist (all videos from the Videos tab, newest
+// first) rather than a hand-curated playlist -- this always reflects
+// whatever actually appears on https://www.youtube.com/@... 's Videos tab.
+// YouTube auto-generates this playlist ID for every channel as
+// "UU" + <channel ID without the leading "UC">.
+const PLAYLIST_ID = 'UU4sQ-mQ_AiZrNtSOEzqY7FA';
 const API_KEY = process.env.YOUTUBE_API_KEY;
 const API_URL = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet,status&maxResults=25&playlistId=${PLAYLIST_ID}&key=${API_KEY}`;
 const OUTPUT_PATH = resolve('dist/data/latest-videos.json');
