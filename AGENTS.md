@@ -57,7 +57,7 @@ dist/
 - 首頁「影像」區塊顯示的是**頻道自己的「Uploads」播放清單**（`UU` + 頻道 ID 去掉開頭 `UC`），也就是頻道「影片」分頁看到的內容，**不是**某個手動整理的播放清單。
 - `scripts/fetch-youtube-videos.mjs` 透過 YouTube Data API v3 抓資料，會過濾掉非公開影片、Shorts（時長 ≤ 60 秒）與直播/首播，只留最新 6 支正式影片，寫到 `dist/data/latest-videos.json`。
 - 兩個 GitHub Actions workflow 分工：`check-videos.yml` 每 5 分鐘檢查一次（只比對影片 ID，忽略時間戳雜訊），真的有變化才 commit + 明確觸發 `pages.yml` 部署；`pages.yml` 負責实際 build（含資源版本號戳記）與部署。細節見 `README.md`。
-- `cf-worker/`：獨立 git repo（已被主站 `.gitignore` 排除），內容是打算取代 `check-videos.yml` 的 Cloudflare Worker，目前尚未正式啟用。細節見 `cf-worker/README.md`。
+- `sync-video/`：獨立 git repo（已被主站 `.gitignore` 排除），內容是打算取代 `check-videos.yml` 的 Cloudflare Worker，目前尚未正式啟用。細節見 `sync-video/README.md`。
 - 修改抓取邏輯時要保留「API 失敗時不讓整個部署失敗，沿用舊資料」的容錯設計（`try/catch` + `continue-on-error`）。
 - `script.js` 抓 `dist/data/latest-videos.json` 用的是**網站根目錄的絕對路徑**（`/data/latest-videos.json`），不要改回 `./data/...` 這種相對路徑——`script.js` 是三語共用的同一份檔案，頁面深度不一（`/`、`/blog/`、`/en/`、`/ja/blog/` 等），相對路徑在不同深度會解析到不同位置，容易在某個語言版本上悄悄 404。
 
