@@ -1,55 +1,163 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://yustellar.idv.tw/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/" />
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://yustellar.idv.tw/en/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://yustellar.idv.tw/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/" />
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://yustellar.idv.tw/en/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://yustellar.idv.tw/blog/why-yu-stellar.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/why-yu-stellar.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/why-yu-stellar.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/why-yu-stellar.html" />
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yustellar.idv.tw/en/blog/why-yu-stellar.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/why-yu-stellar.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/why-yu-stellar.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/why-yu-stellar.html" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://yustellar.idv.tw/blog/starting-this-site.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/starting-this-site.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/starting-this-site.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/starting-this-site.html" />
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yustellar.idv.tw/en/blog/starting-this-site.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/starting-this-site.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/starting-this-site.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/starting-this-site.html" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://yustellar.idv.tw/blog/night-writing-habit.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/night-writing-habit.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/night-writing-habit.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/night-writing-habit.html" />
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yustellar.idv.tw/en/blog/night-writing-habit.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/night-writing-habit.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/night-writing-habit.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/night-writing-habit.html" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://yustellar.idv.tw/blog/where-the-sound-comes-from.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/where-the-sound-comes-from.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/where-the-sound-comes-from.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/where-the-sound-comes-from.html" />
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yustellar.idv.tw/en/blog/where-the-sound-comes-from.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/where-the-sound-comes-from.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/where-the-sound-comes-from.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/where-the-sound-comes-from.html" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://yustellar.idv.tw/blog/to-you-still-listening.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/to-you-still-listening.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/to-you-still-listening.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/to-you-still-listening.html" />
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yustellar.idv.tw/en/blog/to-you-still-listening.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/to-you-still-listening.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/to-you-still-listening.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/to-you-still-listening.html" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://yustellar.idv.tw/blog/before-a-song-is-finished.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/before-a-song-is-finished.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/before-a-song-is-finished.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/before-a-song-is-finished.html" />
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yustellar.idv.tw/en/blog/before-a-song-is-finished.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/before-a-song-is-finished.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/before-a-song-is-finished.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/before-a-song-is-finished.html" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://yustellar.idv.tw/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/privacy.html" />
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://yustellar.idv.tw/en/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/privacy.html" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>

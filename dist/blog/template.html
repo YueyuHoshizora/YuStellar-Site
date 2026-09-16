@@ -5,6 +5,8 @@
   2. 把下面的標題、日期、內文換成新文章的內容
   3. 到 blog/index.html 的 .blog-list 裡加一張新的 .blog-card 連結到這篇文章
   4. 到 ../sitemap.xml 補上這個新網址（可選，但建議做）
+  5. 同步到 ../en/blog/template.html 建立英文版對應文章（見 AGENTS.md「多語系」章節），
+     並把下面 hreflang / lang-switch 連結裡的 REPLACE-WITH-SLUG 換成實際檔名
 -->
 <!doctype html>
 <html lang="zh-Hant">
@@ -14,6 +16,9 @@
     <meta name="theme-color" content="#080912" />
     <meta name="description" content="在這裡填入這篇文章的一句話摘要（用於搜尋結果與社群分享）。" />
     <link rel="canonical" href="https://yustellar.idv.tw/blog/REPLACE-WITH-SLUG.html" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/REPLACE-WITH-SLUG.html" />
+    <link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/REPLACE-WITH-SLUG.html" />
+    <link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/REPLACE-WITH-SLUG.html" />
     <meta property="og:type" content="article" />
     <meta property="og:site_name" content="星語｜Yu Stellar" />
     <meta property="og:locale" content="zh_TW" />
@@ -45,6 +50,7 @@
         <a href="./index.html">日誌</a>
         <a href="../index.html#about">關於</a>
         <a href="../index.html#contact">聯絡</a>
+        <a class="lang-switch" href="../en/blog/REPLACE-WITH-SLUG.html">EN</a>
       </nav>
       <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="開啟選單">
         <span></span><span></span>
@@ -57,6 +63,7 @@
       <a href="./index.html">日誌</a>
       <a href="../index.html#about">關於</a>
       <a href="../index.html#contact">聯絡</a>
+      <a class="lang-switch" href="../en/blog/REPLACE-WITH-SLUG.html">EN</a>
     </nav>
 
     <main id="main">

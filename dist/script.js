@@ -4,10 +4,37 @@ const emailButton = document.querySelector('.email-button');
 const videoGrid = document.querySelector('#video-grid');
 const playlistUrl = 'https://www.youtube.com/playlist?list=PL3wGjWZFPUy-_6vqVV9L5Ns8coTmFAnyC';
 
+// Small strings that vary by page language. Every page sets <html lang="...">
+// itself (zh-Hant for the default site, en for the /en/ mirror), so we just
+// read that instead of needing a separate per-page config.
+const LANG = document.documentElement.lang.startsWith('en') ? 'en' : 'zh';
+const STRINGS = {
+  zh: {
+    openMenu: '開啟選單',
+    closeMenu: '關閉選單',
+    copied: '已複製',
+    copyEmail: '複製信箱',
+    videoSyncing: '最新影片正在同步，你也可以直接前往播放清單。',
+    goToYouTube: '前往 YouTube ↗',
+    playVideo: (title) => `播放影片：${title}`,
+    dateLocale: 'zh-TW',
+  },
+  en: {
+    openMenu: 'Open menu',
+    closeMenu: 'Close menu',
+    copied: 'Copied',
+    copyEmail: 'Copy email',
+    videoSyncing: 'The latest videos are syncing — you can also head straight to the playlist.',
+    goToYouTube: 'Go to YouTube ↗',
+    playVideo: (title) => `Play video: ${title}`,
+    dateLocale: 'en-US',
+  },
+}[LANG];
+
 function closeMenu() {
   if (!menuButton || !mobileNav) return;
   menuButton.setAttribute('aria-expanded', 'false');
-  menuButton.setAttribute('aria-label', '開啟選單');
+  menuButton.setAttribute('aria-label', STRINGS.openMenu);
   mobileNav.hidden = true;
 }
 
@@ -15,7 +42,7 @@ if (menuButton && mobileNav) {
   menuButton.addEventListener('click', () => {
     const isOpen = menuButton.getAttribute('aria-expanded') === 'true';
     menuButton.setAttribute('aria-expanded', String(!isOpen));
-    menuButton.setAttribute('aria-label', isOpen ? '開啟選單' : '關閉選單');
+    menuButton.setAttribute('aria-label', isOpen ? STRINGS.openMenu : STRINGS.closeMenu);
     mobileNav.hidden = isOpen;
   });
 
@@ -27,8 +54,8 @@ if (emailButton) {
     const action = emailButton.querySelector('.email-action');
     try {
       await navigator.clipboard.writeText(emailButton.dataset.email);
-      action.textContent = '已複製';
-      setTimeout(() => { action.textContent = '複製信箱'; }, 1800);
+      action.textContent = STRINGS.copied;
+      setTimeout(() => { action.textContent = STRINGS.copyEmail; }, 1800);
     } catch {
       window.location.href = `mailto:${emailButton.dataset.email}`;
     }
@@ -55,11 +82,11 @@ function showVideoFallback() {
   const link = document.createElement('a');
 
   state.className = 'video-state';
-  message.textContent = '最新影片正在同步，你也可以直接前往播放清單。';
+  message.textContent = STRINGS.videoSyncing;
   link.href = playlistUrl;
   link.target = '_blank';
   link.rel = 'noopener noreferrer';
-  link.textContent = '前往 YouTube ↗';
+  link.textContent = STRINGS.goToYouTube;
   state.append(message, link);
   videoGrid.append(state);
   videoGrid.setAttribute('aria-busy', 'false');
@@ -78,7 +105,7 @@ function createVideoCard(video, index) {
   article.className = 'video-card';
   media.className = 'video-media';
   media.type = 'button';
-  media.setAttribute('aria-label', `播放影片：${video.title}`);
+  media.setAttribute('aria-label', STRINGS.playVideo(video.title));
   image.src = video.thumbnail;
   image.alt = '';
   image.loading = 'lazy';
@@ -105,7 +132,7 @@ function createVideoCard(video, index) {
   title.className = 'video-title';
   title.textContent = video.title;
   date.className = 'video-date';
-  date.textContent = new Intl.DateTimeFormat('zh-TW', {
+  date.textContent = new Intl.DateTimeFormat(STRINGS.dateLocale, {
     year: 'numeric',
     month: '2-digit',
     day: '2-digit',
