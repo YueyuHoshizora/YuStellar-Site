@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-09-17T12:13:53.679Z",
+  "updatedAt": "2026-09-17T22:56:11.426Z",
   "videos": [
+    {
+      "id": "gEYq4QAzi4Q",
+      "title": "我們沒有假裝熟悉，而是重新認識彼此｜重新認識你｜Yu Stellar｜星語",
+      "publishedAt": "2026-09-17T21:30:18Z",
+      "thumbnail": "https://i.ytimg.com/vi/gEYq4QAzi4Q/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=gEYq4QAzi4Q"
+    },
     {
       "id": "OtVXQi8Nm0Q",
       "title": "星期三的湯，慢慢把我煮回日常｜星期三的湯｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-09-15T09:30:15Z",
       "thumbnail": "https://i.ytimg.com/vi/M4LBN1LsIsw/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=M4LBN1LsIsw"
-    },
-    {
-      "id": "-sbjaxnFS_Y",
-      "title": "我不再問如果，決定把遺憾活成答案｜把遺憾活成答案｜Yu Stellar｜星語",
-      "publishedAt": "2026-09-14T21:30:00Z",
-      "thumbnail": "https://i.ytimg.com/vi/-sbjaxnFS_Y/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=-sbjaxnFS_Y"
     }
   ]
 }
