@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-09-17T22:56:11.426Z",
+  "updatedAt": "2026-09-18T11:03:32.129Z",
   "videos": [
+    {
+      "id": "iaq0nSfm-r4",
+      "title": "名片上的我，終於不再寫在誰的身後｜名片上的我｜Yu Stellar｜星語",
+      "publishedAt": "2026-09-18T09:30:07Z",
+      "thumbnail": "https://i.ytimg.com/vi/iaq0nSfm-r4/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=iaq0nSfm-r4"
+    },
     {
       "id": "gEYq4QAzi4Q",
       "title": "我們沒有假裝熟悉，而是重新認識彼此｜重新認識你｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-09-15T21:30:39Z",
       "thumbnail": "https://i.ytimg.com/vi/IRyuDXF3zrU/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=IRyuDXF3zrU"
-    },
-    {
-      "id": "M4LBN1LsIsw",
-      "title": "天亮以前，我允許自己失重一次｜天亮前失重｜Yu Stellar｜星語",
-      "publishedAt": "2026-09-15T09:30:15Z",
-      "thumbnail": "https://i.ytimg.com/vi/M4LBN1LsIsw/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=M4LBN1LsIsw"
     }
   ]
 }
