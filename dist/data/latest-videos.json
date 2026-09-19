@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-09-19T10:50:51.110Z",
+  "updatedAt": "2026-09-19T21:35:32.294Z",
   "videos": [
+    {
+      "id": "TP2X8ip_55Y",
+      "title": "這次不急著愛滿，只想把每一天過好｜這次慢慢愛｜Yu Stellar｜星語",
+      "publishedAt": "2026-09-19T21:30:21Z",
+      "thumbnail": "https://i.ytimg.com/vi/TP2X8ip_55Y/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=TP2X8ip_55Y"
+    },
     {
       "id": "IrSZG7Qbqng",
       "title": "你在遠方也明亮，而我不必因此黯淡｜遠方也明亮｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-09-17T09:30:05Z",
       "thumbnail": "https://i.ytimg.com/vi/OtVXQi8Nm0Q/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=OtVXQi8Nm0Q"
-    },
-    {
-      "id": "kwEQLyh-Dfs",
-      "title": "多年後的那場雨，讓我們再次站在彼此面前｜同一場雨｜Yu Stellar｜星語",
-      "publishedAt": "2026-09-16T21:30:30Z",
-      "thumbnail": "https://i.ytimg.com/vi/kwEQLyh-Dfs/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=kwEQLyh-Dfs"
     }
   ]
 }
