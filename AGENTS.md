@@ -9,7 +9,7 @@
 ## 技術原則（硬性規定）
 
 - **純靜態 HTML / CSS / JS，不使用任何前端框架或建置工具（no React/Vue/Webpack/bundler）。** 所有頁面都是手寫的 `.html` 檔，直接放在 `dist/` 底下部署。這是刻意的選擇，除非使用者明確要求，否則不要引入框架或建置流程。
-- `dist/` 是唯一的部署目錄，透過 GitHub Actions 部署到 GitHub Pages，自訂網域 `yustellar.idv.tw`（見 `dist/CNAME`），前面再由 Cloudflare 代理。
+- `dist/` 是唯一的部署目錄，透過 GitHub Actions 部署到 GitHub Pages，自訂網域 `yustellar.dev`（見 `dist/CNAME`），前面再由 Cloudflare 代理。
 - `script.js`、`styles.css` 全站共用同一份檔案（各頁面用相對路徑引用），不要為單一頁面另外切一份腳本或樣式。
 - 新增頁面時，比照既有頁面的 `<head>`（OG/Twitter meta、canonical、apple-touch-icon、favicon）與共用的 header／mobile-nav／footer／cookie 橫幅結構，不要簡化或跳過。
 

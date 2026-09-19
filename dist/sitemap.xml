@@ -1,392 +1,392 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://yustellar.idv.tw/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.idv.tw/ja/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/" />
+    <loc>https://yustellar.dev/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.dev/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.dev/en/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.dev/ja/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.dev/" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://yustellar.idv.tw/en/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.idv.tw/ja/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/" />
+    <loc>https://yustellar.dev/en/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.dev/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.dev/en/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.dev/ja/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.dev/" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://yustellar.idv.tw/ja/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.idv.tw/ja/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/" />
+    <loc>https://yustellar.dev/ja/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.dev/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.dev/en/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.dev/ja/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.dev/" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://yustellar.idv.tw/blog/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.idv.tw/ja/blog/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/" />
+    <loc>https://yustellar.dev/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.dev/blog/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.dev/en/blog/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.dev/ja/blog/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.dev/blog/" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://yustellar.idv.tw/en/blog/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.idv.tw/ja/blog/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/" />
+    <loc>https://yustellar.dev/en/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.dev/blog/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.dev/en/blog/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.dev/ja/blog/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.dev/blog/" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://yustellar.idv.tw/ja/blog/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.idv.tw/ja/blog/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/" />
+    <loc>https://yustellar.dev/ja/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.dev/blog/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.dev/en/blog/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.dev/ja/blog/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.dev/blog/" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://yustellar.idv.tw/blog/why-yu-stellar.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/why-yu-stellar.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/why-yu-stellar.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.idv.tw/ja/blog/why-yu-stellar.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/why-yu-stellar.html" />
+    <loc>https://yustellar.dev/blog/why-yu-stellar.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.dev/blog/why-yu-stellar.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.dev/en/blog/why-yu-stellar.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.dev/ja/blog/why-yu-stellar.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.dev/blog/why-yu-stellar.html" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yustellar.idv.tw/en/blog/why-yu-stellar.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/why-yu-stellar.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/why-yu-stellar.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.idv.tw/ja/blog/why-yu-stellar.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/why-yu-stellar.html" />
+    <loc>https://yustellar.dev/en/blog/why-yu-stellar.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.dev/blog/why-yu-stellar.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.dev/en/blog/why-yu-stellar.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.dev/ja/blog/why-yu-stellar.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.dev/blog/why-yu-stellar.html" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yustellar.idv.tw/ja/blog/why-yu-stellar.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/why-yu-stellar.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/why-yu-stellar.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.idv.tw/ja/blog/why-yu-stellar.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/why-yu-stellar.html" />
+    <loc>https://yustellar.dev/ja/blog/why-yu-stellar.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.dev/blog/why-yu-stellar.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.dev/en/blog/why-yu-stellar.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.dev/ja/blog/why-yu-stellar.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.dev/blog/why-yu-stellar.html" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yustellar.idv.tw/blog/starting-this-site.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/starting-this-site.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/starting-this-site.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.idv.tw/ja/blog/starting-this-site.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/starting-this-site.html" />
+    <loc>https://yustellar.dev/blog/starting-this-site.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.dev/blog/starting-this-site.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.dev/en/blog/starting-this-site.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.dev/ja/blog/starting-this-site.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.dev/blog/starting-this-site.html" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yustellar.idv.tw/en/blog/starting-this-site.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/starting-this-site.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/starting-this-site.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.idv.tw/ja/blog/starting-this-site.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/starting-this-site.html" />
+    <loc>https://yustellar.dev/en/blog/starting-this-site.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.dev/blog/starting-this-site.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.dev/en/blog/starting-this-site.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.dev/ja/blog/starting-this-site.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.dev/blog/starting-this-site.html" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yustellar.idv.tw/ja/blog/starting-this-site.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/starting-this-site.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/starting-this-site.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.idv.tw/ja/blog/starting-this-site.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/starting-this-site.html" />
+    <loc>https://yustellar.dev/ja/blog/starting-this-site.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.dev/blog/starting-this-site.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.dev/en/blog/starting-this-site.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.dev/ja/blog/starting-this-site.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.dev/blog/starting-this-site.html" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yustellar.idv.tw/blog/night-writing-habit.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/night-writing-habit.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/night-writing-habit.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.idv.tw/ja/blog/night-writing-habit.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/night-writing-habit.html" />
+    <loc>https://yustellar.dev/blog/night-writing-habit.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.dev/blog/night-writing-habit.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.dev/en/blog/night-writing-habit.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.dev/ja/blog/night-writing-habit.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.dev/blog/night-writing-habit.html" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yustellar.idv.tw/en/blog/night-writing-habit.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/night-writing-habit.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/night-writing-habit.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.idv.tw/ja/blog/night-writing-habit.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/night-writing-habit.html" />
+    <loc>https://yustellar.dev/en/blog/night-writing-habit.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.dev/blog/night-writing-habit.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.dev/en/blog/night-writing-habit.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.dev/ja/blog/night-writing-habit.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.dev/blog/night-writing-habit.html" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yustellar.idv.tw/ja/blog/night-writing-habit.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/night-writing-habit.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/night-writing-habit.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.idv.tw/ja/blog/night-writing-habit.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/night-writing-habit.html" />
+    <loc>https://yustellar.dev/ja/blog/night-writing-habit.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.dev/blog/night-writing-habit.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.dev/en/blog/night-writing-habit.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.dev/ja/blog/night-writing-habit.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.dev/blog/night-writing-habit.html" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yustellar.idv.tw/blog/where-the-sound-comes-from.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/where-the-sound-comes-from.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/where-the-sound-comes-from.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.idv.tw/ja/blog/where-the-sound-comes-from.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/where-the-sound-comes-from.html" />
+    <loc>https://yustellar.dev/blog/where-the-sound-comes-from.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.dev/blog/where-the-sound-comes-from.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.dev/en/blog/where-the-sound-comes-from.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.dev/ja/blog/where-the-sound-comes-from.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.dev/blog/where-the-sound-comes-from.html" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yustellar.idv.tw/en/blog/where-the-sound-comes-from.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/where-the-sound-comes-from.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/where-the-sound-comes-from.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.idv.tw/ja/blog/where-the-sound-comes-from.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/where-the-sound-comes-from.html" />
+    <loc>https://yustellar.dev/en/blog/where-the-sound-comes-from.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.dev/blog/where-the-sound-comes-from.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.dev/en/blog/where-the-sound-comes-from.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.dev/ja/blog/where-the-sound-comes-from.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.dev/blog/where-the-sound-comes-from.html" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yustellar.idv.tw/ja/blog/where-the-sound-comes-from.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/where-the-sound-comes-from.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/where-the-sound-comes-from.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.idv.tw/ja/blog/where-the-sound-comes-from.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/where-the-sound-comes-from.html" />
+    <loc>https://yustellar.dev/ja/blog/where-the-sound-comes-from.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.dev/blog/where-the-sound-comes-from.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.dev/en/blog/where-the-sound-comes-from.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.dev/ja/blog/where-the-sound-comes-from.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.dev/blog/where-the-sound-comes-from.html" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yustellar.idv.tw/blog/to-you-still-listening.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/to-you-still-listening.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/to-you-still-listening.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.idv.tw/ja/blog/to-you-still-listening.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/to-you-still-listening.html" />
+    <loc>https://yustellar.dev/blog/to-you-still-listening.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.dev/blog/to-you-still-listening.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.dev/en/blog/to-you-still-listening.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.dev/ja/blog/to-you-still-listening.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.dev/blog/to-you-still-listening.html" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yustellar.idv.tw/en/blog/to-you-still-listening.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/to-you-still-listening.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/to-you-still-listening.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.idv.tw/ja/blog/to-you-still-listening.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/to-you-still-listening.html" />
+    <loc>https://yustellar.dev/en/blog/to-you-still-listening.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.dev/blog/to-you-still-listening.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.dev/en/blog/to-you-still-listening.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.dev/ja/blog/to-you-still-listening.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.dev/blog/to-you-still-listening.html" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yustellar.idv.tw/ja/blog/to-you-still-listening.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/to-you-still-listening.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/to-you-still-listening.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.idv.tw/ja/blog/to-you-still-listening.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/to-you-still-listening.html" />
+    <loc>https://yustellar.dev/ja/blog/to-you-still-listening.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.dev/blog/to-you-still-listening.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.dev/en/blog/to-you-still-listening.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.dev/ja/blog/to-you-still-listening.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.dev/blog/to-you-still-listening.html" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yustellar.idv.tw/blog/before-a-song-is-finished.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/before-a-song-is-finished.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/before-a-song-is-finished.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.idv.tw/ja/blog/before-a-song-is-finished.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/before-a-song-is-finished.html" />
+    <loc>https://yustellar.dev/blog/before-a-song-is-finished.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.dev/blog/before-a-song-is-finished.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.dev/en/blog/before-a-song-is-finished.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.dev/ja/blog/before-a-song-is-finished.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.dev/blog/before-a-song-is-finished.html" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yustellar.idv.tw/en/blog/before-a-song-is-finished.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/before-a-song-is-finished.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/before-a-song-is-finished.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.idv.tw/ja/blog/before-a-song-is-finished.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/before-a-song-is-finished.html" />
+    <loc>https://yustellar.dev/en/blog/before-a-song-is-finished.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.dev/blog/before-a-song-is-finished.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.dev/en/blog/before-a-song-is-finished.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.dev/ja/blog/before-a-song-is-finished.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.dev/blog/before-a-song-is-finished.html" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yustellar.idv.tw/ja/blog/before-a-song-is-finished.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/before-a-song-is-finished.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/before-a-song-is-finished.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.idv.tw/ja/blog/before-a-song-is-finished.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/before-a-song-is-finished.html" />
+    <loc>https://yustellar.dev/ja/blog/before-a-song-is-finished.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.dev/blog/before-a-song-is-finished.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.dev/en/blog/before-a-song-is-finished.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.dev/ja/blog/before-a-song-is-finished.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.dev/blog/before-a-song-is-finished.html" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yustellar.idv.tw/privacy.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.idv.tw/ja/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/privacy.html" />
+    <loc>https://yustellar.dev/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.dev/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.dev/en/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.dev/ja/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.dev/privacy.html" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://yustellar.idv.tw/en/privacy.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.idv.tw/ja/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/privacy.html" />
+    <loc>https://yustellar.dev/en/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.dev/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.dev/en/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.dev/ja/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.dev/privacy.html" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://yustellar.idv.tw/ja/privacy.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.idv.tw/ja/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/privacy.html" />
+    <loc>https://yustellar.dev/ja/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.dev/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.dev/en/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.dev/ja/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.dev/privacy.html" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
 
   <url>
-    <loc>https://yustellar.idv.tw/blog/the-rough-beauty-of-a-demo.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/the-rough-beauty-of-a-demo.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/the-rough-beauty-of-a-demo.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.idv.tw/ja/blog/the-rough-beauty-of-a-demo.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/the-rough-beauty-of-a-demo.html" />
+    <loc>https://yustellar.dev/blog/the-rough-beauty-of-a-demo.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.dev/blog/the-rough-beauty-of-a-demo.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.dev/en/blog/the-rough-beauty-of-a-demo.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.dev/ja/blog/the-rough-beauty-of-a-demo.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.dev/blog/the-rough-beauty-of-a-demo.html" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yustellar.idv.tw/en/blog/the-rough-beauty-of-a-demo.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/the-rough-beauty-of-a-demo.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/the-rough-beauty-of-a-demo.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.idv.tw/ja/blog/the-rough-beauty-of-a-demo.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/the-rough-beauty-of-a-demo.html" />
+    <loc>https://yustellar.dev/en/blog/the-rough-beauty-of-a-demo.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.dev/blog/the-rough-beauty-of-a-demo.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.dev/en/blog/the-rough-beauty-of-a-demo.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.dev/ja/blog/the-rough-beauty-of-a-demo.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.dev/blog/the-rough-beauty-of-a-demo.html" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yustellar.idv.tw/ja/blog/the-rough-beauty-of-a-demo.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/the-rough-beauty-of-a-demo.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/the-rough-beauty-of-a-demo.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.idv.tw/ja/blog/the-rough-beauty-of-a-demo.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/the-rough-beauty-of-a-demo.html" />
+    <loc>https://yustellar.dev/ja/blog/the-rough-beauty-of-a-demo.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.dev/blog/the-rough-beauty-of-a-demo.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.dev/en/blog/the-rough-beauty-of-a-demo.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.dev/ja/blog/the-rough-beauty-of-a-demo.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.dev/blog/the-rough-beauty-of-a-demo.html" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yustellar.idv.tw/blog/taipei-at-night.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/taipei-at-night.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/taipei-at-night.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.idv.tw/ja/blog/taipei-at-night.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/taipei-at-night.html" />
+    <loc>https://yustellar.dev/blog/taipei-at-night.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.dev/blog/taipei-at-night.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.dev/en/blog/taipei-at-night.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.dev/ja/blog/taipei-at-night.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.dev/blog/taipei-at-night.html" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yustellar.idv.tw/en/blog/taipei-at-night.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/taipei-at-night.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/taipei-at-night.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.idv.tw/ja/blog/taipei-at-night.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/taipei-at-night.html" />
+    <loc>https://yustellar.dev/en/blog/taipei-at-night.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.dev/blog/taipei-at-night.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.dev/en/blog/taipei-at-night.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.dev/ja/blog/taipei-at-night.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.dev/blog/taipei-at-night.html" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yustellar.idv.tw/ja/blog/taipei-at-night.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/taipei-at-night.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/taipei-at-night.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.idv.tw/ja/blog/taipei-at-night.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/taipei-at-night.html" />
+    <loc>https://yustellar.dev/ja/blog/taipei-at-night.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.dev/blog/taipei-at-night.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.dev/en/blog/taipei-at-night.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.dev/ja/blog/taipei-at-night.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.dev/blog/taipei-at-night.html" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yustellar.idv.tw/blog/to-the-first-comment.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/to-the-first-comment.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/to-the-first-comment.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.idv.tw/ja/blog/to-the-first-comment.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/to-the-first-comment.html" />
+    <loc>https://yustellar.dev/blog/to-the-first-comment.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.dev/blog/to-the-first-comment.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.dev/en/blog/to-the-first-comment.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.dev/ja/blog/to-the-first-comment.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.dev/blog/to-the-first-comment.html" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yustellar.idv.tw/en/blog/to-the-first-comment.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/to-the-first-comment.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/to-the-first-comment.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.idv.tw/ja/blog/to-the-first-comment.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/to-the-first-comment.html" />
+    <loc>https://yustellar.dev/en/blog/to-the-first-comment.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.dev/blog/to-the-first-comment.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.dev/en/blog/to-the-first-comment.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.dev/ja/blog/to-the-first-comment.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.dev/blog/to-the-first-comment.html" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yustellar.idv.tw/ja/blog/to-the-first-comment.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/to-the-first-comment.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/to-the-first-comment.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.idv.tw/ja/blog/to-the-first-comment.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/to-the-first-comment.html" />
+    <loc>https://yustellar.dev/ja/blog/to-the-first-comment.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.dev/blog/to-the-first-comment.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.dev/en/blog/to-the-first-comment.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.dev/ja/blog/to-the-first-comment.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.dev/blog/to-the-first-comment.html" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yustellar.idv.tw/blog/writing-sadness-without-drowning.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/writing-sadness-without-drowning.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/writing-sadness-without-drowning.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.idv.tw/ja/blog/writing-sadness-without-drowning.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/writing-sadness-without-drowning.html" />
+    <loc>https://yustellar.dev/blog/writing-sadness-without-drowning.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.dev/blog/writing-sadness-without-drowning.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.dev/en/blog/writing-sadness-without-drowning.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.dev/ja/blog/writing-sadness-without-drowning.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.dev/blog/writing-sadness-without-drowning.html" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yustellar.idv.tw/en/blog/writing-sadness-without-drowning.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/writing-sadness-without-drowning.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/writing-sadness-without-drowning.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.idv.tw/ja/blog/writing-sadness-without-drowning.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/writing-sadness-without-drowning.html" />
+    <loc>https://yustellar.dev/en/blog/writing-sadness-without-drowning.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.dev/blog/writing-sadness-without-drowning.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.dev/en/blog/writing-sadness-without-drowning.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.dev/ja/blog/writing-sadness-without-drowning.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.dev/blog/writing-sadness-without-drowning.html" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yustellar.idv.tw/ja/blog/writing-sadness-without-drowning.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.idv.tw/blog/writing-sadness-without-drowning.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.idv.tw/en/blog/writing-sadness-without-drowning.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.idv.tw/ja/blog/writing-sadness-without-drowning.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.idv.tw/blog/writing-sadness-without-drowning.html" />
+    <loc>https://yustellar.dev/ja/blog/writing-sadness-without-drowning.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yustellar.dev/blog/writing-sadness-without-drowning.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yustellar.dev/en/blog/writing-sadness-without-drowning.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://yustellar.dev/ja/blog/writing-sadness-without-drowning.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yustellar.dev/blog/writing-sadness-without-drowning.html" />
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
