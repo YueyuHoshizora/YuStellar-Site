@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-09-18T23:14:18.402Z",
+  "updatedAt": "2026-09-19T10:50:51.110Z",
   "videos": [
+    {
+      "id": "IrSZG7Qbqng",
+      "title": "你在遠方也明亮，而我不必因此黯淡｜遠方也明亮｜Yu Stellar｜星語",
+      "publishedAt": "2026-09-19T09:30:36Z",
+      "thumbnail": "https://i.ytimg.com/vi/IrSZG7Qbqng/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=IrSZG7Qbqng"
+    },
     {
       "id": "VlPInz7dIDs",
       "title": "我們要的不是復合，是用現在重新相愛｜不是回到從前｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-09-16T21:30:30Z",
       "thumbnail": "https://i.ytimg.com/vi/kwEQLyh-Dfs/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=kwEQLyh-Dfs"
-    },
-    {
-      "id": "Ry_wW8Zs4zM",
-      "title": "我把窗打開，也把今天重新放進來｜把窗打開｜Yu Stellar｜星語",
-      "publishedAt": "2026-09-16T09:30:06Z",
-      "thumbnail": "https://i.ytimg.com/vi/Ry_wW8Zs4zM/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=Ry_wW8Zs4zM"
     }
   ]
 }
