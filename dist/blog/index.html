@@ -6,10 +6,6 @@
     <meta name="theme-color" content="#080912" />
     <meta name="description" content="星語的創作日誌：關於作品、聲音與這個網站背後的紀錄。" />
     <link rel="canonical" href="https://yustellar.dev/blog/" />
-    <link rel="alternate" hreflang="zh-Hant" href="https://yustellar.dev/blog/" />
-    <link rel="alternate" hreflang="en" href="https://yustellar.dev/en/blog/" />
-    <link rel="alternate" hreflang="ja" href="https://yustellar.dev/ja/blog/" />
-    <link rel="alternate" hreflang="x-default" href="https://yustellar.dev/blog/" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="星語｜Yu Stellar" />
     <meta property="og:locale" content="zh_TW" />
@@ -30,79 +26,81 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&family=Space+Grotesk:wght@400;500;600&display=swap" />
     <link rel="stylesheet" href="../styles.css?v=__ASSET_VERSION__" />
     <title>日誌 — 星語</title>
-    <script type="application/ld+json">
-{
-          "@context": "https://schema.org",
-          "@graph": [
-                {
-                      "@type": "CollectionPage",
-                      "name": "日誌",
-                      "description": "星語的創作日誌：關於作品、聲音與這個網站背後的紀錄。",
-                      "url": "https://yustellar.dev/blog/",
-                      "inLanguage": "zh-Hant",
-                      "isPartOf": {
-                            "@type": "WebSite",
-                            "name": "Yu Stellar",
-                            "url": "https://yustellar.dev/"
-                      }
-                },
-                {
-                      "@type": "BreadcrumbList",
-                      "itemListElement": [
-                            {
-                                  "@type": "ListItem",
-                                  "position": 1,
-                                  "name": "首頁",
-                                  "item": "https://yustellar.dev/"
-                            },
-                            {
-                                  "@type": "ListItem",
-                                  "position": 2,
-                                  "name": "日誌",
-                                  "item": "https://yustellar.dev/blog/"
-                            }
-                      ]
-                }
+    <script type="application/ld+json" data-i18n-ld>
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "name": "隱私權政策",
+          "description": "星語｜隱私權政策。說明本站如何使用 cookie 與第三方服務（YouTube、Google AdSense 等）。",
+          "url": "https://yustellar.dev/privacy.html",
+          "inLanguage": "zh-Hant",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Yu Stellar",
+            "url": "https://yustellar.dev/"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "首頁",
+              "item": "https://yustellar.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "隱私權政策",
+              "item": "https://yustellar.dev/privacy.html"
+            }
           ]
+        }
+      ]
     }
     </script>
   </head>
   <body>
-    <a class="skip-link" href="#main">跳至主要內容</a>
+    <a class="skip-link" href="#main" data-i18n-global="skipLink">跳至主要內容</a>
     <div class="grain" aria-hidden="true"></div>
 
     <header class="site-header">
-      <a class="brand" href="../index.html" aria-label="星語首頁">
+      <a class="brand" href="../index.html" data-i18n-global-attr="aria-label:brandAria" aria-label="星語首頁">
         <span class="brand-mark" aria-hidden="true">✦</span>
-        <span>星語</span>
+        <span data-i18n-global="brandName">星語</span>
       </a>
-      <nav aria-label="主要導覽">
-        <a href="../index.html#listen">音樂</a>
-        <a href="../index.html#videos">影像</a>
-        <a href="./index.html">日誌</a>
-        <a href="../index.html#about">關於</a>
-        <a href="../index.html#contact">聯絡</a>
+      <nav data-i18n-global-attr="aria-label:mainNavLabel" aria-label="主要導覽">
+        <a href="../index.html#listen" data-i18n-global="navListen">音樂</a>
+        <a href="../index.html#videos" data-i18n-global="navVideos">影像</a>
+        <a href="./index.html" data-i18n-global="navJournal">日誌</a>
+        <a href="../index.html#about" data-i18n-global="navAbout">關於</a>
+        <a href="../index.html#contact" data-i18n-global="navContact">聯絡</a>
       </nav>
       <div class="header-right">
-        <span class="lang-switch-group">
-          <a class="lang-switch" href="../en/blog/index.html">EN</a>
-          <a class="lang-switch" href="../ja/blog/index.html">日本語</a>
+        <span class="lang-switch-group" role="group" data-i18n-global-attr="aria-label:langGroupLabel" aria-label="語言">
+          <button class="lang-switch" type="button" data-lang="zh">中文</button>
+          <button class="lang-switch" type="button" data-lang="en">EN</button>
+          <button class="lang-switch" type="button" data-lang="ja">日本語</button>
         </span>
-        <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="開啟選單">
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav" data-i18n-global-attr="aria-label:openMenu" aria-label="開啟選單">
           <span></span><span></span>
         </button>
       </div>
     </header>
 
-    <nav class="mobile-nav" id="mobile-nav" aria-label="行動版導覽" hidden>
-      <a href="../index.html#listen">音樂</a>
-      <a href="../index.html#videos">影像</a>
-      <a href="./index.html">日誌</a>
-      <a href="../index.html#about">關於</a>
-      <a href="../index.html#contact">聯絡</a>
-      <span class="lang-switch-group">
-        <a class="lang-switch" href="../en/blog/index.html">EN</a>
-        <a class="lang-switch" href="../ja/blog/index.html">日本語</a>
+    <nav class="mobile-nav" id="mobile-nav" data-i18n-global-attr="aria-label:mobileNavLabel" aria-label="行動版導覽" hidden>
+      <a href="../index.html#listen" data-i18n-global="navListen">音樂</a>
+      <a href="../index.html#videos" data-i18n-global="navVideos">影像</a>
+      <a href="./index.html" data-i18n-global="navJournal">日誌</a>
+      <a href="../index.html#about" data-i18n-global="navAbout">關於</a>
+      <a href="../index.html#contact" data-i18n-global="navContact">聯絡</a>
+      <span class="lang-switch-group" role="group" data-i18n-global-attr="aria-label:langGroupLabel" aria-label="語言">
+        <button class="lang-switch" type="button" data-lang="zh">中文</button>
+        <button class="lang-switch" type="button" data-lang="en">EN</button>
+        <button class="lang-switch" type="button" data-lang="ja">日本語</button>
       </span>
     </nav>
 
@@ -110,10 +108,10 @@
       <section class="section blog-index">
         <div class="section-heading reveal">
           <p class="section-number">05 / JOURNAL</p>
-          <h2>文字也是<br />一種聲音。</h2>
+          <h2 data-i18n-html="listTitle">文字也是<br />一種聲音。</h2>
         </div>
 
-        <div class="blog-list reveal">
+        <div class="blog-list reveal" data-i18n-html="blogList">
           <a class="blog-card" href="./why-yu-stellar.html">
             <p class="blog-card-date">2026.09.16</p>
             <h3>為什麼是「星語」</h3>
@@ -188,19 +186,149 @@
     </main>
 
     <footer>
-      <div class="footer-brand"><span>星語</span><small>YU STELLAR</small></div>
-      <p>© <span id="year"></span> 星語. ALL RIGHTS RESERVED. · <a href="../privacy.html">隱私權政策</a> · <a class="footer-github" href="https://github.com/YueyuHoshizora" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+      <div class="footer-brand"><span data-i18n-global="brandName">星語</span><small data-i18n-global="brandSub">YU STELLAR</small></div>
+      <p>© <span id="year"></span> <span data-i18n-global="brandName">星語</span>. ALL RIGHTS RESERVED. · <a href="../privacy.html" data-i18n-global="privacyLabel">隱私權政策</a> · <a class="footer-github" href="https://github.com/YueyuHoshizora" target="_blank" rel="noopener noreferrer">GitHub</a></p>
       <a href="#top">BACK TO TOP ↑</a>
     </footer>
 
     <div class="ys-notice" id="ys-notice" hidden>
-      <p>本站使用 cookie 以維持基本功能，未來啟用廣告服務後也可能用於個人化廣告，詳見<a href="../privacy.html">隱私權政策</a>。</p>
+      <p data-ys-notice-text data-privacy-href="../privacy.html">本站使用 cookie 以維持基本功能，未來啟用廣告服務後也可能用於個人化廣告，詳見<a href="../privacy.html">隱私權政策</a>。</p>
       <div class="ys-notice-actions">
-        <button type="button" data-ys-action="accept">接受</button>
-        <button type="button" data-ys-action="decline">拒絕個人化</button>
+        <button type="button" data-ys-action="accept" data-i18n-global="cookieAccept">接受</button>
+        <button type="button" data-ys-action="decline" data-i18n-global="cookieDecline">拒絕個人化</button>
       </div>
     </div>
 
+    <script type="application/json" id="i18n-data">
+      {
+        "zh": {
+          "title": "日誌 — 星語",
+          "description": "星語的創作日誌：關於作品、聲音與這個網站背後的紀錄。",
+          "jsonld": {
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "CollectionPage",
+                "name": "日誌",
+                "description": "星語的創作日誌：關於作品、聲音與這個網站背後的紀錄。",
+                "url": "https://yustellar.dev/blog/",
+                "inLanguage": "zh-Hant",
+                "isPartOf": {
+                  "@type": "WebSite",
+                  "name": "Yu Stellar",
+                  "url": "https://yustellar.dev/"
+                }
+              },
+              {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                  {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "首頁",
+                    "item": "https://yustellar.dev/"
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "日誌",
+                    "item": "https://yustellar.dev/blog/"
+                  }
+                ]
+              }
+            ]
+          },
+          "content": {
+            "listTitle": "文字也是<br />一種聲音。",
+            "blogList": "<a class=\"blog-card\" href=\"./why-yu-stellar.html\">\n  <p class=\"blog-card-date\">2026.09.16</p>\n  <h3>為什麼是「星語」</h3>\n  <p class=\"blog-card-excerpt\">關於這個名字，以及它想說的事。</p>\n  <span class=\"blog-card-link\">閱讀 <span aria-hidden=\"true\">↗</span></span>\n</a>\n\n<a class=\"blog-card\" href=\"./starting-this-site.html\">\n  <p class=\"blog-card-date\">2026.09.16</p>\n  <h3>深夜筆記：這個網站是怎麼開始的</h3>\n  <p class=\"blog-card-excerpt\">在正式發行第一首作品之前，先留下一點紀錄。</p>\n  <span class=\"blog-card-link\">閱讀 <span aria-hidden=\"true\">↗</span></span>\n</a>\n\n<a class=\"blog-card\" href=\"./night-writing-habit.html\">\n  <p class=\"blog-card-date\">2026.09.16</p>\n  <h3>深夜的創作習慣</h3>\n  <p class=\"blog-card-excerpt\">關於在安靜的時刻寫歌。</p>\n  <span class=\"blog-card-link\">閱讀 <span aria-hidden=\"true\">↗</span></span>\n</a>\n\n<a class=\"blog-card\" href=\"./where-the-sound-comes-from.html\">\n  <p class=\"blog-card-date\">2026.09.16</p>\n  <h3>聲音是從哪裡來的</h3>\n  <p class=\"blog-card-excerpt\">靈感常常不是找來的，而是不小心撞見的。</p>\n  <span class=\"blog-card-link\">閱讀 <span aria-hidden=\"true\">↗</span></span>\n</a>\n\n<a class=\"blog-card\" href=\"./to-you-still-listening.html\">\n  <p class=\"blog-card-date\">2026.09.16</p>\n  <h3>給還在聽的你</h3>\n  <p class=\"blog-card-excerpt\">寫給每一個願意按下播放鍵的人。</p>\n  <span class=\"blog-card-link\">閱讀 <span aria-hidden=\"true\">↗</span></span>\n</a>\n\n<a class=\"blog-card\" href=\"./before-a-song-is-finished.html\">\n  <p class=\"blog-card-date\">2026.09.16</p>\n  <h3>一首歌完成之前</h3>\n  <p class=\"blog-card-excerpt\">從一句破碎的旋律，到一首完整的歌。</p>\n  <span class=\"blog-card-link\">閱讀 <span aria-hidden=\"true\">↗</span></span>\n</a>\n\n<a class=\"blog-card\" href=\"./the-rough-beauty-of-a-demo.html\">\n  <p class=\"blog-card-date\">2026.09.16</p>\n  <h3>自製 Demo 的粗糙美感</h3>\n  <p class=\"blog-card-excerpt\">那些沒有修飾過的demo，藏著最真實的聲音。</p>\n  <span class=\"blog-card-link\">閱讀 <span aria-hidden=\"true\">↗</span></span>\n</a>\n\n<a class=\"blog-card\" href=\"./taipei-at-night.html\">\n  <p class=\"blog-card-date\">2026.09.16</p>\n  <h3>台北的深夜，是我最常合作的對象</h3>\n  <p class=\"blog-card-excerpt\">深夜的台北街景，怎麼變成歌裡的畫面。</p>\n  <span class=\"blog-card-link\">閱讀 <span aria-hidden=\"true\">↗</span></span>\n</a>\n\n<a class=\"blog-card\" href=\"./to-the-first-comment.html\">\n  <p class=\"blog-card-date\">2026.09.16</p>\n  <h3>給留下第一則留言的你</h3>\n  <p class=\"blog-card-excerpt\">第一則留言，讓創作不再只是自言自語。</p>\n  <span class=\"blog-card-link\">閱讀 <span aria-hidden=\"true\">↗</span></span>\n</a>\n\n<a class=\"blog-card\" href=\"./writing-sadness-without-drowning.html\">\n  <p class=\"blog-card-date\">2026.09.16</p>\n  <h3>寫悲傷，但不被悲傷困住</h3>\n  <p class=\"blog-card-excerpt\">寫悲傷，需要一點剛好的距離。</p>\n  <span class=\"blog-card-link\">閱讀 <span aria-hidden=\"true\">↗</span></span>\n</a>"
+          }
+        },
+        "en": {
+          "title": "Journal — Yu Stellar",
+          "description": "Yu Stellar's journal: notes on the songs, the sound, and what's behind this site.",
+          "jsonld": {
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "CollectionPage",
+                "name": "Journal",
+                "description": "Yu Stellar's journal: notes on the songs, the sound, and what's behind this site.",
+                "url": "https://yustellar.dev/blog/",
+                "inLanguage": "en",
+                "isPartOf": {
+                  "@type": "WebSite",
+                  "name": "Yu Stellar",
+                  "url": "https://yustellar.dev/"
+                }
+              },
+              {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                  {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://yustellar.dev/"
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Journal",
+                    "item": "https://yustellar.dev/blog/"
+                  }
+                ]
+              }
+            ]
+          },
+          "content": {
+            "listTitle": "Words are<br />a kind of sound too.",
+            "blogList": "<a class=\"blog-card\" href=\"./why-yu-stellar.html\">\n  <p class=\"blog-card-date\">2026.09.16</p>\n  <h3>Why \"Yu Stellar\"</h3>\n  <p class=\"blog-card-excerpt\">On the name, and what it's trying to say.</p>\n  <span class=\"blog-card-link\">Read <span aria-hidden=\"true\">↗</span></span>\n</a>\n\n<a class=\"blog-card\" href=\"./starting-this-site.html\">\n  <p class=\"blog-card-date\">2026.09.16</p>\n  <h3>Late-night notes: how this site started</h3>\n  <p class=\"blog-card-excerpt\">A record kept before the first release goes out.</p>\n  <span class=\"blog-card-link\">Read <span aria-hidden=\"true\">↗</span></span>\n</a>\n\n<a class=\"blog-card\" href=\"./night-writing-habit.html\">\n  <p class=\"blog-card-date\">2026.09.16</p>\n  <h3>A late-night writing habit</h3>\n  <p class=\"blog-card-excerpt\">On writing songs in the quiet hours.</p>\n  <span class=\"blog-card-link\">Read <span aria-hidden=\"true\">↗</span></span>\n</a>\n\n<a class=\"blog-card\" href=\"./where-the-sound-comes-from.html\">\n  <p class=\"blog-card-date\">2026.09.16</p>\n  <h3>Where the sound comes from</h3>\n  <p class=\"blog-card-excerpt\">Inspiration is rarely found — usually it's stumbled into.</p>\n  <span class=\"blog-card-link\">Read <span aria-hidden=\"true\">↗</span></span>\n</a>\n\n<a class=\"blog-card\" href=\"./to-you-still-listening.html\">\n  <p class=\"blog-card-date\">2026.09.16</p>\n  <h3>To you, still listening</h3>\n  <p class=\"blog-card-excerpt\">For everyone willing to press play.</p>\n  <span class=\"blog-card-link\">Read <span aria-hidden=\"true\">↗</span></span>\n</a>\n\n<a class=\"blog-card\" href=\"./before-a-song-is-finished.html\">\n  <p class=\"blog-card-date\">2026.09.16</p>\n  <h3>Before a song is finished</h3>\n  <p class=\"blog-card-excerpt\">From one broken melody to a finished song.</p>\n  <span class=\"blog-card-link\">Read <span aria-hidden=\"true\">↗</span></span>\n</a>\n\n<a class=\"blog-card\" href=\"./the-rough-beauty-of-a-demo.html\">\n  <p class=\"blog-card-date\">2026.09.16</p>\n  <h3>The Rough Beauty of a Bedroom Demo</h3>\n  <p class=\"blog-card-excerpt\">The unpolished demos that carry the truest sound.</p>\n  <span class=\"blog-card-link\">Read <span aria-hidden=\"true\">↗</span></span>\n</a>\n\n<a class=\"blog-card\" href=\"./taipei-at-night.html\">\n  <p class=\"blog-card-date\">2026.09.16</p>\n  <h3>Taipei at Night, My Most Frequent Collaborator</h3>\n  <p class=\"blog-card-excerpt\">How Taipei's late-night streets became the imagery in a song.</p>\n  <span class=\"blog-card-link\">Read <span aria-hidden=\"true\">↗</span></span>\n</a>\n\n<a class=\"blog-card\" href=\"./to-the-first-comment.html\">\n  <p class=\"blog-card-date\">2026.09.16</p>\n  <h3>To the Person Who Left the First Comment</h3>\n  <p class=\"blog-card-excerpt\">The first comment that turned this into a conversation.</p>\n  <span class=\"blog-card-link\">Read <span aria-hidden=\"true\">↗</span></span>\n</a>\n\n<a class=\"blog-card\" href=\"./writing-sadness-without-drowning.html\">\n  <p class=\"blog-card-date\">2026.09.16</p>\n  <h3>Writing Sadness Without Drowning in It</h3>\n  <p class=\"blog-card-excerpt\">Writing sadness takes just the right distance.</p>\n  <span class=\"blog-card-link\">Read <span aria-hidden=\"true\">↗</span></span>\n</a>"
+          }
+        },
+        "ja": {
+          "title": "ジャーナル — 星語",
+          "description": "星語（Yu Stellar）のジャーナル：楽曲や音、そしてこのサイトの裏側についての記録。",
+          "jsonld": {
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "CollectionPage",
+                "name": "ジャーナル",
+                "description": "星語（Yu Stellar）のジャーナル：楽曲や音、そしてこのサイトの裏側についての記録。",
+                "url": "https://yustellar.dev/blog/",
+                "inLanguage": "ja",
+                "isPartOf": {
+                  "@type": "WebSite",
+                  "name": "Yu Stellar",
+                  "url": "https://yustellar.dev/"
+                }
+              },
+              {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                  {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "ホーム",
+                    "item": "https://yustellar.dev/"
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "ジャーナル",
+                    "item": "https://yustellar.dev/blog/"
+                  }
+                ]
+              }
+            ]
+          },
+          "content": {
+            "listTitle": "言葉もまた、<br />ひとつの声だから。",
+            "blogList": "<a class=\"blog-card\" href=\"./why-yu-stellar.html\">\n  <p class=\"blog-card-date\">2026.09.16</p>\n  <h3>なぜ「星語」なのか</h3>\n  <p class=\"blog-card-excerpt\">この名前について、そこに込めた想いについて。</p>\n  <span class=\"blog-card-link\">読む <span aria-hidden=\"true\">↗</span></span>\n</a>\n\n<a class=\"blog-card\" href=\"./starting-this-site.html\">\n  <p class=\"blog-card-date\">2026.09.16</p>\n  <h3>深夜のノート：このサイトはどう始まったか</h3>\n  <p class=\"blog-card-excerpt\">最初の作品を正式にリリースする前に、少し記録を残しておく。</p>\n  <span class=\"blog-card-link\">読む <span aria-hidden=\"true\">↗</span></span>\n</a>\n\n<a class=\"blog-card\" href=\"./night-writing-habit.html\">\n  <p class=\"blog-card-date\">2026.09.16</p>\n  <h3>深夜の創作習慣</h3>\n  <p class=\"blog-card-excerpt\">静かな時間に曲を書くということ。</p>\n  <span class=\"blog-card-link\">読む <span aria-hidden=\"true\">↗</span></span>\n</a>\n\n<a class=\"blog-card\" href=\"./where-the-sound-comes-from.html\">\n  <p class=\"blog-card-date\">2026.09.16</p>\n  <h3>音はどこからやってくるのか</h3>\n  <p class=\"blog-card-excerpt\">インスピレーションは「探す」ものではなく、「出会う」もの。</p>\n  <span class=\"blog-card-link\">読む <span aria-hidden=\"true\">↗</span></span>\n</a>\n\n<a class=\"blog-card\" href=\"./to-you-still-listening.html\">\n  <p class=\"blog-card-date\">2026.09.16</p>\n  <h3>まだ聴いてくれているあなたへ</h3>\n  <p class=\"blog-card-excerpt\">再生ボタンを押してくれた、すべての人へ。</p>\n  <span class=\"blog-card-link\">読む <span aria-hidden=\"true\">↗</span></span>\n</a>\n\n<a class=\"blog-card\" href=\"./before-a-song-is-finished.html\">\n  <p class=\"blog-card-date\">2026.09.16</p>\n  <h3>一曲が完成するまで</h3>\n  <p class=\"blog-card-excerpt\">壊れたメロディの断片から、一曲の歌になるまで。</p>\n  <span class=\"blog-card-link\">読む <span aria-hidden=\"true\">↗</span></span>\n</a>\n\n<a class=\"blog-card\" href=\"./the-rough-beauty-of-a-demo.html\">\n  <p class=\"blog-card-date\">2026.09.16</p>\n  <h3>自主制作デモの、粗さの中の美しさ</h3>\n  <p class=\"blog-card-excerpt\">加工前のデモに宿る、いちばん本当の音。</p>\n  <span class=\"blog-card-link\">読む <span aria-hidden=\"true\">↗</span></span>\n</a>\n\n<a class=\"blog-card\" href=\"./taipei-at-night.html\">\n  <p class=\"blog-card-date\">2026.09.16</p>\n  <h3>台北の深夜は、いちばんの共作者</h3>\n  <p class=\"blog-card-excerpt\">深夜の台北の街が、曲の中の風景になるまで。</p>\n  <span class=\"blog-card-link\">読む <span aria-hidden=\"true\">↗</span></span>\n</a>\n\n<a class=\"blog-card\" href=\"./to-the-first-comment.html\">\n  <p class=\"blog-card-date\">2026.09.16</p>\n  <h3>最初のコメントをくれたあなたへ</h3>\n  <p class=\"blog-card-excerpt\">最初のコメントが、創作を対話に変えてくれた。</p>\n  <span class=\"blog-card-link\">読む <span aria-hidden=\"true\">↗</span></span>\n</a>\n\n<a class=\"blog-card\" href=\"./writing-sadness-without-drowning.html\">\n  <p class=\"blog-card-date\">2026.09.16</p>\n  <h3>悲しみを書く、でも溺れない</h3>\n  <p class=\"blog-card-excerpt\">悲しみを書くには、ちょうどいい距離が要る。</p>\n  <span class=\"blog-card-link\">読む <span aria-hidden=\"true\">↗</span></span>\n</a>"
+          }
+        }
+      }
+    </script>
     <script src="../script.js?v=__ASSET_VERSION__"></script>
   </body>
 </html>

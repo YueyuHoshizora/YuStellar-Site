@@ -1,13 +1,21 @@
 <!--
   這是新增日誌文章的範本，不會出現在網站導覽或 sitemap 中。
+  網站現在是「一個網址服務三語」的架構：一篇文章只有一個 HTML 檔，
+  中文／英文／日文的內容全部放在頁尾的
+  <script type="application/json" id="i18n-data"> 裡，由 ../script.js 切換。
   使用方式：
   1. 複製這個檔案，改名成新文章的網址代稱，例如 my-new-post.html
-  2. 把下面的標題、日期、內文換成新文章的內容
-  3. 到 blog/index.html 的 .blog-list 裡加一張新的 .blog-card 連結到這篇文章
-  4. 到 ../sitemap.xml 補上這個新網址（可選，但建議做）
-  5. 同步到 ../en/blog/template.html 與 ../ja/blog/template.html 建立英文、日文版對應文章
-     （見 AGENTS.md「多語系」章節），並把下面 hreflang / lang-switch 連結裡的
-     REPLACE-WITH-SLUG 換成實際檔名
+  2. 把 <head> 裡兩處 REPLACE-WITH-SLUG（canonical 與 og:url）換成實際檔名，
+     並把 <title> / description / og:* / twitter:* 改成這篇文章的「中文版」內容
+     （其他語言由 JS 依 #i18n-data 覆寫，不用另外寫在 <head>）
+  3. 把 main 裡的 postTitle / postDate / postBody 換成中文版內容，
+     再到 #i18n-data 把 zh / en / ja 三組的 title、description 與 content
+     （postTitle、postDate、postBody）都填好；三語的 content key 必須完全相同
+  4. 到 blog/index.html 的 .blog-list 裡加一張新的 .blog-card 連結到這篇文章，
+     並在該頁 #i18n-data 的 blogList 三語各補上同一張卡片（href 三語相同）
+  5. 到 ../sitemap.xml 補上這個新網址（可選，但建議做）
+  6. 正式發佈時，把下面的 <meta name="robots" content="noindex, follow" /> 刪掉
+     （範本本身要保留這行，才不會被搜尋引擎收錄）
 -->
 <!doctype html>
 <html lang="zh-Hant">
@@ -18,10 +26,6 @@
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="在這裡填入這篇文章的一句話摘要（用於搜尋結果與社群分享）。" />
     <link rel="canonical" href="https://yustellar.dev/blog/REPLACE-WITH-SLUG.html" />
-    <link rel="alternate" hreflang="zh-Hant" href="https://yustellar.dev/blog/REPLACE-WITH-SLUG.html" />
-    <link rel="alternate" hreflang="en" href="https://yustellar.dev/en/blog/REPLACE-WITH-SLUG.html" />
-    <link rel="alternate" hreflang="ja" href="https://yustellar.dev/ja/blog/REPLACE-WITH-SLUG.html" />
-    <link rel="alternate" hreflang="x-default" href="https://yustellar.dev/blog/REPLACE-WITH-SLUG.html" />
     <meta property="og:type" content="article" />
     <meta property="og:site_name" content="星語｜Yu Stellar" />
     <meta property="og:locale" content="zh_TW" />
@@ -44,71 +48,104 @@
     <title>文章標題 — 星語日誌</title>
   </head>
   <body>
-    <a class="skip-link" href="#main">跳至主要內容</a>
+    <a class="skip-link" href="#main" data-i18n-global="skipLink">跳至主要內容</a>
     <div class="grain" aria-hidden="true"></div>
 
     <header class="site-header">
-      <a class="brand" href="../index.html" aria-label="星語首頁">
+      <a class="brand" href="../index.html" data-i18n-global-attr="aria-label:brandAria" aria-label="星語首頁">
         <span class="brand-mark" aria-hidden="true">✦</span>
-        <span>星語</span>
+        <span data-i18n-global="brandName">星語</span>
       </a>
-      <nav aria-label="主要導覽">
-        <a href="../index.html#listen">音樂</a>
-        <a href="../index.html#videos">影像</a>
-        <a href="./index.html">日誌</a>
-        <a href="../index.html#about">關於</a>
-        <a href="../index.html#contact">聯絡</a>
+      <nav data-i18n-global-attr="aria-label:mainNavLabel" aria-label="主要導覽">
+        <a href="../index.html#listen" data-i18n-global="navListen">音樂</a>
+        <a href="../index.html#videos" data-i18n-global="navVideos">影像</a>
+        <a href="./index.html" data-i18n-global="navJournal">日誌</a>
+        <a href="../index.html#about" data-i18n-global="navAbout">關於</a>
+        <a href="../index.html#contact" data-i18n-global="navContact">聯絡</a>
       </nav>
       <div class="header-right">
-        <span class="lang-switch-group">
-          <a class="lang-switch" href="../en/blog/REPLACE-WITH-SLUG.html">EN</a>
-          <a class="lang-switch" href="../ja/blog/REPLACE-WITH-SLUG.html">日本語</a>
+        <span class="lang-switch-group" role="group" data-i18n-global-attr="aria-label:langGroupLabel" aria-label="語言">
+          <button class="lang-switch" type="button" data-lang="zh">中文</button>
+          <button class="lang-switch" type="button" data-lang="en">EN</button>
+          <button class="lang-switch" type="button" data-lang="ja">日本語</button>
         </span>
-        <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="開啟選單">
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav" data-i18n-global-attr="aria-label:openMenu" aria-label="開啟選單">
           <span></span><span></span>
         </button>
       </div>
     </header>
 
-    <nav class="mobile-nav" id="mobile-nav" aria-label="行動版導覽" hidden>
-      <a href="../index.html#listen">音樂</a>
-      <a href="../index.html#videos">影像</a>
-      <a href="./index.html">日誌</a>
-      <a href="../index.html#about">關於</a>
-      <a href="../index.html#contact">聯絡</a>
-      <span class="lang-switch-group">
-        <a class="lang-switch" href="../en/blog/REPLACE-WITH-SLUG.html">EN</a>
-        <a class="lang-switch" href="../ja/blog/REPLACE-WITH-SLUG.html">日本語</a>
+    <nav class="mobile-nav" id="mobile-nav" data-i18n-global-attr="aria-label:mobileNavLabel" aria-label="行動版導覽" hidden>
+      <a href="../index.html#listen" data-i18n-global="navListen">音樂</a>
+      <a href="../index.html#videos" data-i18n-global="navVideos">影像</a>
+      <a href="./index.html" data-i18n-global="navJournal">日誌</a>
+      <a href="../index.html#about" data-i18n-global="navAbout">關於</a>
+      <a href="../index.html#contact" data-i18n-global="navContact">聯絡</a>
+      <span class="lang-switch-group" role="group" data-i18n-global-attr="aria-label:langGroupLabel" aria-label="語言">
+        <button class="lang-switch" type="button" data-lang="zh">中文</button>
+        <button class="lang-switch" type="button" data-lang="en">EN</button>
+        <button class="lang-switch" type="button" data-lang="ja">日本語</button>
       </span>
     </nav>
 
     <main id="main">
       <article class="section blog-post">
-        <a class="blog-back" href="./index.html">← 回到日誌</a>
+        <a class="blog-back" href="./index.html" data-i18n-global="blogBack">← 回到日誌</a>
         <p class="section-number">JOURNAL</p>
-        <h1 class="blog-post-title">文章標題</h1>
-        <p class="blog-post-meta">YYYY.MM.DD</p>
+        <h1 class="blog-post-title" data-i18n="postTitle">文章標題</h1>
+        <p class="blog-post-meta" data-i18n="postDate">YYYY.MM.DD</p>
 
-        <div class="prose reveal">
+        <div class="prose reveal" data-i18n-html="postBody">
           <p>在這裡開始寫文章內容，可以用多個 &lt;p&gt; 段落，也可以用 &lt;h3&gt; 加小標題。</p>
         </div>
       </article>
     </main>
 
     <footer>
-      <div class="footer-brand"><span>星語</span><small>YU STELLAR</small></div>
-      <p>© <span id="year"></span> 星語. ALL RIGHTS RESERVED. · <a href="../privacy.html">隱私權政策</a> · <a class="footer-github" href="https://github.com/YueyuHoshizora" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+      <div class="footer-brand"><span data-i18n-global="brandName">星語</span><small data-i18n-global="brandSub">YU STELLAR</small></div>
+      <p>© <span id="year"></span> <span data-i18n-global="brandName">星語</span>. ALL RIGHTS RESERVED. · <a href="../privacy.html" data-i18n-global="privacyLabel">隱私權政策</a> · <a class="footer-github" href="https://github.com/YueyuHoshizora" target="_blank" rel="noopener noreferrer">GitHub</a></p>
       <a href="#top">BACK TO TOP ↑</a>
     </footer>
 
     <div class="ys-notice" id="ys-notice" hidden>
-      <p>本站使用 cookie 以維持基本功能，未來啟用廣告服務後也可能用於個人化廣告，詳見<a href="../privacy.html">隱私權政策</a>。</p>
+      <p data-ys-notice-text data-privacy-href="../privacy.html">本站使用 cookie 以維持基本功能，未來啟用廣告服務後也可能用於個人化廣告，詳見<a href="../privacy.html">隱私權政策</a>。</p>
       <div class="ys-notice-actions">
-        <button type="button" data-ys-action="accept">接受</button>
-        <button type="button" data-ys-action="decline">拒絕個人化</button>
+        <button type="button" data-ys-action="accept" data-i18n-global="cookieAccept">接受</button>
+        <button type="button" data-ys-action="decline" data-i18n-global="cookieDecline">拒絕個人化</button>
       </div>
     </div>
 
+    <script type="application/json" id="i18n-data">
+      {
+        "zh": {
+          "title": "文章標題 — 星語日誌",
+          "description": "在這裡填入這篇文章的一句話摘要（用於搜尋結果與社群分享）。",
+          "content": {
+            "postTitle": "文章標題",
+            "postDate": "YYYY.MM.DD",
+            "postBody": "<p>在這裡開始寫文章內容，可以用多個 &lt;p&gt; 段落，也可以用 &lt;h3&gt; 加小標題。</p>"
+          }
+        },
+        "en": {
+          "title": "Post Title — Yu Stellar Journal",
+          "description": "A one-sentence summary of this post, for search results and social sharing.",
+          "content": {
+            "postTitle": "Post Title",
+            "postDate": "YYYY.MM.DD",
+            "postBody": "<p>Start the post content here. You can use multiple &lt;p&gt; paragraphs, or an &lt;h3&gt; for a subheading.</p>"
+          }
+        },
+        "ja": {
+          "title": "記事タイトル — 星語ジャーナル",
+          "description": "この記事の一文要約をここに入れる（検索結果やSNSシェア用）。",
+          "content": {
+            "postTitle": "記事タイトル",
+            "postDate": "YYYY.MM.DD",
+            "postBody": "<p>ここから本文を書き始める。&lt;p&gt;段落を複数使ってもよいし、&lt;h3&gt;で小見出しを付けてもよい。</p>"
+          }
+        }
+      }
+    </script>
     <script src="../script.js?v=__ASSET_VERSION__"></script>
   </body>
 </html>

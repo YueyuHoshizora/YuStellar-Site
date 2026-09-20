@@ -35,22 +35,25 @@ dist/
   index.html          首頁（Hero、Listen、Video、About、Contact）
   privacy.html         隱私權政策
   blog/                日誌（部落格），index.html 為列表頁，其餘為文章
-  en/                  英文版（結構完全鏡射中文版，見下方「多語系」）
-  ja/                  日文版（結構同樣完全鏡射中文版）
   data/latest-videos.json   YouTube 最新影片資料（CI 自動產生，勿手動編輯）
   assets/               圖片
   script.js / styles.css   全站共用
   robots.txt / sitemap.xml
 ```
 
-## 多語系（中文為主，英文／日文為輔）
+## 多語系（單一頁面 + 前端 JS 切換）
 
-- 預設語言（網站根目錄 `dist/*.html`）是繁體中文（`lang="zh-Hant"`），這是主要版本。
-- 英文版鏡射在 `dist/en/` 底下、日文版鏡射在 `dist/ja/` 底下，路徑結構都與中文版完全對應（例如 `dist/blog/why-yu-stellar.html` ↔ `dist/en/blog/why-yu-stellar.html` ↔ `dist/ja/blog/why-yu-stellar.html`），分別是 `lang="en"` / `lang="ja"`。
-- 每個頁面的 `<head>` 都要有三語 `hreflang`（`zh-Hant` / `en` / `ja`）互相指向對方語言版本，並包含 `x-default` 指回中文版（中文是預設）。`sitemap.xml` 也要用 `xhtml:link` 同步標註三語 alternate。
-- 三個語言版本的 nav、footer、cookie 橫幅文字要各自完整翻譯，不要混雜在同一頁。每個頁面的語言切換連結（`.lang-switch-group` 內的兩個 `.lang-switch`）永遠指向「另外兩種」語言，不要連回自己。
-- `script.js` 內的動態文字（例如「複製信箱」「開啟選單」）透過讀取 `document.documentElement.lang` 切換 `STRINGS` 字典（zh/en/ja 三組），新增任何腳本產生的文字時要比照這個模式加進 `STRINGS`，不要在 JS 裡直接寫死任何一種語言。
-- 新增日誌文章時，三個語言版本要同時建立、互相對應；如果暫時只寫得出中文，至少要在英文版與日文版各留一個對應頁面（可先簡短摘要），不要讓三個語言版本的文章清單長期不同步。`blog/template.html`、`en/blog/template.html`、`ja/blog/template.html` 三份範本要保持互相對應。
+- **每個頁面只有一份 HTML**，三語（`zh` / `en` / `ja`）都由 `script.js` 在瀏覽器端即時渲染。**不要**再建立 `dist/en/`、`dist/ja/` 這種鏡射目錄，也不要在頁面裡放 `hreflang`（一個網址服務三語，hreflang 不適用）。
+- 語言決定順序：網址的 `?lang=zh|en|ja` → `localStorage` 的 `ys-lang` → `navigator.language` → 預設 `zh`。切語言時用 `history.pushState` 把 `?lang=` 寫進網址（`zh` 為預設語言，會把參數移除），因此語言狀態可分享、可用瀏覽器上一頁切回。
+- 兩層字典，界線要守住：
+  - **全站 chrome**（header／nav／footer／cookie 橫幅／skip link／選單 aria-label）放在 `script.js` 的 `ALL_STRINGS`，因為每頁都一樣。HTML 上用 `data-i18n-global="key"`（文字）與 `data-i18n-global-attr="aria-label:key"`（屬性）標記。
+  - **頁面自有內容**（標題、內文、`<head>` meta、JSON-LD）放在該頁尾端的 `<script type="application/json" id="i18n-data">`，結構是 `{zh|en|ja}.{title, description, jsonld, content{…}}`。HTML 上用 `data-i18n`（textContent）、`data-i18n-html`（innerHTML，內含 `<br>`／`<em>`／`<a>` 時用它）、`data-i18n-attr="alt:key"`（屬性）標記。
+- 靜態 HTML 裡寫的是**中文版**內容（`<html lang="zh-Hant">`、中文 `<title>`／meta／JSON-LD），JS 啟動後才依偵測到的語言覆寫。新增頁面時照這個慣例，不要改成用別的語言當靜態預設。
+- `<script type="application/ld+json">` 一定要帶 `data-i18n-ld` 屬性，JS 才找得到它並整段替換；JSON-LD 內所有 `url`／`@id`／`item` 一律使用單一（中文版）網址。
+- cookie 橫幅那句含連結的文字由 `ALL_STRINGS.cookieHtml(href)` 產生，HTML 只寫 `<p data-ys-notice-text data-privacy-href="…">`，`data-privacy-href` 依頁面深度給相對路徑。
+- 語言切換器是三顆固定的 `<button class="lang-switch" data-lang="zh|en|ja">`（header 與 mobile-nav 各一組），標籤永遠是 `中文 / EN / 日本語`，當前語言由 JS 加上 `.is-active` 與 `aria-current`。
+- 新增任何文字都要三語一起補：chrome 文字補進 `ALL_STRINGS` 三組，頁面文字補進該頁 `#i18n-data` 三組，三語的 `content` key 集合必須完全一致。絕對不要在 HTML 或 JS 裡寫死單一語言的可見文字。
+- 新增日誌文章：複製 `blog/template.html`，把三語內容一次填進 `#i18n-data`（只有一份範本檔，不再有 en／ja 版範本）。
 
 ## YouTube 影片同步機制
 
@@ -82,16 +85,16 @@ dist/
 ## SEO
 
 - **結構化資料（JSON-LD）**：每種頁面類型都要有對應的 schema.org 標記，放在 `<title>` 標籤後面：
-  - 首頁（zh/en/ja 三版）：`MusicGroup`，含 `inLanguage`。
+  - 首頁：`MusicGroup`，含 `inLanguage`（三語版本放在 `#i18n-data` 的 `jsonld` 裡，由 JS 依語言替換）。
   - 日誌文章：`@graph` 內同時放 `BlogPosting`（含 `headline`／`description`／`datePublished`／`inLanguage`／`author`／`publisher`）與 `BreadcrumbList`（首頁 → 日誌 → 這篇文章）。
   - 日誌列表頁：`CollectionPage` + `BreadcrumbList`（首頁 → 日誌）。
   - 隱私權政策頁：`WebPage` + `BreadcrumbList`（首頁 → 隱私權政策）。
-  - 新增頁面時比照同類型既有頁面的結構，`headline`/`description`/`url` 等欄位直接對應該頁的 `<h1>`／meta description／canonical，不要手動另外編一套文字。
+  - 新增頁面時比照同類型既有頁面的結構，`headline`/`description`/`url` 等欄位直接對應該頁的 `<h1>`／meta description／canonical，不要手動另外編一套文字。JSON-LD 的 `url`／`@id`／`item` 一律用該頁唯一的網址（不帶 `?lang=`），並且三語版本都要在 `#i18n-data` 裡補齊。
 - **`content="..."` 屬性裡絕對不能出現沒跳脫的雙引號**（例如英文標題裡的引號）。曾經因為 `content="On the name "Yu Stellar," ..."` 這種寫法，讓瀏覽器把屬性值從第一個內部引號就截斷，等於整段 meta description 都壞掉。標題／描述裡如果需要引號，一律用排版引號 `“` `”`，不要用直引號 `"`。
-- **hreflang**：每個頁面的 `<head>` 都要有三語 `hreflang`（`zh-Hant`/`en`/`ja`）+ `x-default`（指回中文版），`sitemap.xml` 也要用 `xhtml:link` 同步標註（見上方「多語系」章節）。
-- **`og:locale` / `og:locale:alternate`**：每頁的 `og:locale` 是自己的語言，另外兩語都要各加一行 `og:locale:alternate`。
-- **`robots.txt` / `noindex`**：`blog/template.html`（及其 en/ja 對應檔）雖然會被部署、可被直接連到，但只是佔位範本，不該被搜尋引擎索引——三份都要有 `<meta name="robots" content="noindex, follow" />`。新增其他「不想被索引但仍需保留」的頁面時比照處理，不要直接從 `robots.txt` 擋掉整個路徑（那樣反而會讓其他正常頁面的連結權重傳遞受影響）。
-- **`sitemap.xml`**：只放會被索引的真實頁面（不放 `template.html`），每個 `<url>` 都要用 `xhtml:link` 標三語 alternate（含 `x-default`）。新增日誌文章或任何新頁面時，三語都要一起補進 sitemap。
+- **沒有 hreflang**：一個網址同時服務三語（由 `?lang=` + JS 渲染），所以頁面 `<head>` 與 `sitemap.xml` 都**不放** `hreflang`／`xhtml:link` alternate。這是刻意的取捨：換來單一 canonical、不再需要維護三套鏡射頁面，代價是搜尋引擎預設看到的是中文靜態內容。
+- **`og:locale` / `og:locale:alternate`**：靜態 HTML 裡 `og:locale` 寫 `zh_TW`、另外兩語各一行 `og:locale:alternate`；切語言時 `script.js` 會把 `og:locale` 改成當前語言、兩行 alternate 改成另外兩語，順序不用手動維護。
+- **`robots.txt` / `noindex`**：`blog/template.html` 雖然會被部署、可被直接連到，但只是佔位範本，不該被搜尋引擎索引——要有 `<meta name="robots" content="noindex, follow" />`。新增其他「不想被索引但仍需保留」的頁面時比照處理，不要直接從 `robots.txt` 擋掉整個路徑（那樣反而會讓其他正常頁面的連結權重傳遞受影響）。
+- **`sitemap.xml`**：只放會被索引的真實頁面（不放 `template.html`），每個頁面一個 `<url>`，不帶 alternate 標註。新增日誌文章或任何新頁面時記得補進去。
 
 ## AdSense / 合規
 
