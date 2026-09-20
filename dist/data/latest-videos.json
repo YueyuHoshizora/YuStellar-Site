@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-09-19T21:35:32.294Z",
+  "updatedAt": "2026-09-20T12:14:39.740Z",
   "videos": [
+    {
+      "id": "CIv2Zqdz7o8",
+      "title": "同城預報只說有雨，沒說我們會相遇｜同城預報｜Yu Stellar｜星語",
+      "publishedAt": "2026-09-20T09:30:24Z",
+      "thumbnail": "https://i.ytimg.com/vi/CIv2Zqdz7o8/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=CIv2Zqdz7o8"
+    },
     {
       "id": "TP2X8ip_55Y",
       "title": "這次不急著愛滿，只想把每一天過好｜這次慢慢愛｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-09-17T21:30:18Z",
       "thumbnail": "https://i.ytimg.com/vi/gEYq4QAzi4Q/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=gEYq4QAzi4Q"
-    },
-    {
-      "id": "OtVXQi8Nm0Q",
-      "title": "星期三的湯，慢慢把我煮回日常｜星期三的湯｜Yu Stellar｜星語",
-      "publishedAt": "2026-09-17T09:30:05Z",
-      "thumbnail": "https://i.ytimg.com/vi/OtVXQi8Nm0Q/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=OtVXQi8Nm0Q"
     }
   ]
 }
