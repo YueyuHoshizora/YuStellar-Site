@@ -35,8 +35,8 @@ jobs:
         continue-on-error: true
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-      - name: Stamp asset version for cache-busting
-        run: find dist -name '*.html' -print0 | xargs -0 sed -i "s/__ASSET_VERSION__/${GITHUB_SHA::8}-${GITHUB_RUN_NUMBER}/g"
+      - name: Content-hash shared assets for cache-busting
+        run: node scripts/hash-assets.mjs dist
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:

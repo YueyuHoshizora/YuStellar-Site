@@ -66,7 +66,9 @@ dist/
 
 ## 快取與資源版本
 
-- `script.js` / `styles.css` 在每個頁面都用 `?v=__ASSET_VERSION__` 佔位符引用，部署時由 CI 用 commit SHA + run number 取代，達到自動 cache-busting。新增頁面時記得比照加上這個佔位符，不要寫死版本號。
+- **`script.js` / `styles.css` 在 HTML 裡就寫原始檔名**（`./script.js`、`../styles.css`），**不要**加 `?v=` 之類的版本查詢字串。部署時 `scripts/hash-assets.mjs` 會在 CI 把檔案改名成內容 hash 版（`script.<sha256前10碼>.js`、`styles.<hash>.css`）並改寫所有 HTML 引用。內容沒變 → hash 不變 → 瀏覽器沿用快取；內容一變 → 網址一定變 → 不可能吃到舊檔。committed 的 `dist/` 永遠保持原始檔名，本機 `python3 -m http.server` 才能直接預覽。
+- 新增頁面時照樣寫 `./script.js` / `./styles.css`（相對深度要對），hash 步驟會自動處理，不要手寫 hash 檔名。
+- **HTML 本身不做長快取**：資源已經是 immutable 檔名，HTML 必須能立刻更新。GitHub Pages 固定回 `Cache-Control: max-age=600` 且**不支援自訂 header**（也不吃 `_headers` 檔），所以要真正做到 HTML 不被快取，必須讓網域經 Cloudflare 代理（橘雲）並加一條 Cache Rule：對 `text/html`／路徑結尾為 `/` 或 `.html` 的請求設定 Browser TTL = no-store、Edge TTL 依需求 bypass。這是 repo 外的設定，改完 DNS／Cloudflare 後要回頭確認 `curl -I https://yustellar.dev/` 的 `cache-control`。
 
 ## 圖片
 

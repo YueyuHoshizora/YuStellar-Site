@@ -19,7 +19,7 @@ python3 -m http.server 4173 --directory dist
 資料同步分成兩個 workflow：
 
 - **`Check for new YouTube videos`**（`.github/workflows/check-videos.yml`）：每 5 分鐘跑一次，透過 **YouTube Data API v3** 抓一次資料，比對影片 ID 是否跟目前 repo 裡的 `dist/data/latest-videos.json` 有實質差異（會忽略時間戳等雜訊欄位）。**沒有實質變化就到此結束，不會觸發部署**；有新影片才會把新的資料 commit、push 回 main，並明確觸發下面的部署 workflow。
-- **`Deploy static site to Pages`**（`.github/workflows/pages.yml`）：由 push 到 main 觸發，或由上面的 workflow 明確呼叫觸發，或手動執行。會重新抓一次最新資料、蓋好版本號，再部署到 GitHub Pages。
+- **`Deploy static site to Pages`**（`.github/workflows/pages.yml`）：由 push 到 main 觸發，或由上面的 workflow 明確呼叫觸發，或手動執行。會重新抓一次最新資料、把 `script.js` / `styles.css` 改名成內容 hash 檔名（`scripts/hash-assets.mjs`，順便改寫所有 HTML 引用），再部署到 GitHub Pages。
 
 這樣設計是因為「每 5 分鐘檢查一次」跟「整站重新部署」是兩件成本差很多的事：檢查很便宜，但部署一次要跑完整套 build + deploy，5 分鐘跑一次部署太浪費，所以拆成「先用便宜的方式檢查，真的有新影片才觸發昂貴的部署」。另外，用 `GITHUB_TOKEN` 推送的 commit 不會自動觸發其他 workflow 的 `push` 事件（GitHub 內建的防迴圈機制），所以 `check-videos.yml` 在真的有變化時，會額外用 `gh workflow run` 明確觸發部署，而不是依賴 push 事件自動串接。
 
