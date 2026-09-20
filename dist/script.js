@@ -197,6 +197,8 @@ function applyPageStrings() {
   setMetaContent('meta[property="og:description"]', data.ogDescription || data.description);
   setMetaContent('meta[name="twitter:title"]', data.ogTitle || data.title);
   setMetaContent('meta[name="twitter:description"]', data.ogDescription || data.description);
+  setMetaContent('meta[property="og:image:alt"]', data.ogTitle || data.title);
+  setMetaContent('meta[name="twitter:image:alt"]', data.ogTitle || data.title);
   setMetaContent('meta[property="og:locale"]', OG_LOCALE[LANG]);
 
   const alternates = SUPPORTED_LANGS.filter((lang) => lang !== LANG);

@@ -95,6 +95,8 @@ dist/
 - **`content="..."` 屬性裡絕對不能出現沒跳脫的雙引號**（例如英文標題裡的引號）。曾經因為 `content="On the name "Yu Stellar," ..."` 這種寫法，讓瀏覽器把屬性值從第一個內部引號就截斷，等於整段 meta description 都壞掉。標題／描述裡如果需要引號，一律用排版引號 `“` `”`，不要用直引號 `"`。
 - **沒有 hreflang**：一個網址同時服務三語（由 `?lang=` + JS 渲染），所以頁面 `<head>` 與 `sitemap.xml` 都**不放** `hreflang`／`xhtml:link` alternate。這是刻意的取捨：換來單一 canonical、不再需要維護三套鏡射頁面，代價是搜尋引擎預設看到的是中文靜態內容。
 - **`og:locale` / `og:locale:alternate`**：靜態 HTML 裡 `og:locale` 寫 `zh_TW`、另外兩語各一行 `og:locale:alternate`；切語言時 `script.js` 會把 `og:locale` 改成當前語言、兩行 alternate 改成另外兩語，順序不用手動維護。
+- **`og:image` 系列**：每頁固定用 `dist/assets/og-image.jpg`（1200×630），除了 `og:image`／`twitter:image` 之外一律加上 `og:image:width`（`1200`）、`og:image:height`（`630`）、`og:image:alt` 與 `twitter:image:alt`（用該頁 `og:title` 的文字）。`og:image:alt`／`twitter:image:alt` 也會被 `script.js` 依語言即時替換（跟 `og:title` 同一套邏輯），新增頁面時只要在 `<head>` 放好中文版初始值即可，不用另外處理三語。
+- **日誌文章的 `article:*` meta**：`og:type="article"` 的頁面（所有日誌文章與 `blog/template.html`）要加 `article:published_time`、`article:modified_time`（值跟 JSON-LD 的 `datePublished`／`dateModified` 一致）與 `article:author`（固定填 `https://yustellar.dev/`）。這三個欄位語言中立，不需要、也不會被 `script.js` 依語言替換。
 - **`robots.txt` / `noindex`**：`blog/template.html` 雖然會被部署、可被直接連到，但只是佔位範本，不該被搜尋引擎索引——要有 `<meta name="robots" content="noindex, follow" />`。新增其他「不想被索引但仍需保留」的頁面時比照處理，不要直接從 `robots.txt` 擋掉整個路徑（那樣反而會讓其他正常頁面的連結權重傳遞受影響）。
 - **`sitemap.xml`**：只放會被索引的真實頁面（不放 `template.html`），每個頁面一個 `<url>`，不帶 alternate 標註。新增日誌文章或任何新頁面時記得補進去。
 
