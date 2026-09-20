@@ -93,9 +93,10 @@ dist/
 - **`robots.txt` / `noindex`**：`blog/template.html`（及其 en/ja 對應檔）雖然會被部署、可被直接連到，但只是佔位範本，不該被搜尋引擎索引——三份都要有 `<meta name="robots" content="noindex, follow" />`。新增其他「不想被索引但仍需保留」的頁面時比照處理，不要直接從 `robots.txt` 擋掉整個路徑（那樣反而會讓其他正常頁面的連結權重傳遞受影響）。
 - **`sitemap.xml`**：只放會被索引的真實頁面（不放 `template.html`），每個 `<url>` 都要用 `xhtml:link` 標三語 alternate（含 `x-default`）。新增日誌文章或任何新頁面時，三語都要一起補進 sitemap。
 
-## AdSense / 合規
+## 廣告 / 合規
 
-- `dist/ads.txt` 保留 publisher ID，但目前頁面上沒有載入任何 AdSense script（尚未重新申請）。若要重新加入，先確認 `dist/privacy.html`（及其英文版）內容仍然準確。
+- 本站**不放任何 Google 廣告代碼**：頁面沒有 AdSense script，`dist/ads.txt`（publisher ID 宣告檔）也已移除。未經使用者明確要求，不要重新加回 `ads.txt`、AdSense script 或任何廣告／分析追蹤碼。
+- `dist/privacy.html`（及 en／ja 版）仍保留「若未來啟用廣告服務」的條款描述，那是預留說明而非現況；真的要啟用廣告時再回頭確認條款是否仍然準確。
 - Cookie 同意橫幅使用網站自訂的 class 名稱（`ys-notice` / `data-ys-action`），刻意避開 `cookie-banner` 這類會被廣告攔截器規則命中的通用命名，修改時請維持這個命名習慣。
 
 ## 部署與推送
