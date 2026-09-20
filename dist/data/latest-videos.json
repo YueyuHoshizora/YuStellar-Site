@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-09-20T12:14:39.740Z",
+  "updatedAt": "2026-09-20T23:15:48.726Z",
   "videos": [
+    {
+      "id": "Tae3s5cWMDM",
+      "title": "這一次，我們不只約定今天，也把明天留下｜把明天留給我們｜Yu Stellar｜星語",
+      "publishedAt": "2026-09-20T21:30:37Z",
+      "thumbnail": "https://i.ytimg.com/vi/Tae3s5cWMDM/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Tae3s5cWMDM"
+    },
     {
       "id": "CIv2Zqdz7o8",
       "title": "同城預報只說有雨，沒說我們會相遇｜同城預報｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-09-18T09:30:07Z",
       "thumbnail": "https://i.ytimg.com/vi/iaq0nSfm-r4/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=iaq0nSfm-r4"
-    },
-    {
-      "id": "gEYq4QAzi4Q",
-      "title": "我們沒有假裝熟悉，而是重新認識彼此｜重新認識你｜Yu Stellar｜星語",
-      "publishedAt": "2026-09-17T21:30:18Z",
-      "thumbnail": "https://i.ytimg.com/vi/gEYq4QAzi4Q/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=gEYq4QAzi4Q"
     }
   ]
 }
