@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-09-21T13:16:16.773Z",
+  "updatedAt": "2026-09-21T22:19:54.692Z",
   "videos": [
+    {
+      "id": "Vnmwxf1mCIY",
+      "title": "故事沒有結局，只是輪到明天繼續寫｜未完待續｜Yu Stellar｜星語",
+      "publishedAt": "2026-09-21T21:30:12Z",
+      "thumbnail": "https://i.ytimg.com/vi/Vnmwxf1mCIY/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Vnmwxf1mCIY"
+    },
     {
       "id": "icHNbNwsNNs",
       "title": "城市把路留下，卻沒有要誰停在原地｜城市把路留下｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-09-19T09:30:36Z",
       "thumbnail": "https://i.ytimg.com/vi/IrSZG7Qbqng/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=IrSZG7Qbqng"
-    },
-    {
-      "id": "VlPInz7dIDs",
-      "title": "我們要的不是復合，是用現在重新相愛｜不是回到從前｜Yu Stellar｜星語",
-      "publishedAt": "2026-09-18T21:30:12Z",
-      "thumbnail": "https://i.ytimg.com/vi/VlPInz7dIDs/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=VlPInz7dIDs"
     }
   ]
 }
