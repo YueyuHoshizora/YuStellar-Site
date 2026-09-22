@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-09-22T11:28:12.561Z",
+  "updatedAt": "2026-09-22T22:14:03.115Z",
   "videos": [
+    {
+      "id": "jFAA2ibMrB0",
+      "title": "把夏天收進紙箱，卻收不進那句再見｜紙箱裡的夏天｜Yu Stellar｜星語",
+      "publishedAt": "2026-09-22T21:30:14Z",
+      "thumbnail": "https://i.ytimg.com/vi/jFAA2ibMrB0/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=jFAA2ibMrB0"
+    },
     {
       "id": "fMGBMxP5M4A",
       "title": "一聲你好，剛好把從前放好｜一聲你好｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-09-20T09:30:24Z",
       "thumbnail": "https://i.ytimg.com/vi/CIv2Zqdz7o8/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=CIv2Zqdz7o8"
-    },
-    {
-      "id": "TP2X8ip_55Y",
-      "title": "這次不急著愛滿，只想把每一天過好｜這次慢慢愛｜Yu Stellar｜星語",
-      "publishedAt": "2026-09-19T21:30:21Z",
-      "thumbnail": "https://i.ytimg.com/vi/TP2X8ip_55Y/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=TP2X8ip_55Y"
     }
   ]
 }
