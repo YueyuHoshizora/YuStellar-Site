@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-09-23T10:05:03.354Z",
+  "updatedAt": "2026-09-23T22:12:33.149Z",
   "videos": [
+    {
+      "id": "mRaq4gducE4",
+      "title": "六點十分的車，載我離開熟悉的門｜六點十分｜Yu Stellar｜星語",
+      "publishedAt": "2026-09-23T21:30:23Z",
+      "thumbnail": "https://i.ytimg.com/vi/mRaq4gducE4/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=mRaq4gducE4"
+    },
     {
       "id": "-qNX4NkaFsI",
       "title": "重逢之後，我更像我，不必再為誰回頭｜重逢之後｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-09-21T09:30:28Z",
       "thumbnail": "https://i.ytimg.com/vi/icHNbNwsNNs/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=icHNbNwsNNs"
-    },
-    {
-      "id": "Tae3s5cWMDM",
-      "title": "這一次，我們不只約定今天，也把明天留下｜把明天留給我們｜Yu Stellar｜星語",
-      "publishedAt": "2026-09-20T21:30:37Z",
-      "thumbnail": "https://i.ytimg.com/vi/Tae3s5cWMDM/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=Tae3s5cWMDM"
     }
   ]
 }
