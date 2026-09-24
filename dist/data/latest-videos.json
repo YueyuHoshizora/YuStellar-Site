@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-09-24T10:16:00.114Z",
+  "updatedAt": "2026-09-24T22:33:16.595Z",
   "videos": [
+    {
+      "id": "J0Rkv1IHBLk",
+      "title": "新地址的雨，沒有人替我關窗了｜新地址的雨｜Yu Stellar｜星語",
+      "publishedAt": "2026-09-24T21:30:10Z",
+      "thumbnail": "https://i.ytimg.com/vi/J0Rkv1IHBLk/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=J0Rkv1IHBLk"
+    },
     {
       "id": "73dglfip2WE",
       "title": "貓把爪子按在最後一個箱子上，像問我們要去哪裡｜貓砂盆旁的箱子｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-09-22T09:30:21Z",
       "thumbnail": "https://i.ytimg.com/vi/fMGBMxP5M4A/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=fMGBMxP5M4A"
-    },
-    {
-      "id": "Vnmwxf1mCIY",
-      "title": "故事沒有結局，只是輪到明天繼續寫｜未完待續｜Yu Stellar｜星語",
-      "publishedAt": "2026-09-21T21:30:12Z",
-      "thumbnail": "https://i.ytimg.com/vi/Vnmwxf1mCIY/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=Vnmwxf1mCIY"
     }
   ]
 }
