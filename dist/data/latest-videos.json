@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-09-23T22:12:33.149Z",
+  "updatedAt": "2026-09-24T10:16:00.114Z",
   "videos": [
+    {
+      "id": "73dglfip2WE",
+      "title": "貓把爪子按在最後一個箱子上，像問我們要去哪裡｜貓砂盆旁的箱子｜Yu Stellar｜星語",
+      "publishedAt": "2026-09-24T09:30:08Z",
+      "thumbnail": "https://i.ytimg.com/vi/73dglfip2WE/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=73dglfip2WE"
+    },
     {
       "id": "mRaq4gducE4",
       "title": "六點十分的車，載我離開熟悉的門｜六點十分｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-09-21T21:30:12Z",
       "thumbnail": "https://i.ytimg.com/vi/Vnmwxf1mCIY/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=Vnmwxf1mCIY"
-    },
-    {
-      "id": "icHNbNwsNNs",
-      "title": "城市把路留下，卻沒有要誰停在原地｜城市把路留下｜Yu Stellar｜星語",
-      "publishedAt": "2026-09-21T09:30:28Z",
-      "thumbnail": "https://i.ytimg.com/vi/icHNbNwsNNs/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=icHNbNwsNNs"
     }
   ]
 }
