@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-09-25T10:30:58.887Z",
+  "updatedAt": "2026-09-25T22:45:39.239Z",
   "videos": [
+    {
+      "id": "iVw2-XJsOjM",
+      "title": "我把晚安留在未讀裡，讓你自由地睡｜未讀的晚安｜Yu Stellar｜星語",
+      "publishedAt": "2026-09-25T21:30:29Z",
+      "thumbnail": "https://i.ytimg.com/vi/iVw2-XJsOjM/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=iVw2-XJsOjM"
+    },
     {
       "id": "VC9am2Q097k",
       "title": "我在新房間點亮第一盞燈，先讓貓知道我回來了｜新房間的第一盞燈｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-09-23T09:30:15Z",
       "thumbnail": "https://i.ytimg.com/vi/-qNX4NkaFsI/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=-qNX4NkaFsI"
-    },
-    {
-      "id": "jFAA2ibMrB0",
-      "title": "把夏天收進紙箱，卻收不進那句再見｜紙箱裡的夏天｜Yu Stellar｜星語",
-      "publishedAt": "2026-09-22T21:30:14Z",
-      "thumbnail": "https://i.ytimg.com/vi/jFAA2ibMrB0/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=jFAA2ibMrB0"
     }
   ]
 }
