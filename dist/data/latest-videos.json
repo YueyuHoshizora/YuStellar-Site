@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-09-24T22:33:16.595Z",
+  "updatedAt": "2026-09-25T10:30:58.887Z",
   "videos": [
+    {
+      "id": "VC9am2Q097k",
+      "title": "我在新房間點亮第一盞燈，先讓貓知道我回來了｜新房間的第一盞燈｜Yu Stellar｜星語",
+      "publishedAt": "2026-09-25T09:30:04Z",
+      "thumbnail": "https://i.ytimg.com/vi/VC9am2Q097k/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=VC9am2Q097k"
+    },
     {
       "id": "J0Rkv1IHBLk",
       "title": "新地址的雨，沒有人替我關窗了｜新地址的雨｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-09-22T21:30:14Z",
       "thumbnail": "https://i.ytimg.com/vi/jFAA2ibMrB0/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=jFAA2ibMrB0"
-    },
-    {
-      "id": "fMGBMxP5M4A",
-      "title": "一聲你好，剛好把從前放好｜一聲你好｜Yu Stellar｜星語",
-      "publishedAt": "2026-09-22T09:30:21Z",
-      "thumbnail": "https://i.ytimg.com/vi/fMGBMxP5M4A/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=fMGBMxP5M4A"
     }
   ]
 }
