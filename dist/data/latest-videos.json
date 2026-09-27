@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-09-27T14:16:46.341Z",
+  "updatedAt": "2026-09-27T21:33:35.841Z",
   "videos": [
+    {
+      "id": "VPvSIuXRGfo",
+      "title": "在天亮以前，我先把自己的燈點亮｜燈亮以前｜Yu Stellar｜星語",
+      "publishedAt": "2026-09-27T21:30:30Z",
+      "thumbnail": "https://i.ytimg.com/vi/VPvSIuXRGfo/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=VPvSIuXRGfo"
+    },
     {
       "id": "bZETT3MDPpo",
       "title": "未讀的藍色，亮在我不打擾你的夜｜未讀的藍色｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-09-25T09:30:04Z",
       "thumbnail": "https://i.ytimg.com/vi/VC9am2Q097k/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=VC9am2Q097k"
-    },
-    {
-      "id": "J0Rkv1IHBLk",
-      "title": "新地址的雨，沒有人替我關窗了｜新地址的雨｜Yu Stellar｜星語",
-      "publishedAt": "2026-09-24T21:30:10Z",
-      "thumbnail": "https://i.ytimg.com/vi/J0Rkv1IHBLk/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=J0Rkv1IHBLk"
     }
   ]
 }
