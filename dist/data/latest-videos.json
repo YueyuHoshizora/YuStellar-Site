@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-09-27T21:33:35.841Z",
+  "updatedAt": "2026-09-28T11:41:33.990Z",
   "videos": [
+    {
+      "id": "AJFAh9FaxVY",
+      "title": "影印機卡住的下午，我也學會把問題一張張取出｜影印機卡住的下午｜Yu Stellar｜星語",
+      "publishedAt": "2026-09-28T09:30:08Z",
+      "thumbnail": "https://i.ytimg.com/vi/AJFAh9FaxVY/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=AJFAh9FaxVY"
+    },
     {
       "id": "VPvSIuXRGfo",
       "title": "在天亮以前，我先把自己的燈點亮｜燈亮以前｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-09-25T21:30:29Z",
       "thumbnail": "https://i.ytimg.com/vi/iVw2-XJsOjM/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=iVw2-XJsOjM"
-    },
-    {
-      "id": "VC9am2Q097k",
-      "title": "我在新房間點亮第一盞燈，先讓貓知道我回來了｜新房間的第一盞燈｜Yu Stellar｜星語",
-      "publishedAt": "2026-09-25T09:30:04Z",
-      "thumbnail": "https://i.ytimg.com/vi/VC9am2Q097k/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=VC9am2Q097k"
     }
   ]
 }
