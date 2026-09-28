@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-09-28T11:41:33.990Z",
+  "updatedAt": "2026-09-28T23:33:47.802Z",
   "videos": [
+    {
+      "id": "sw86VfMO81M",
+      "title": "這扇窗不再等誰，我有自己的晴朗｜我的窗台｜Yu Stellar｜星語",
+      "publishedAt": "2026-09-28T21:30:33Z",
+      "thumbnail": "https://i.ytimg.com/vi/sw86VfMO81M/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=sw86VfMO81M"
+    },
     {
       "id": "AJFAh9FaxVY",
       "title": "影印機卡住的下午，我也學會把問題一張張取出｜影印機卡住的下午｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-09-26T09:30:02Z",
       "thumbnail": "https://i.ytimg.com/vi/L6lxR92AxDo/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=L6lxR92AxDo"
-    },
-    {
-      "id": "iVw2-XJsOjM",
-      "title": "我把晚安留在未讀裡，讓你自由地睡｜未讀的晚安｜Yu Stellar｜星語",
-      "publishedAt": "2026-09-25T21:30:29Z",
-      "thumbnail": "https://i.ytimg.com/vi/iVw2-XJsOjM/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=iVw2-XJsOjM"
     }
   ]
 }
