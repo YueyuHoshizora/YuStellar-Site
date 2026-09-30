@@ -27,6 +27,10 @@
 - **排版慣例**：每個內容區塊（section）都有一個「編號 + 英文代號」的小標，例如 `01 / LISTEN`、`02 / VIDEO`，用 `.section-number` class，字體用 `--latin`、全大寫、字距拉開。新增區塊時延續這個編號序列。
 - 大量使用 `.reveal` class 搭配 `IntersectionObserver`（見 `script.js`）做滾動淡入動效，新增可視內容區塊時記得加上 `.reveal`。
 - 手機版樣式集中在 `styles.css` 底部的 media query，新增桌面樣式時記得檢查手機版是否也要對應調整。
+- **氛圍與卡片**：全站共用 `body::before` 的固定夜空光暈，深色 section 背景保持透明、讓它透出來；不要再給 section 鋪不透明的單色底。卡片（`.stream-card`、`.blog-card`）共用 `--surface` 底、hairline 邊框與游標光暈（`script.js` 的 `setupChrome` 以事件委派寫入 `--mx`/`--my`，日誌列表是 JS 渲染的，所以不要改成逐元素綁事件）。強調漸層用 `--glow`（violet → cyan）。
+- **About 區塊維持深色**：曾經是整塊 `#f0edf2` 淺色，半透明深色 header 蓋上去會變成髒灰帶，因此不要再做淺色 section，除非 header 也一併做主題切換。
+- **Header 狀態**：`script.js` 會在捲動時加 `.is-scrolled`（縮小、加深），並依所在區塊給導覽連結 `.is-current` 與 `aria-current`（日誌頁則標記「日誌」）。頂端閱讀進度線用 CSS scroll-driven animation，不支援的瀏覽器直接不顯示。
+- **中文標題斷行**：h1–h3 使用 `text-wrap: balance` 與 `word-break: auto-phrase`，避免詞被拆在兩行；新增標題不需要另外處理。
 
 ## 網站結構
 

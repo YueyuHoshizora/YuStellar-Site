@@ -320,6 +320,55 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.12 });
 
 document.querySelectorAll('.reveal').forEach((element) => observer.observe(element));
+
+// --- Header state, current-section highlight, card spotlight ---
+(function setupChrome() {
+  const header = document.querySelector('.site-header');
+  if (header) {
+    const onScroll = () => header.classList.toggle('is-scrolled', window.scrollY > 24);
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+  }
+
+  const navLinks = [...document.querySelectorAll('.site-header nav a')];
+  const markCurrent = (target) => navLinks.forEach((link) => {
+    const current = link === target;
+    link.classList.toggle('is-current', current);
+    if (current) link.setAttribute('aria-current', 'location');
+    else link.removeAttribute('aria-current');
+  });
+
+  // Journal pages: the "journal" link is the current one.
+  if (window.location.pathname.includes('/blog')) {
+    markCurrent(navLinks.find((link) => new URL(link.href, window.location.href).pathname.includes('/blog')));
+  } else {
+    // Home page: follow whichever section sits in the middle of the viewport.
+    const sections = navLinks
+      .map((link) => ({ link, section: document.getElementById(link.hash.slice(1)) }))
+      .filter(({ section }) => section);
+    const spy = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        markCurrent(sections.find((item) => item.section === entry.target)?.link);
+      });
+    }, { rootMargin: '-45% 0px -50% 0px' });
+    sections.forEach((item) => spy.observe(item.section));
+    const hero = document.getElementById('top');
+    if (hero) {
+      new IntersectionObserver(([entry]) => { if (entry.isIntersecting) markCurrent(null); }, { rootMargin: '-45% 0px -50% 0px' }).observe(hero);
+    }
+  }
+
+  // Pointer-following glow on cards (rendered dynamically for the journal list, so delegate).
+  document.addEventListener('pointermove', (event) => {
+    const card = event.target instanceof Element ? event.target.closest('.stream-card, .blog-card') : null;
+    if (!card) return;
+    const rect = card.getBoundingClientRect();
+    card.style.setProperty('--mx', `${event.clientX - rect.left}px`);
+    card.style.setProperty('--my', `${event.clientY - rect.top}px`);
+  }, { passive: true });
+})();
+
 const yearEl = document.querySelector('#year');
 if (yearEl) yearEl.textContent = new Date().getFullYear();
 
