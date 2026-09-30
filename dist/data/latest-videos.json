@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-09-29T23:47:24.348Z",
+  "updatedAt": "2026-09-30T15:50:25.471Z",
   "videos": [
+    {
+      "id": "7Y1FykKE9FE",
+      "title": "貓跳上窗台後，我才發現這裡也能叫做家｜貓跳上窗台後｜Yu Stellar｜星語",
+      "publishedAt": "2026-09-30T09:30:10Z",
+      "thumbnail": "https://i.ytimg.com/vi/7Y1FykKE9FE/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=7Y1FykKE9FE"
+    },
     {
       "id": "lJZ9RyZMjdY",
       "title": "我終於把自己的名字，寫在掌聲以前｜把名字寫好｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-09-27T21:30:30Z",
       "thumbnail": "https://i.ytimg.com/vi/VPvSIuXRGfo/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=VPvSIuXRGfo"
-    },
-    {
-      "id": "bZETT3MDPpo",
-      "title": "未讀的藍色，亮在我不打擾你的夜｜未讀的藍色｜Yu Stellar｜星語",
-      "publishedAt": "2026-09-27T09:30:11Z",
-      "thumbnail": "https://i.ytimg.com/vi/bZETT3MDPpo/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=bZETT3MDPpo"
     }
   ]
 }
