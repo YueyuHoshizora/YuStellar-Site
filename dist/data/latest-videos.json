@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-10-01T00:04:30.452Z",
+  "updatedAt": "2026-10-01T11:51:18.914Z",
   "videos": [
+    {
+      "id": "UG1MCjMuGwI",
+      "title": "亮著的工作證，證明我走過那段沒有掌聲的路｜亮著的工作證｜Yu Stellar｜星語",
+      "publishedAt": "2026-10-01T09:30:15Z",
+      "thumbnail": "https://i.ytimg.com/vi/UG1MCjMuGwI/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=UG1MCjMuGwI"
+    },
     {
       "id": "waD4ZMRNZa8",
       "title": "原來那段路沒有白走，答案是各自成為自己｜舊城的答案｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-09-28T21:30:33Z",
       "thumbnail": "https://i.ytimg.com/vi/sw86VfMO81M/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=sw86VfMO81M"
-    },
-    {
-      "id": "AJFAh9FaxVY",
-      "title": "影印機卡住的下午，我也學會把問題一張張取出｜影印機卡住的下午｜Yu Stellar｜星語",
-      "publishedAt": "2026-09-28T09:30:08Z",
-      "thumbnail": "https://i.ytimg.com/vi/AJFAh9FaxVY/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=AJFAh9FaxVY"
     }
   ]
 }
