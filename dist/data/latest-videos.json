@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-10-01T11:51:18.914Z",
+  "updatedAt": "2026-10-01T22:10:01.617Z",
   "videos": [
+    {
+      "id": "US7L9OBay8U",
+      "title": "回到最初，不是回到從前｜回到最初｜Yu Stellar｜星語",
+      "publishedAt": "2026-10-01T21:30:03Z",
+      "thumbnail": "https://i.ytimg.com/vi/US7L9OBay8U/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=US7L9OBay8U"
+    },
     {
       "id": "UG1MCjMuGwI",
       "title": "亮著的工作證，證明我走過那段沒有掌聲的路｜亮著的工作證｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-09-29T09:30:19Z",
       "thumbnail": "https://i.ytimg.com/vi/X4F2OBt5ErQ/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=X4F2OBt5ErQ"
-    },
-    {
-      "id": "sw86VfMO81M",
-      "title": "這扇窗不再等誰，我有自己的晴朗｜我的窗台｜Yu Stellar｜星語",
-      "publishedAt": "2026-09-28T21:30:33Z",
-      "thumbnail": "https://i.ytimg.com/vi/sw86VfMO81M/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=sw86VfMO81M"
     }
   ]
 }
