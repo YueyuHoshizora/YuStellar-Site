@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-10-02T14:06:55.284Z",
+  "updatedAt": "2026-10-02T23:04:34.175Z",
   "videos": [
+    {
+      "id": "xjc4pFdZJfE",
+      "title": "你好，後來的你，謝謝你走成現在的自己｜你好，後來的你｜Yu Stellar｜星語",
+      "publishedAt": "2026-10-02T21:30:05Z",
+      "thumbnail": "https://i.ytimg.com/vi/xjc4pFdZJfE/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=xjc4pFdZJfE"
+    },
     {
       "id": "9UAtR4sixu4",
       "title": "盒底那枚鈴鐺，搖醒的不是誰，是那時候的我們｜盒底的鈴鐺｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-09-30T09:30:10Z",
       "thumbnail": "https://i.ytimg.com/vi/7Y1FykKE9FE/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=7Y1FykKE9FE"
-    },
-    {
-      "id": "lJZ9RyZMjdY",
-      "title": "我終於把自己的名字，寫在掌聲以前｜把名字寫好｜Yu Stellar｜星語",
-      "publishedAt": "2026-09-29T21:30:05Z",
-      "thumbnail": "https://i.ytimg.com/vi/lJZ9RyZMjdY/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=lJZ9RyZMjdY"
     }
   ]
 }
