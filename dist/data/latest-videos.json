@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-10-03T12:46:19.052Z",
+  "updatedAt": "2026-10-03T22:24:38.138Z",
   "videos": [
+    {
+      "id": "Ln7HY6uaRwY",
+      "title": "你也有一個只見過一次，卻記了三年的人嗎？《借來的傘》｜Yu Stellar｜星語",
+      "publishedAt": "2026-10-03T21:30:29Z",
+      "thumbnail": "https://i.ytimg.com/vi/Ln7HY6uaRwY/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Ln7HY6uaRwY"
+    },
     {
       "id": "qjL13tkSgOk",
       "title": "回程票根夾在書裡，原來回去不是回到從前｜回程票根｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-10-01T09:30:15Z",
       "thumbnail": "https://i.ytimg.com/vi/UG1MCjMuGwI/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=UG1MCjMuGwI"
-    },
-    {
-      "id": "waD4ZMRNZa8",
-      "title": "原來那段路沒有白走，答案是各自成為自己｜舊城的答案｜Yu Stellar｜星語",
-      "publishedAt": "2026-09-30T21:30:09Z",
-      "thumbnail": "https://i.ytimg.com/vi/waD4ZMRNZa8/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=waD4ZMRNZa8"
     }
   ]
 }
