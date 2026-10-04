@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-10-04T13:29:53.914Z",
+  "updatedAt": "2026-10-04T23:33:31.184Z",
   "videos": [
+    {
+      "id": "suI7UWsEOcM",
+      "title": "有些人只同路一站，卻一直留在記憶裡《一站以前》｜Yu Stellar｜星語",
+      "publishedAt": "2026-10-04T21:30:14Z",
+      "thumbnail": "https://i.ytimg.com/vi/suI7UWsEOcM/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=suI7UWsEOcM"
+    },
     {
       "id": "P7foTF8Z6Q8",
       "title": "兩人一貓站在同一盞晚霞裡，已經足夠成為答案｜兩人一貓｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-10-02T09:30:39Z",
       "thumbnail": "https://i.ytimg.com/vi/9UAtR4sixu4/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=9UAtR4sixu4"
-    },
-    {
-      "id": "US7L9OBay8U",
-      "title": "回到最初，不是回到從前｜回到最初｜Yu Stellar｜星語",
-      "publishedAt": "2026-10-01T21:30:03Z",
-      "thumbnail": "https://i.ytimg.com/vi/US7L9OBay8U/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=US7L9OBay8U"
     }
   ]
 }
