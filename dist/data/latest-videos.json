@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-10-03T22:24:38.138Z",
+  "updatedAt": "2026-10-04T13:29:53.914Z",
   "videos": [
+    {
+      "id": "P7foTF8Z6Q8",
+      "title": "兩人一貓站在同一盞晚霞裡，已經足夠成為答案｜兩人一貓｜Yu Stellar｜星語",
+      "publishedAt": "2026-10-04T09:30:14Z",
+      "thumbnail": "https://i.ytimg.com/vi/P7foTF8Z6Q8/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=P7foTF8Z6Q8"
+    },
     {
       "id": "Ln7HY6uaRwY",
       "title": "你也有一個只見過一次，卻記了三年的人嗎？《借來的傘》｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-10-01T21:30:03Z",
       "thumbnail": "https://i.ytimg.com/vi/US7L9OBay8U/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=US7L9OBay8U"
-    },
-    {
-      "id": "UG1MCjMuGwI",
-      "title": "亮著的工作證，證明我走過那段沒有掌聲的路｜亮著的工作證｜Yu Stellar｜星語",
-      "publishedAt": "2026-10-01T09:30:15Z",
-      "thumbnail": "https://i.ytimg.com/vi/UG1MCjMuGwI/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=UG1MCjMuGwI"
     }
   ]
 }
