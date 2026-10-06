@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-10-06T00:23:36.292Z",
+  "updatedAt": "2026-10-06T13:39:52.773Z",
   "videos": [
+    {
+      "id": "bT9GwrPkD5c",
+      "title": "最後一班電梯｜最難的告別，是電梯門關上也沒人挽留｜Yu Stellar｜星語",
+      "publishedAt": "2026-10-06T09:30:36Z",
+      "thumbnail": "https://i.ytimg.com/vi/bT9GwrPkD5c/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=bT9GwrPkD5c"
+    },
     {
       "id": "vRr0WmS-kTI",
       "title": "你通訊錄裡，也有一個始終沒加上的人嗎？《沒有加上的人》｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-10-03T21:30:29Z",
       "thumbnail": "https://i.ytimg.com/vi/Ln7HY6uaRwY/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=Ln7HY6uaRwY"
-    },
-    {
-      "id": "qjL13tkSgOk",
-      "title": "回程票根夾在書裡，原來回去不是回到從前｜回程票根｜Yu Stellar｜星語",
-      "publishedAt": "2026-10-03T09:30:28Z",
-      "thumbnail": "https://i.ytimg.com/vi/qjL13tkSgOk/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=qjL13tkSgOk"
     }
   ]
 }
