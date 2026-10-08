@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-10-07T16:12:29.529Z",
+  "updatedAt": "2026-10-08T01:08:08.735Z",
   "videos": [
+    {
+      "id": "uZcCI6O6OhM",
+      "title": "一個人把租屋住成家，是長大後最溫柔的勇敢《窗台第二盆花》｜Yu Stellar｜星語",
+      "publishedAt": "2026-10-07T21:30:17Z",
+      "thumbnail": "https://i.ytimg.com/vi/uZcCI6O6OhM/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=uZcCI6O6OhM"
+    },
     {
       "id": "1TY37nPugGk",
       "title": "紙上的地址｜地址可以改，想念卻搬不出舊習慣｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-10-05T09:30:21Z",
       "thumbnail": "https://i.ytimg.com/vi/JF9Tb-YzoCE/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=JF9Tb-YzoCE"
-    },
-    {
-      "id": "suI7UWsEOcM",
-      "title": "有些人只同路一站，卻一直留在記憶裡《一站以前》｜Yu Stellar｜星語",
-      "publishedAt": "2026-10-04T21:30:14Z",
-      "thumbnail": "https://i.ytimg.com/vi/suI7UWsEOcM/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=suI7UWsEOcM"
     }
   ]
 }
