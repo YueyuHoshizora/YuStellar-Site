@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-10-08T01:08:08.735Z",
+  "updatedAt": "2026-10-08T14:47:16.896Z",
   "videos": [
+    {
+      "id": "ZoI-_lEZkww",
+      "title": "沒有寄出的信｜想說的話寫了很多，最後一封也沒寄出｜Yu Stellar｜星語",
+      "publishedAt": "2026-10-08T09:30:39Z",
+      "thumbnail": "https://i.ytimg.com/vi/ZoI-_lEZkww/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=ZoI-_lEZkww"
+    },
     {
       "id": "uZcCI6O6OhM",
       "title": "一個人把租屋住成家，是長大後最溫柔的勇敢《窗台第二盆花》｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-10-05T21:30:09Z",
       "thumbnail": "https://i.ytimg.com/vi/vRr0WmS-kTI/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=vRr0WmS-kTI"
-    },
-    {
-      "id": "JF9Tb-YzoCE",
-      "title": "門縫的光｜不是不愛了，只是明天不在同一個房間｜Yu Stellar｜星語",
-      "publishedAt": "2026-10-05T09:30:21Z",
-      "thumbnail": "https://i.ytimg.com/vi/JF9Tb-YzoCE/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=JF9Tb-YzoCE"
     }
   ]
 }
