@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-10-09T00:28:13.009Z",
+  "updatedAt": "2026-10-09T13:45:32.107Z",
   "videos": [
+    {
+      "id": "6VX_MsMFFJE",
+      "title": "雨衣掛在門後｜最遺憾的重逢，是你已走完這一生｜Yu Stellar｜星語",
+      "publishedAt": "2026-10-09T09:30:01Z",
+      "thumbnail": "https://i.ytimg.com/vi/6VX_MsMFFJE/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=6VX_MsMFFJE"
+    },
     {
       "id": "QEv303T1dZE",
       "title": "聽見你的近況，我卻不再急著追問了《他方的消息》｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-10-06T21:30:37Z",
       "thumbnail": "https://i.ytimg.com/vi/uLEX7Y3bvYw/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=uLEX7Y3bvYw"
-    },
-    {
-      "id": "bT9GwrPkD5c",
-      "title": "最後一班電梯｜最難的告別，是電梯門關上也沒人挽留｜Yu Stellar｜星語",
-      "publishedAt": "2026-10-06T09:30:36Z",
-      "thumbnail": "https://i.ytimg.com/vi/bT9GwrPkD5c/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=bT9GwrPkD5c"
     }
   ]
 }
