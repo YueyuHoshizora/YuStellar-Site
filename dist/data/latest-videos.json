@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-10-09T23:12:30.623Z",
+  "updatedAt": "2026-10-10T14:50:00.098Z",
   "videos": [
+    {
+      "id": "5uSV8JwkgGs",
+      "title": "陌生早餐店｜有些習慣忘了前世，身體卻還記得｜Yu Stellar｜星語",
+      "publishedAt": "2026-10-10T09:30:13Z",
+      "thumbnail": "https://i.ytimg.com/vi/5uSV8JwkgGs/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=5uSV8JwkgGs"
+    },
     {
       "id": "uOHGS7MvPs8",
       "title": "一個人看海，也可以比有人陪更自由《獨自看海》｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-10-07T21:30:17Z",
       "thumbnail": "https://i.ytimg.com/vi/uZcCI6O6OhM/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=uZcCI6O6OhM"
-    },
-    {
-      "id": "1TY37nPugGk",
-      "title": "紙上的地址｜地址可以改，想念卻搬不出舊習慣｜Yu Stellar｜星語",
-      "publishedAt": "2026-10-07T09:30:12Z",
-      "thumbnail": "https://i.ytimg.com/vi/1TY37nPugGk/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=1TY37nPugGk"
     }
   ]
 }
