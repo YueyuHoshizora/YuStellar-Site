@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-10-10T14:50:00.098Z",
+  "updatedAt": "2026-10-10T22:27:20.025Z",
   "videos": [
+    {
+      "id": "Mbho2s5i1BM",
+      "title": "那個消失三年的名字，突然出現在工作郵件裡《名字又出現》｜Yu Stellar｜星語",
+      "publishedAt": "2026-10-10T21:30:26Z",
+      "thumbnail": "https://i.ytimg.com/vi/Mbho2s5i1BM/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Mbho2s5i1BM"
+    },
     {
       "id": "5uSV8JwkgGs",
       "title": "陌生早餐店｜有些習慣忘了前世，身體卻還記得｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-10-08T09:30:39Z",
       "thumbnail": "https://i.ytimg.com/vi/ZoI-_lEZkww/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=ZoI-_lEZkww"
-    },
-    {
-      "id": "uZcCI6O6OhM",
-      "title": "一個人把租屋住成家，是長大後最溫柔的勇敢《窗台第二盆花》｜Yu Stellar｜星語",
-      "publishedAt": "2026-10-07T21:30:17Z",
-      "thumbnail": "https://i.ytimg.com/vi/uZcCI6O6OhM/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=uZcCI6O6OhM"
     }
   ]
 }
