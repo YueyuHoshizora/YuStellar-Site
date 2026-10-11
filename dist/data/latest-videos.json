@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-10-11T14:10:26.747Z",
+  "updatedAt": "2026-10-11T22:46:56.598Z",
   "videos": [
+    {
+      "id": "gEG2PlPG9Cs",
+      "title": "三年後再見，我們卻先從一場會議開始《第一次會議》｜Yu Stellar｜星語",
+      "publishedAt": "2026-10-11T21:30:07Z",
+      "thumbnail": "https://i.ytimg.com/vi/gEG2PlPG9Cs/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=gEG2PlPG9Cs"
+    },
     {
       "id": "3da8OxYlRvc",
       "title": "未讀的星期天｜有些夢醒了，卻像一封沒讀完的信｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-10-09T09:30:01Z",
       "thumbnail": "https://i.ytimg.com/vi/6VX_MsMFFJE/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=6VX_MsMFFJE"
-    },
-    {
-      "id": "QEv303T1dZE",
-      "title": "聽見你的近況，我卻不再急著追問了《他方的消息》｜Yu Stellar｜星語",
-      "publishedAt": "2026-10-08T21:30:39Z",
-      "thumbnail": "https://i.ytimg.com/vi/QEv303T1dZE/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=QEv303T1dZE"
     }
   ]
 }
