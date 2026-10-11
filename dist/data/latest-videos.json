@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-10-10T22:27:20.025Z",
+  "updatedAt": "2026-10-11T14:10:26.747Z",
   "videos": [
+    {
+      "id": "3da8OxYlRvc",
+      "title": "未讀的星期天｜有些夢醒了，卻像一封沒讀完的信｜Yu Stellar｜星語",
+      "publishedAt": "2026-10-11T09:30:19Z",
+      "thumbnail": "https://i.ytimg.com/vi/3da8OxYlRvc/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=3da8OxYlRvc"
+    },
     {
       "id": "Mbho2s5i1BM",
       "title": "那個消失三年的名字，突然出現在工作郵件裡《名字又出現》｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-10-08T21:30:39Z",
       "thumbnail": "https://i.ytimg.com/vi/QEv303T1dZE/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=QEv303T1dZE"
-    },
-    {
-      "id": "ZoI-_lEZkww",
-      "title": "沒有寄出的信｜想說的話寫了很多，最後一封也沒寄出｜Yu Stellar｜星語",
-      "publishedAt": "2026-10-08T09:30:39Z",
-      "thumbnail": "https://i.ytimg.com/vi/ZoI-_lEZkww/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=ZoI-_lEZkww"
     }
   ]
 }
