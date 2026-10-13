@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-10-12T18:06:35.787Z",
+  "updatedAt": "2026-10-13T00:37:04.895Z",
   "videos": [
+    {
+      "id": "HcbXCfmK0ZI",
+      "title": "真正認識一個人，是從香菜和熱茶開始《午餐十二點半》｜Yu Stellar｜星語",
+      "publishedAt": "2026-10-12T21:30:13Z",
+      "thumbnail": "https://i.ytimg.com/vi/HcbXCfmK0ZI/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=HcbXCfmK0ZI"
+    },
     {
       "id": "oBle1qTszwM",
       "title": "夜車經過海邊｜我沒來過這裡，為什麼記得那場雨｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-10-10T09:30:13Z",
       "thumbnail": "https://i.ytimg.com/vi/5uSV8JwkgGs/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=5uSV8JwkgGs"
-    },
-    {
-      "id": "uOHGS7MvPs8",
-      "title": "一個人看海，也可以比有人陪更自由《獨自看海》｜Yu Stellar｜星語",
-      "publishedAt": "2026-10-09T21:30:32Z",
-      "thumbnail": "https://i.ytimg.com/vi/uOHGS7MvPs8/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=uOHGS7MvPs8"
     }
   ]
 }
