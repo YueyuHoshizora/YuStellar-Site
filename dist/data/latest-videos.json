@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-10-13T00:37:04.895Z",
+  "updatedAt": "2026-10-13T15:01:40.495Z",
   "videos": [
+    {
+      "id": "DU-leXwtOXg",
+      "title": "把燈開著｜我把燈開著，不是等你，是照顧自己｜Yu Stellar｜星語",
+      "publishedAt": "2026-10-13T09:30:36Z",
+      "thumbnail": "https://i.ytimg.com/vi/DU-leXwtOXg/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=DU-leXwtOXg"
+    },
     {
       "id": "HcbXCfmK0ZI",
       "title": "真正認識一個人，是從香菜和熱茶開始《午餐十二點半》｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-10-10T21:30:26Z",
       "thumbnail": "https://i.ytimg.com/vi/Mbho2s5i1BM/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=Mbho2s5i1BM"
-    },
-    {
-      "id": "5uSV8JwkgGs",
-      "title": "陌生早餐店｜有些習慣忘了前世，身體卻還記得｜Yu Stellar｜星語",
-      "publishedAt": "2026-10-10T09:30:13Z",
-      "thumbnail": "https://i.ytimg.com/vi/5uSV8JwkgGs/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=5uSV8JwkgGs"
     }
   ]
 }
