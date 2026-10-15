@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-10-15T09:50:40.790Z",
+  "updatedAt": "2026-10-15T21:46:52.640Z",
   "videos": [
+    {
+      "id": "3Q7XT8qrHas",
+      "title": "有些關係，散場以後才真正開始《散場後的路》｜Yu Stellar｜星語",
+      "publishedAt": "2026-10-15T21:30:39Z",
+      "thumbnail": "https://i.ytimg.com/vi/3Q7XT8qrHas/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=3Q7XT8qrHas"
+    },
     {
       "id": "okYZQcMqTBI",
       "title": "午休的風｜我叫不出你的名字，卻記得曾經愛過｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-10-13T09:30:36Z",
       "thumbnail": "https://i.ytimg.com/vi/DU-leXwtOXg/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=DU-leXwtOXg"
-    },
-    {
-      "id": "HcbXCfmK0ZI",
-      "title": "真正認識一個人，是從香菜和熱茶開始《午餐十二點半》｜Yu Stellar｜星語",
-      "publishedAt": "2026-10-12T21:30:13Z",
-      "thumbnail": "https://i.ytimg.com/vi/HcbXCfmK0ZI/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=HcbXCfmK0ZI"
     }
   ]
 }
