@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-10-16T13:55:32.234Z",
+  "updatedAt": "2026-10-16T22:59:58.210Z",
   "videos": [
+    {
+      "id": "8N8EMsh334A",
+      "title": "遇見三年後，我們今天才真正認識彼此《今天才認識你》｜Yu Stellar｜星語",
+      "publishedAt": "2026-10-16T21:30:30Z",
+      "thumbnail": "https://i.ytimg.com/vi/8N8EMsh334A/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=8N8EMsh334A"
+    },
     {
       "id": "SaoFghauGOs",
       "title": "一個人的搬家｜這次搬家不是離開誰，是靠近自己｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-10-14T09:30:02Z",
       "thumbnail": "https://i.ytimg.com/vi/hFHS_9DCjVw/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=hFHS_9DCjVw"
-    },
-    {
-      "id": "1HkFnI6qVkA",
-      "title": "你以為他不在意，其實他正扛著沒說出口的重量《你怕冷的原因》｜Yu Stellar｜星語",
-      "publishedAt": "2026-10-13T21:30:28Z",
-      "thumbnail": "https://i.ytimg.com/vi/1HkFnI6qVkA/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=1HkFnI6qVkA"
     }
   ]
 }
