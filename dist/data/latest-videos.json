@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-10-15T21:46:52.640Z",
+  "updatedAt": "2026-10-16T13:55:32.234Z",
   "videos": [
+    {
+      "id": "SaoFghauGOs",
+      "title": "一個人的搬家｜這次搬家不是離開誰，是靠近自己｜Yu Stellar｜星語",
+      "publishedAt": "2026-10-16T09:30:23Z",
+      "thumbnail": "https://i.ytimg.com/vi/SaoFghauGOs/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=SaoFghauGOs"
+    },
     {
       "id": "3Q7XT8qrHas",
       "title": "有些關係，散場以後才真正開始《散場後的路》｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-10-13T21:30:28Z",
       "thumbnail": "https://i.ytimg.com/vi/1HkFnI6qVkA/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=1HkFnI6qVkA"
-    },
-    {
-      "id": "DU-leXwtOXg",
-      "title": "把燈開著｜我把燈開著，不是等你，是照顧自己｜Yu Stellar｜星語",
-      "publishedAt": "2026-10-13T09:30:36Z",
-      "thumbnail": "https://i.ytimg.com/vi/DU-leXwtOXg/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=DU-leXwtOXg"
     }
   ]
 }
