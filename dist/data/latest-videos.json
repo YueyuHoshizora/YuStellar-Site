@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-10-17T09:42:35.275Z",
+  "updatedAt": "2026-10-17T23:04:47.733Z",
   "videos": [
+    {
+      "id": "tRotND7VNnM",
+      "title": "有些相遇沒有早也沒有晚，只是我們終於準備好了《相遇》｜Yu Stellar｜星語",
+      "publishedAt": "2026-10-17T21:30:20Z",
+      "thumbnail": "https://i.ytimg.com/vi/tRotND7VNnM/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=tRotND7VNnM"
+    },
     {
       "id": "-Fox0IpfS50",
       "title": "窗台的薄荷｜我不再是前世的影子，也能長出新生活｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-10-15T09:30:16Z",
       "thumbnail": "https://i.ytimg.com/vi/okYZQcMqTBI/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=okYZQcMqTBI"
-    },
-    {
-      "id": "Xn2-rAEtTew",
-      "title": "真正的信任，是你撐不住時有人接過最後兩頁《改過三次的簡報》｜Yu Stellar｜星語",
-      "publishedAt": "2026-10-14T21:30:01Z",
-      "thumbnail": "https://i.ytimg.com/vi/Xn2-rAEtTew/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=Xn2-rAEtTew"
     }
   ]
 }
