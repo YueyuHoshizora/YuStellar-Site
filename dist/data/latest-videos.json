@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-10-19T14:35:56.917Z",
+  "updatedAt": "2026-10-19T23:45:20.521Z",
   "videos": [
+    {
+      "id": "s-A3ciJCfyA",
+      "title": "搬離有你的家後，我花了多久才住進新生活《新的門牌》｜Yu Stellar｜星語",
+      "publishedAt": "2026-10-19T21:30:15Z",
+      "thumbnail": "https://i.ytimg.com/vi/s-A3ciJCfyA/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=s-A3ciJCfyA"
+    },
     {
       "id": "qfTPIkVQZ1A",
       "title": "晴天寄存處｜我的晴天不必寄給誰，自己也能簽收｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-10-17T09:30:15Z",
       "thumbnail": "https://i.ytimg.com/vi/-Fox0IpfS50/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=-Fox0IpfS50"
-    },
-    {
-      "id": "8N8EMsh334A",
-      "title": "遇見三年後，我們今天才真正認識彼此《今天才認識你》｜Yu Stellar｜星語",
-      "publishedAt": "2026-10-16T21:30:30Z",
-      "thumbnail": "https://i.ytimg.com/vi/8N8EMsh334A/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=8N8EMsh334A"
     }
   ]
 }
