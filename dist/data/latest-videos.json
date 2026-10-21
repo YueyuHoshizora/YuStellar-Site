@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-10-21T00:03:12.196Z",
+  "updatedAt": "2026-10-21T09:38:27.152Z",
   "videos": [
+    {
+      "id": "gWv0mzqz6CI",
+      "title": "約定的另一種說法｜真正的約定，不是等你，是活成自己｜Yu Stellar｜星語",
+      "publishedAt": "2026-10-21T09:30:17Z",
+      "thumbnail": "https://i.ytimg.com/vi/gWv0mzqz6CI/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=gWv0mzqz6CI"
+    },
     {
       "id": "zRtAOjRKs8g",
       "title": "有些孤獨，只是生活陪你熬到太晚《凌晨洗衣店》｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-10-18T21:30:36Z",
       "thumbnail": "https://i.ytimg.com/vi/fe0gRQmYamA/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=fe0gRQmYamA"
-    },
-    {
-      "id": "1ngBWqUEf3M",
-      "title": "名字的重量｜不借誰的故事，我也能用自己的名字發光｜Yu Stellar｜星語",
-      "publishedAt": "2026-10-18T09:30:11Z",
-      "thumbnail": "https://i.ytimg.com/vi/1ngBWqUEf3M/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=1ngBWqUEf3M"
     }
   ]
 }
