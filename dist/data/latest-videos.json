@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-10-21T09:38:27.152Z",
+  "updatedAt": "2026-10-21T22:15:04.145Z",
   "videos": [
+    {
+      "id": "Hjo-XpqOHS4",
+      "title": "想念一個人，也可以選擇不再打擾《未送出的票》｜Yu Stellar｜星語",
+      "publishedAt": "2026-10-21T21:30:25Z",
+      "thumbnail": "https://i.ytimg.com/vi/Hjo-XpqOHS4/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Hjo-XpqOHS4"
+    },
     {
       "id": "gWv0mzqz6CI",
       "title": "約定的另一種說法｜真正的約定，不是等你，是活成自己｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-10-19T09:30:37Z",
       "thumbnail": "https://i.ytimg.com/vi/qfTPIkVQZ1A/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=qfTPIkVQZ1A"
-    },
-    {
-      "id": "fe0gRQmYamA",
-      "title": "分開後最難的，是重新煮一人份的晚餐《半張餐桌》｜Yu Stellar｜星語",
-      "publishedAt": "2026-10-18T21:30:36Z",
-      "thumbnail": "https://i.ytimg.com/vi/fe0gRQmYamA/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=fe0gRQmYamA"
     }
   ]
 }
