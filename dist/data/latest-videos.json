@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-10-20T12:58:22.072Z",
+  "updatedAt": "2026-10-21T00:03:12.196Z",
   "videos": [
+    {
+      "id": "zRtAOjRKs8g",
+      "title": "有些孤獨，只是生活陪你熬到太晚《凌晨洗衣店》｜Yu Stellar｜星語",
+      "publishedAt": "2026-10-20T21:30:33Z",
+      "thumbnail": "https://i.ytimg.com/vi/zRtAOjRKs8g/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=zRtAOjRKs8g"
+    },
     {
       "id": "T7p6rXMv6es",
       "title": "回憶的背面｜有些記憶不屬於今生，卻寫著我的地址｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-10-18T09:30:11Z",
       "thumbnail": "https://i.ytimg.com/vi/1ngBWqUEf3M/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=1ngBWqUEf3M"
-    },
-    {
-      "id": "tRotND7VNnM",
-      "title": "有些相遇沒有早也沒有晚，只是我們終於準備好了《相遇》｜Yu Stellar｜星語",
-      "publishedAt": "2026-10-17T21:30:20Z",
-      "thumbnail": "https://i.ytimg.com/vi/tRotND7VNnM/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=tRotND7VNnM"
     }
   ]
 }
