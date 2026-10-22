@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-10-22T10:32:22.780Z",
+  "updatedAt": "2026-10-22T22:42:25.860Z",
   "videos": [
+    {
+      "id": "DtGTWRorQXQ",
+      "title": "當人生不再說「我們」，我終於把自己說得響亮《工牌上的名字》｜Yu Stellar｜星語",
+      "publishedAt": "2026-10-22T21:30:03Z",
+      "thumbnail": "https://i.ytimg.com/vi/DtGTWRorQXQ/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=DtGTWRorQXQ"
+    },
     {
       "id": "YgExFBz5rCg",
       "title": "返鄉前的清單｜清單沒有你的名字，我還是決定回去｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-10-20T09:30:22Z",
       "thumbnail": "https://i.ytimg.com/vi/T7p6rXMv6es/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=T7p6rXMv6es"
-    },
-    {
-      "id": "s-A3ciJCfyA",
-      "title": "搬離有你的家後，我花了多久才住進新生活《新的門牌》｜Yu Stellar｜星語",
-      "publishedAt": "2026-10-19T21:30:15Z",
-      "thumbnail": "https://i.ytimg.com/vi/s-A3ciJCfyA/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=s-A3ciJCfyA"
     }
   ]
 }
