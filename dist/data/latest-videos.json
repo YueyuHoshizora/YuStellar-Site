@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-10-22T22:42:25.860Z",
+  "updatedAt": "2026-10-23T11:27:30.776Z",
   "videos": [
+    {
+      "id": "jq2NirvHESI",
+      "title": "老巷換了招牌｜回到夢裡的老巷，才發現一切都變了｜Yu Stellar｜星語",
+      "publishedAt": "2026-10-23T09:30:06Z",
+      "thumbnail": "https://i.ytimg.com/vi/jq2NirvHESI/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=jq2NirvHESI"
+    },
     {
       "id": "DtGTWRorQXQ",
       "title": "當人生不再說「我們」，我終於把自己說得響亮《工牌上的名字》｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-10-20T21:30:33Z",
       "thumbnail": "https://i.ytimg.com/vi/zRtAOjRKs8g/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=zRtAOjRKs8g"
-    },
-    {
-      "id": "T7p6rXMv6es",
-      "title": "回憶的背面｜有些記憶不屬於今生，卻寫著我的地址｜Yu Stellar｜星語",
-      "publishedAt": "2026-10-20T09:30:22Z",
-      "thumbnail": "https://i.ytimg.com/vi/T7p6rXMv6es/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=T7p6rXMv6es"
     }
   ]
 }
