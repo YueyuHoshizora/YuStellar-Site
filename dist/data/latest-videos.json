@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-10-23T22:40:01.882Z",
+  "updatedAt": "2026-10-24T10:23:27.869Z",
   "videos": [
+    {
+      "id": "GrnaN0uzUfk",
+      "title": "黃昏書店｜如果命運要重逢，會讓兩人翻到同一頁｜Yu Stellar｜星語",
+      "publishedAt": "2026-10-24T09:30:07Z",
+      "thumbnail": "https://i.ytimg.com/vi/GrnaN0uzUfk/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=GrnaN0uzUfk"
+    },
     {
       "id": "T_FFoSoI1YU",
       "title": "後來我買花，不再為了等誰回家《週五買花》｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-10-21T21:30:25Z",
       "thumbnail": "https://i.ytimg.com/vi/Hjo-XpqOHS4/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=Hjo-XpqOHS4"
-    },
-    {
-      "id": "gWv0mzqz6CI",
-      "title": "約定的另一種說法｜真正的約定，不是等你，是活成自己｜Yu Stellar｜星語",
-      "publishedAt": "2026-10-21T09:30:17Z",
-      "thumbnail": "https://i.ytimg.com/vi/gWv0mzqz6CI/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=gWv0mzqz6CI"
     }
   ]
 }
