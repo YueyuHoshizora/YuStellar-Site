@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-10-24T21:55:43.579Z",
+  "updatedAt": "2026-10-25T13:52:21.518Z",
   "videos": [
+    {
+      "id": "dUA26d20eK8",
+      "title": "那聲熟悉的名字｜忘了前世所有事，卻忘不了你叫我的聲音｜Yu Stellar｜星語",
+      "publishedAt": "2026-10-25T09:30:26Z",
+      "thumbnail": "https://i.ytimg.com/vi/dUA26d20eK8/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=dUA26d20eK8"
+    },
     {
       "id": "x7RrK0NDKCE",
       "title": "一個人的週末不是空白，是終於能聽見自己《一人的週末》｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-10-22T21:30:03Z",
       "thumbnail": "https://i.ytimg.com/vi/DtGTWRorQXQ/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=DtGTWRorQXQ"
-    },
-    {
-      "id": "YgExFBz5rCg",
-      "title": "返鄉前的清單｜清單沒有你的名字，我還是決定回去｜Yu Stellar｜星語",
-      "publishedAt": "2026-10-22T09:30:13Z",
-      "thumbnail": "https://i.ytimg.com/vi/YgExFBz5rCg/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=YgExFBz5rCg"
     }
   ]
 }
