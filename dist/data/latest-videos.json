@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-10-25T22:13:20.930Z",
+  "updatedAt": "2026-10-26T11:10:44.943Z",
   "videos": [
+    {
+      "id": "H0P-8JOSG6s",
+      "title": "近況像一封信｜重逢後最溫柔的事，是從今天認識你｜Yu Stellar｜星語",
+      "publishedAt": "2026-10-26T09:30:11Z",
+      "thumbnail": "https://i.ytimg.com/vi/H0P-8JOSG6s/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=H0P-8JOSG6s"
+    },
     {
       "id": "Hn2y6ASnY3Q",
       "title": "聽見我們的歌，我終於沒有再回頭《舊歌經過》｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-10-23T21:30:05Z",
       "thumbnail": "https://i.ytimg.com/vi/T_FFoSoI1YU/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=T_FFoSoI1YU"
-    },
-    {
-      "id": "jq2NirvHESI",
-      "title": "老巷換了招牌｜回到夢裡的老巷，才發現一切都變了｜Yu Stellar｜星語",
-      "publishedAt": "2026-10-23T09:30:06Z",
-      "thumbnail": "https://i.ytimg.com/vi/jq2NirvHESI/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=jq2NirvHESI"
     }
   ]
 }
