@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-10-28T13:50:54.120Z",
+  "updatedAt": "2026-10-28T23:16:33.552Z",
   "videos": [
+    {
+      "id": "McRDtOY4EaM",
+      "title": "三年後再看見你，我也終於認出了現在的自己《鏡面那一端》｜Yu Stellar｜星語",
+      "publishedAt": "2026-10-28T21:30:21Z",
+      "thumbnail": "https://i.ytimg.com/vi/McRDtOY4EaM/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=McRDtOY4EaM"
+    },
     {
       "id": "1kO631xyIQQ",
       "title": "不必回到原位｜我們不必重新相愛，才能證明曾經愛過｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-10-26T09:30:11Z",
       "thumbnail": "https://i.ytimg.com/vi/H0P-8JOSG6s/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=H0P-8JOSG6s"
-    },
-    {
-      "id": "Hn2y6ASnY3Q",
-      "title": "聽見我們的歌，我終於沒有再回頭《舊歌經過》｜Yu Stellar｜星語",
-      "publishedAt": "2026-10-25T21:30:21Z",
-      "thumbnail": "https://i.ytimg.com/vi/Hn2y6ASnY3Q/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=Hn2y6ASnY3Q"
     }
   ]
 }
