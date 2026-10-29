@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-10-28T23:16:33.552Z",
+  "updatedAt": "2026-10-29T15:49:52.464Z",
   "videos": [
+    {
+      "id": "gmBkCUk7VYE",
+      "title": "熟悉的陌生人｜最熟悉的陌生人，也值得重新問一次名字｜Yu Stellar｜星語",
+      "publishedAt": "2026-10-29T09:30:23Z",
+      "thumbnail": "https://i.ytimg.com/vi/gmBkCUk7VYE/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=gmBkCUk7VYE"
+    },
     {
       "id": "McRDtOY4EaM",
       "title": "三年後再看見你，我也終於認出了現在的自己《鏡面那一端》｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-10-26T21:30:31Z",
       "thumbnail": "https://i.ytimg.com/vi/wXw-sm7ibHA/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=wXw-sm7ibHA"
-    },
-    {
-      "id": "H0P-8JOSG6s",
-      "title": "近況像一封信｜重逢後最溫柔的事，是從今天認識你｜Yu Stellar｜星語",
-      "publishedAt": "2026-10-26T09:30:11Z",
-      "thumbnail": "https://i.ytimg.com/vi/H0P-8JOSG6s/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=H0P-8JOSG6s"
     }
   ]
 }
