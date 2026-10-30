@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-10-30T00:27:53.454Z",
+  "updatedAt": "2026-10-30T13:15:54.898Z",
   "videos": [
+    {
+      "id": "TRnKY2VyDEM",
+      "title": "兩種季節｜你那裡下雨，我這裡晴，也能慢慢靠近｜Yu Stellar｜星語",
+      "publishedAt": "2026-10-30T09:30:36Z",
+      "thumbnail": "https://i.ytimg.com/vi/TRnKY2VyDEM/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=TRnKY2VyDEM"
+    },
     {
       "id": "cx0QSY9cv5w",
       "title": "這一次，我不等命運替我說「好久不見」《走到你面前》｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-10-27T21:30:18Z",
       "thumbnail": "https://i.ytimg.com/vi/ZSdTZ7rLFMc/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=ZSdTZ7rLFMc"
-    },
-    {
-      "id": "TvGiT1Xzp0o",
-      "title": "各自的明天｜真正的重逢，不是復合，是尊重彼此的人生｜Yu Stellar｜星語",
-      "publishedAt": "2026-10-27T09:30:02Z",
-      "thumbnail": "https://i.ytimg.com/vi/TvGiT1Xzp0o/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=TvGiT1Xzp0o"
     }
   ]
 }
