@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-10-29T15:49:52.464Z",
+  "updatedAt": "2026-10-30T00:27:53.454Z",
   "videos": [
+    {
+      "id": "cx0QSY9cv5w",
+      "title": "這一次，我不等命運替我說「好久不見」《走到你面前》｜Yu Stellar｜星語",
+      "publishedAt": "2026-10-29T21:30:13Z",
+      "thumbnail": "https://i.ytimg.com/vi/cx0QSY9cv5w/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=cx0QSY9cv5w"
+    },
     {
       "id": "gmBkCUk7VYE",
       "title": "熟悉的陌生人｜最熟悉的陌生人，也值得重新問一次名字｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-10-27T09:30:02Z",
       "thumbnail": "https://i.ytimg.com/vi/TvGiT1Xzp0o/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=TvGiT1Xzp0o"
-    },
-    {
-      "id": "wXw-sm7ibHA",
-      "title": "可能會遇見前任的舞會，你還會赴約嗎？《舞會請柬》｜Yu Stellar｜星語",
-      "publishedAt": "2026-10-26T21:30:31Z",
-      "thumbnail": "https://i.ytimg.com/vi/wXw-sm7ibHA/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=wXw-sm7ibHA"
     }
   ]
 }
