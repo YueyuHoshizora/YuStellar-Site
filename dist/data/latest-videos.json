@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-10-30T22:39:57.433Z",
+  "updatedAt": "2026-10-31T14:20:02.771Z",
   "videos": [
+    {
+      "id": "-sWurK6GiQE",
+      "title": "路過同一場雨｜再遇見你時，我們不再把傘偏向昨天｜Yu Stellar｜星語",
+      "publishedAt": "2026-10-31T09:30:18Z",
+      "thumbnail": "https://i.ytimg.com/vi/-sWurK6GiQE/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=-sWurK6GiQE"
+    },
     {
       "id": "TW2R0xUk5cU",
       "title": "如果再見前任，你敢主動邀他跳一支舞嗎？《與我共舞》｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-10-28T21:30:21Z",
       "thumbnail": "https://i.ytimg.com/vi/McRDtOY4EaM/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=McRDtOY4EaM"
-    },
-    {
-      "id": "1kO631xyIQQ",
-      "title": "不必回到原位｜我們不必重新相愛，才能證明曾經愛過｜Yu Stellar｜星語",
-      "publishedAt": "2026-10-28T09:30:14Z",
-      "thumbnail": "https://i.ytimg.com/vi/1kO631xyIQQ/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=1kO631xyIQQ"
     }
   ]
 }
