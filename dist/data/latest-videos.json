@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-11-01T14:03:49.032Z",
+  "updatedAt": "2026-11-01T22:35:22.221Z",
   "videos": [
+    {
+      "id": "X9VxzJORS3w",
+      "title": "成熟的喜歡，是靠近以後也不急著要答案《不急著定義》｜Yu Stellar｜星語",
+      "publishedAt": "2026-11-01T21:30:16Z",
+      "thumbnail": "https://i.ytimg.com/vi/X9VxzJORS3w/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=X9VxzJORS3w"
+    },
     {
       "id": "yzrnbs5efHw",
       "title": "把故事說完整｜說出共同的前世，不代表要重寫結局｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-10-30T09:30:36Z",
       "thumbnail": "https://i.ytimg.com/vi/TRnKY2VyDEM/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=TRnKY2VyDEM"
-    },
-    {
-      "id": "cx0QSY9cv5w",
-      "title": "這一次，我不等命運替我說「好久不見」《走到你面前》｜Yu Stellar｜星語",
-      "publishedAt": "2026-10-29T21:30:13Z",
-      "thumbnail": "https://i.ytimg.com/vi/cx0QSY9cv5w/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=cx0QSY9cv5w"
     }
   ]
 }
