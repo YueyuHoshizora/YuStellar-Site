@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-10-31T21:53:20.374Z",
+  "updatedAt": "2026-11-01T14:03:49.032Z",
   "videos": [
+    {
+      "id": "yzrnbs5efHw",
+      "title": "把故事說完整｜說出共同的前世，不代表要重寫結局｜Yu Stellar｜星語",
+      "publishedAt": "2026-11-01T09:30:13Z",
+      "thumbnail": "https://i.ytimg.com/vi/yzrnbs5efHw/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=yzrnbs5efHw"
+    },
     {
       "id": "_rBkst6tRIw",
       "title": "長大後的重逢，是能平靜說完彼此錯過的三年《一曲之後》｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-10-29T21:30:13Z",
       "thumbnail": "https://i.ytimg.com/vi/cx0QSY9cv5w/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=cx0QSY9cv5w"
-    },
-    {
-      "id": "gmBkCUk7VYE",
-      "title": "熟悉的陌生人｜最熟悉的陌生人，也值得重新問一次名字｜Yu Stellar｜星語",
-      "publishedAt": "2026-10-29T09:30:23Z",
-      "thumbnail": "https://i.ytimg.com/vi/gmBkCUk7VYE/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=gmBkCUk7VYE"
     }
   ]
 }
