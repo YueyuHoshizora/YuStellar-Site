@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-11-01T22:35:22.221Z",
+  "updatedAt": "2026-11-02T18:44:46.661Z",
   "videos": [
+    {
+      "id": "2MiNzv8sZp0",
+      "title": "記得但不回頭｜我記得你，卻不必回頭證明愛過｜Yu Stellar｜星語",
+      "publishedAt": "2026-11-02T09:30:14Z",
+      "thumbnail": "https://i.ytimg.com/vi/2MiNzv8sZp0/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=2MiNzv8sZp0"
+    },
     {
       "id": "X9VxzJORS3w",
       "title": "成熟的喜歡，是靠近以後也不急著要答案《不急著定義》｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-10-30T21:30:18Z",
       "thumbnail": "https://i.ytimg.com/vi/TW2R0xUk5cU/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=TW2R0xUk5cU"
-    },
-    {
-      "id": "TRnKY2VyDEM",
-      "title": "兩種季節｜你那裡下雨，我這裡晴，也能慢慢靠近｜Yu Stellar｜星語",
-      "publishedAt": "2026-10-30T09:30:36Z",
-      "thumbnail": "https://i.ytimg.com/vi/TRnKY2VyDEM/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=TRnKY2VyDEM"
     }
   ]
 }
