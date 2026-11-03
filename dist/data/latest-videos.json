@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-11-03T16:15:44.001Z",
+  "updatedAt": "2026-11-03T21:50:51.733Z",
   "videos": [
+    {
+      "id": "qfh-r8MoOiA",
+      "title": "枕邊地圖｜醒來後，我畫出不存在卻熟悉的城市｜Yu Stellar｜星語",
+      "publishedAt": "2026-11-03T21:30:29Z",
+      "thumbnail": "https://i.ytimg.com/vi/qfh-r8MoOiA/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=qfh-r8MoOiA"
+    },
     {
       "id": "6gwANabEg6U",
       "title": "前世來生｜前世錯過的人，來生一定要再愛一次嗎｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-11-01T09:30:13Z",
       "thumbnail": "https://i.ytimg.com/vi/yzrnbs5efHw/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=yzrnbs5efHw"
-    },
-    {
-      "id": "_rBkst6tRIw",
-      "title": "長大後的重逢，是能平靜說完彼此錯過的三年《一曲之後》｜Yu Stellar｜星語",
-      "publishedAt": "2026-10-31T21:30:38Z",
-      "thumbnail": "https://i.ytimg.com/vi/_rBkst6tRIw/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=_rBkst6tRIw"
     }
   ]
 }
