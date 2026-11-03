@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-11-03T01:20:34.612Z",
+  "updatedAt": "2026-11-03T16:15:44.001Z",
   "videos": [
+    {
+      "id": "6gwANabEg6U",
+      "title": "前世來生｜前世錯過的人，來生一定要再愛一次嗎｜Yu Stellar｜星語",
+      "publishedAt": "2026-11-03T09:30:16Z",
+      "thumbnail": "https://i.ytimg.com/vi/6gwANabEg6U/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=6gwANabEg6U"
+    },
     {
       "id": "2B1jY2Wjv0g",
       "title": "凌晨四點｜明明醒著，卻聽見夢在叫我回去｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-10-31T21:30:38Z",
       "thumbnail": "https://i.ytimg.com/vi/_rBkst6tRIw/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=_rBkst6tRIw"
-    },
-    {
-      "id": "-sWurK6GiQE",
-      "title": "路過同一場雨｜再遇見你時，我們不再把傘偏向昨天｜Yu Stellar｜星語",
-      "publishedAt": "2026-10-31T09:30:18Z",
-      "thumbnail": "https://i.ytimg.com/vi/-sWurK6GiQE/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=-sWurK6GiQE"
     }
   ]
 }
