@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-11-03T21:50:51.733Z",
+  "updatedAt": "2026-11-04T16:19:23.563Z",
   "videos": [
+    {
+      "id": "DjPid_4O2wI",
+      "title": "紙鳶未收線｜原來心動，是兩個人都故意放慢腳步｜Yu Stellar｜星語",
+      "publishedAt": "2026-11-04T09:30:32Z",
+      "thumbnail": "https://i.ytimg.com/vi/DjPid_4O2wI/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=DjPid_4O2wI"
+    },
     {
       "id": "qfh-r8MoOiA",
       "title": "枕邊地圖｜醒來後，我畫出不存在卻熟悉的城市｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-11-01T21:30:16Z",
       "thumbnail": "https://i.ytimg.com/vi/X9VxzJORS3w/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=X9VxzJORS3w"
-    },
-    {
-      "id": "yzrnbs5efHw",
-      "title": "把故事說完整｜說出共同的前世，不代表要重寫結局｜Yu Stellar｜星語",
-      "publishedAt": "2026-11-01T09:30:13Z",
-      "thumbnail": "https://i.ytimg.com/vi/yzrnbs5efHw/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=yzrnbs5efHw"
     }
   ]
 }
