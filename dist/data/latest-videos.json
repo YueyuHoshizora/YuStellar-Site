@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-11-05T09:38:50.832Z",
+  "updatedAt": "2026-11-05T22:53:44.989Z",
   "videos": [
+    {
+      "id": "HKvjJiZQoYM",
+      "title": "不存在的街｜每扇陌生的窗，都亮著我忘掉的從前｜Yu Stellar｜星語",
+      "publishedAt": "2026-11-05T21:30:32Z",
+      "thumbnail": "https://i.ytimg.com/vi/HKvjJiZQoYM/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=HKvjJiZQoYM"
+    },
     {
       "id": "ayz-ELM_gBk",
       "title": "雨停以前｜如果你也捨不得，就陪我把腳步放慢｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-11-03T09:30:16Z",
       "thumbnail": "https://i.ytimg.com/vi/6gwANabEg6U/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=6gwANabEg6U"
-    },
-    {
-      "id": "2B1jY2Wjv0g",
-      "title": "凌晨四點｜明明醒著，卻聽見夢在叫我回去｜Yu Stellar｜星語",
-      "publishedAt": "2026-11-02T21:30:07Z",
-      "thumbnail": "https://i.ytimg.com/vi/2B1jY2Wjv0g/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=2B1jY2Wjv0g"
     }
   ]
 }
