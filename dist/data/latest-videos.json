@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-11-04T22:00:08.802Z",
+  "updatedAt": "2026-11-05T09:38:50.832Z",
   "videos": [
+    {
+      "id": "ayz-ELM_gBk",
+      "title": "雨停以前｜如果你也捨不得，就陪我把腳步放慢｜Yu Stellar｜星語",
+      "publishedAt": "2026-11-05T09:30:06Z",
+      "thumbnail": "https://i.ytimg.com/vi/ayz-ELM_gBk/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=ayz-ELM_gBk"
+    },
     {
       "id": "c284npUDLuE",
       "title": "霧裡鐘聲｜路都被霧藏起來，鐘聲卻記得我｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-11-02T21:30:07Z",
       "thumbnail": "https://i.ytimg.com/vi/2B1jY2Wjv0g/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=2B1jY2Wjv0g"
-    },
-    {
-      "id": "2MiNzv8sZp0",
-      "title": "記得但不回頭｜我記得你，卻不必回頭證明愛過｜Yu Stellar｜星語",
-      "publishedAt": "2026-11-02T09:30:14Z",
-      "thumbnail": "https://i.ytimg.com/vi/2MiNzv8sZp0/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=2MiNzv8sZp0"
     }
   ]
 }
