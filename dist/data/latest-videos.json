@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-11-05T22:53:44.989Z",
+  "updatedAt": "2026-11-06T11:07:14.772Z",
   "videos": [
+    {
+      "id": "h6wyXbFZDZM",
+      "title": "兩杯熱茶｜最讓人想念的愛，是有人等你下班｜Yu Stellar｜星語",
+      "publishedAt": "2026-11-06T09:30:28Z",
+      "thumbnail": "https://i.ytimg.com/vi/h6wyXbFZDZM/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=h6wyXbFZDZM"
+    },
     {
       "id": "HKvjJiZQoYM",
       "title": "不存在的街｜每扇陌生的窗，都亮著我忘掉的從前｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-11-03T21:30:29Z",
       "thumbnail": "https://i.ytimg.com/vi/qfh-r8MoOiA/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=qfh-r8MoOiA"
-    },
-    {
-      "id": "6gwANabEg6U",
-      "title": "前世來生｜前世錯過的人，來生一定要再愛一次嗎｜Yu Stellar｜星語",
-      "publishedAt": "2026-11-03T09:30:16Z",
-      "thumbnail": "https://i.ytimg.com/vi/6gwANabEg6U/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=6gwANabEg6U"
     }
   ]
 }
