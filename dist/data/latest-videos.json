@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-11-06T22:58:32.704Z",
+  "updatedAt": "2026-11-07T15:45:46.016Z",
   "videos": [
+    {
+      "id": "8VWd18B68mM",
+      "title": "門牌之間｜真正的愛，是把你寫進每一天｜Yu Stellar｜星語",
+      "publishedAt": "2026-11-07T09:30:14Z",
+      "thumbnail": "https://i.ytimg.com/vi/8VWd18B68mM/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=8VWd18B68mM"
+    },
     {
       "id": "lK47and2XiI",
       "title": "你先認出我｜記憶還沒想起你，心卻先承認沒忘記｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-11-04T21:30:15Z",
       "thumbnail": "https://i.ytimg.com/vi/c284npUDLuE/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=c284npUDLuE"
-    },
-    {
-      "id": "DjPid_4O2wI",
-      "title": "紙鳶未收線｜原來心動，是兩個人都故意放慢腳步｜Yu Stellar｜星語",
-      "publishedAt": "2026-11-04T09:30:32Z",
-      "thumbnail": "https://i.ytimg.com/vi/DjPid_4O2wI/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=DjPid_4O2wI"
     }
   ]
 }
