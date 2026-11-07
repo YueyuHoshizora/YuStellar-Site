@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-11-07T15:45:46.016Z",
+  "updatedAt": "2026-11-07T23:05:26.296Z",
   "videos": [
+    {
+      "id": "CxJ2V-t-96I",
+      "title": "借來的黃昏｜我們隔了一生，仍把沉默坐成溫柔｜Yu Stellar｜星語",
+      "publishedAt": "2026-11-07T21:30:20Z",
+      "thumbnail": "https://i.ytimg.com/vi/CxJ2V-t-96I/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=CxJ2V-t-96I"
+    },
     {
       "id": "8VWd18B68mM",
       "title": "門牌之間｜真正的愛，是把你寫進每一天｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-11-05T09:30:06Z",
       "thumbnail": "https://i.ytimg.com/vi/ayz-ELM_gBk/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=ayz-ELM_gBk"
-    },
-    {
-      "id": "c284npUDLuE",
-      "title": "霧裡鐘聲｜路都被霧藏起來，鐘聲卻記得我｜Yu Stellar｜星語",
-      "publishedAt": "2026-11-04T21:30:15Z",
-      "thumbnail": "https://i.ytimg.com/vi/c284npUDLuE/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=c284npUDLuE"
     }
   ]
 }
