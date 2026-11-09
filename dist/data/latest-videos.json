@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-11-08T23:57:40.364Z",
+  "updatedAt": "2026-11-09T16:01:21.635Z",
   "videos": [
+    {
+      "id": "_2PGzG80TEs",
+      "title": "各自的明天｜不是不愛了，只是我們走向不同方向｜Yu Stellar｜星語",
+      "publishedAt": "2026-11-09T09:30:21Z",
+      "thumbnail": "https://i.ytimg.com/vi/_2PGzG80TEs/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=_2PGzG80TEs"
+    },
     {
       "id": "74qi8zBk__E",
       "title": "藍窗麵包店｜你還記得少糖，我卻忘了我們來過｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-11-06T21:30:09Z",
       "thumbnail": "https://i.ytimg.com/vi/lK47and2XiI/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=lK47and2XiI"
-    },
-    {
-      "id": "h6wyXbFZDZM",
-      "title": "兩杯熱茶｜最讓人想念的愛，是有人等你下班｜Yu Stellar｜星語",
-      "publishedAt": "2026-11-06T09:30:28Z",
-      "thumbnail": "https://i.ytimg.com/vi/h6wyXbFZDZM/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=h6wyXbFZDZM"
     }
   ]
 }
