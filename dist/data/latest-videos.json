@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-11-11T16:14:00.353Z",
+  "updatedAt": "2026-11-11T22:47:14.452Z",
   "videos": [
+    {
+      "id": "-3C7ereuiVk",
+      "title": "沒有日期｜沒有日期的夢，也藏不住走過的年紀｜Yu Stellar｜星語",
+      "publishedAt": "2026-11-11T21:30:16Z",
+      "thumbnail": "https://i.ytimg.com/vi/-3C7ereuiVk/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=-3C7ereuiVk"
+    },
     {
       "id": "LdB1GPUUpaU",
       "title": "醒來的名字｜有些人忘了，心卻還記得他的名字｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-11-09T09:30:21Z",
       "thumbnail": "https://i.ytimg.com/vi/_2PGzG80TEs/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=_2PGzG80TEs"
-    },
-    {
-      "id": "74qi8zBk__E",
-      "title": "藍窗麵包店｜你還記得少糖，我卻忘了我們來過｜Yu Stellar｜星語",
-      "publishedAt": "2026-11-08T21:30:16Z",
-      "thumbnail": "https://i.ytimg.com/vi/74qi8zBk__E/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=74qi8zBk__E"
     }
   ]
 }
