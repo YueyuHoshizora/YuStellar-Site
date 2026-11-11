@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-11-10T15:42:59.535Z",
+  "updatedAt": "2026-11-11T01:25:36.133Z",
   "videos": [
+    {
+      "id": "KIEnCXnKOvo",
+      "title": "昨天的電車｜電車開向昨天，我卻坐著今天的自己｜Yu Stellar｜星語",
+      "publishedAt": "2026-11-10T21:30:06Z",
+      "thumbnail": "https://i.ytimg.com/vi/KIEnCXnKOvo/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=KIEnCXnKOvo"
+    },
     {
       "id": "mEEww_jffB8",
       "title": "最後一盞燈｜真正的告別，是離開後仍盼你天亮｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-11-08T09:30:10Z",
       "thumbnail": "https://i.ytimg.com/vi/22eYZJPkosk/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=22eYZJPkosk"
-    },
-    {
-      "id": "CxJ2V-t-96I",
-      "title": "借來的黃昏｜我們隔了一生，仍把沉默坐成溫柔｜Yu Stellar｜星語",
-      "publishedAt": "2026-11-07T21:30:20Z",
-      "thumbnail": "https://i.ytimg.com/vi/CxJ2V-t-96I/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=CxJ2V-t-96I"
     }
   ]
 }
