@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-11-11T01:25:36.133Z",
+  "updatedAt": "2026-11-11T16:14:00.353Z",
   "videos": [
+    {
+      "id": "LdB1GPUUpaU",
+      "title": "醒來的名字｜有些人忘了，心卻還記得他的名字｜Yu Stellar｜星語",
+      "publishedAt": "2026-11-11T09:30:24Z",
+      "thumbnail": "https://i.ytimg.com/vi/LdB1GPUUpaU/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=LdB1GPUUpaU"
+    },
     {
       "id": "KIEnCXnKOvo",
       "title": "昨天的電車｜電車開向昨天，我卻坐著今天的自己｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-11-08T21:30:16Z",
       "thumbnail": "https://i.ytimg.com/vi/74qi8zBk__E/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=74qi8zBk__E"
-    },
-    {
-      "id": "22eYZJPkosk",
-      "title": "未寄的信｜最難過的爭吵，是連怪你都捨不得｜Yu Stellar｜星語",
-      "publishedAt": "2026-11-08T09:30:10Z",
-      "thumbnail": "https://i.ytimg.com/vi/22eYZJPkosk/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=22eYZJPkosk"
     }
   ]
 }
