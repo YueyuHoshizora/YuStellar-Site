@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-11-13T00:30:49.508Z",
+  "updatedAt": "2026-11-13T15:26:32.531Z",
   "videos": [
+    {
+      "id": "egAdIrWQwI0",
+      "title": "陌生燈火｜成年人的孤單，是加班後一個人回家｜Yu Stellar｜星語",
+      "publishedAt": "2026-11-13T09:30:35Z",
+      "thumbnail": "https://i.ytimg.com/vi/egAdIrWQwI0/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=egAdIrWQwI0"
+    },
     {
       "id": "V6PKbRL0hgg",
       "title": "再睡五分鐘｜我一次次關掉鬧鐘，只為留你到天亮｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-11-10T21:30:06Z",
       "thumbnail": "https://i.ytimg.com/vi/KIEnCXnKOvo/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=KIEnCXnKOvo"
-    },
-    {
-      "id": "mEEww_jffB8",
-      "title": "最後一盞燈｜真正的告別，是離開後仍盼你天亮｜Yu Stellar｜星語",
-      "publishedAt": "2026-11-10T09:30:24Z",
-      "thumbnail": "https://i.ytimg.com/vi/mEEww_jffB8/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=mEEww_jffB8"
     }
   ]
 }
