@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-11-13T15:26:32.531Z",
+  "updatedAt": "2026-11-13T21:31:35.651Z",
   "videos": [
+    {
+      "id": "dLH8jiZMEFA",
+      "title": "夢裡搬家｜我把夢搬成家，門牌卻寫著到此為止｜Yu Stellar｜星語",
+      "publishedAt": "2026-11-13T21:30:27Z",
+      "thumbnail": "https://i.ytimg.com/vi/dLH8jiZMEFA/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=dLH8jiZMEFA"
+    },
     {
       "id": "egAdIrWQwI0",
       "title": "陌生燈火｜成年人的孤單，是加班後一個人回家｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-11-11T09:30:24Z",
       "thumbnail": "https://i.ytimg.com/vi/LdB1GPUUpaU/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=LdB1GPUUpaU"
-    },
-    {
-      "id": "KIEnCXnKOvo",
-      "title": "昨天的電車｜電車開向昨天，我卻坐著今天的自己｜Yu Stellar｜星語",
-      "publishedAt": "2026-11-10T21:30:06Z",
-      "thumbnail": "https://i.ytimg.com/vi/KIEnCXnKOvo/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=KIEnCXnKOvo"
     }
   ]
 }
