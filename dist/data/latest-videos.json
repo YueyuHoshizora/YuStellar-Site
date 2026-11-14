@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-11-14T15:00:16.509Z",
+  "updatedAt": "2026-11-14T23:36:56.825Z",
   "videos": [
+    {
+      "id": "gmcEUdNEKEA",
+      "title": "白天漏雨｜夢沒有追到白天，是我把白天留在夢裡｜Yu Stellar｜星語",
+      "publishedAt": "2026-11-14T21:30:01Z",
+      "thumbnail": "https://i.ytimg.com/vi/gmcEUdNEKEA/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=gmcEUdNEKEA"
+    },
     {
       "id": "1yxe-4kDBpg",
       "title": "草稿裡的春天｜想問你過得好不好，最後卻沒有傳送｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-11-12T09:30:29Z",
       "thumbnail": "https://i.ytimg.com/vi/jiFzJMuGZSI/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=jiFzJMuGZSI"
-    },
-    {
-      "id": "-3C7ereuiVk",
-      "title": "沒有日期｜沒有日期的夢，也藏不住走過的年紀｜Yu Stellar｜星語",
-      "publishedAt": "2026-11-11T21:30:16Z",
-      "thumbnail": "https://i.ytimg.com/vi/-3C7ereuiVk/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=-3C7ereuiVk"
     }
   ]
 }
