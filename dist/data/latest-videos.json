@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-11-17T02:38:15.962Z",
+  "updatedAt": "2026-11-17T11:11:17.799Z",
   "videos": [
+    {
+      "id": "DNpsc4sa67A",
+      "title": "把名字寫好｜當我不再是「我們」，終於成為自己｜Yu Stellar｜星語",
+      "publishedAt": "2026-11-17T09:30:33Z",
+      "thumbnail": "https://i.ytimg.com/vi/DNpsc4sa67A/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=DNpsc4sa67A"
+    },
     {
       "id": "HmmOTx9uHIg",
       "title": "紙箱底層｜藏在最底層的，是我不敢認領的自己｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-11-14T21:30:01Z",
       "thumbnail": "https://i.ytimg.com/vi/gmcEUdNEKEA/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=gmcEUdNEKEA"
-    },
-    {
-      "id": "1yxe-4kDBpg",
-      "title": "草稿裡的春天｜想問你過得好不好，最後卻沒有傳送｜Yu Stellar｜星語",
-      "publishedAt": "2026-11-14T09:30:15Z",
-      "thumbnail": "https://i.ytimg.com/vi/1yxe-4kDBpg/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=1yxe-4kDBpg"
     }
   ]
 }
