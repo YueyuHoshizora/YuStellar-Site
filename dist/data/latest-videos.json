@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-11-17T11:11:17.799Z",
+  "updatedAt": "2026-11-18T02:07:56.090Z",
   "videos": [
+    {
+      "id": "qYRL35j3kDE",
+      "title": "褪色門牌｜門牌退了色，住過的人都已經向前｜Yu Stellar｜星語",
+      "publishedAt": "2026-11-17T21:30:24Z",
+      "thumbnail": "https://i.ytimg.com/vi/qYRL35j3kDE/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=qYRL35j3kDE"
+    },
     {
       "id": "DNpsc4sa67A",
       "title": "把名字寫好｜當我不再是「我們」，終於成為自己｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-11-15T09:30:06Z",
       "thumbnail": "https://i.ytimg.com/vi/hgIOOkNagbc/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=hgIOOkNagbc"
-    },
-    {
-      "id": "gmcEUdNEKEA",
-      "title": "白天漏雨｜夢沒有追到白天，是我把白天留在夢裡｜Yu Stellar｜星語",
-      "publishedAt": "2026-11-14T21:30:01Z",
-      "thumbnail": "https://i.ytimg.com/vi/gmcEUdNEKEA/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=gmcEUdNEKEA"
     }
   ]
 }
