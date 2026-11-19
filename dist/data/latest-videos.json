@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-11-19T17:33:48.799Z",
+  "updatedAt": "2026-11-19T23:47:00.040Z",
   "videos": [
+    {
+      "id": "kIu0xYKDd80",
+      "title": "兩種後來｜我們各自走進後來，才有力氣回頭看｜Yu Stellar｜星語",
+      "publishedAt": "2026-11-19T21:30:39Z",
+      "thumbnail": "https://i.ytimg.com/vi/kIu0xYKDd80/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=kIu0xYKDd80"
+    },
     {
       "id": "o0Ch-Jvj9IM",
       "title": "一個人的慶功｜幸福不必等誰見證，我也值得被慶祝｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-11-17T09:30:33Z",
       "thumbnail": "https://i.ytimg.com/vi/DNpsc4sa67A/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=DNpsc4sa67A"
-    },
-    {
-      "id": "HmmOTx9uHIg",
-      "title": "紙箱底層｜藏在最底層的，是我不敢認領的自己｜Yu Stellar｜星語",
-      "publishedAt": "2026-11-16T21:30:31Z",
-      "thumbnail": "https://i.ytimg.com/vi/HmmOTx9uHIg/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=HmmOTx9uHIg"
     }
   ]
 }
