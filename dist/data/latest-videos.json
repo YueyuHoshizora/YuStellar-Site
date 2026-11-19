@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-11-18T10:08:12.196Z",
+  "updatedAt": "2026-11-19T00:53:23.122Z",
   "videos": [
+    {
+      "id": "_CP-HKJCqro",
+      "title": "未寄出的夏天｜我們不是不愛，只把體貼用成沉默｜Yu Stellar｜星語",
+      "publishedAt": "2026-11-18T21:30:35Z",
+      "thumbnail": "https://i.ytimg.com/vi/_CP-HKJCqro/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=_CP-HKJCqro"
+    },
     {
       "id": "r3gHEOL3hXw",
       "title": "你不知道的晴天｜沒有你的日子，我也活成了晴天｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-11-16T09:30:17Z",
       "thumbnail": "https://i.ytimg.com/vi/Lu56mP24o3U/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=Lu56mP24o3U"
-    },
-    {
-      "id": "3bFyZ1276Hg",
-      "title": "反方向的鐘｜回憶可以往回看，人生不能跟著倒走｜Yu Stellar｜星語",
-      "publishedAt": "2026-11-15T21:30:24Z",
-      "thumbnail": "https://i.ytimg.com/vi/3bFyZ1276Hg/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=3bFyZ1276Hg"
     }
   ]
 }
