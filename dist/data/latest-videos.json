@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-11-19T23:47:00.040Z",
+  "updatedAt": "2026-11-20T13:28:08.737Z",
   "videos": [
+    {
+      "id": "zDzWhZ6IchQ",
+      "title": "工作證背面｜你以為我安穩，其實我也想去遠方｜Yu Stellar｜星語",
+      "publishedAt": "2026-11-20T09:30:05Z",
+      "thumbnail": "https://i.ytimg.com/vi/zDzWhZ6IchQ/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=zDzWhZ6IchQ"
+    },
     {
       "id": "kIu0xYKDd80",
       "title": "兩種後來｜我們各自走進後來，才有力氣回頭看｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-11-17T21:30:24Z",
       "thumbnail": "https://i.ytimg.com/vi/qYRL35j3kDE/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=qYRL35j3kDE"
-    },
-    {
-      "id": "DNpsc4sa67A",
-      "title": "把名字寫好｜當我不再是「我們」，終於成為自己｜Yu Stellar｜星語",
-      "publishedAt": "2026-11-17T09:30:33Z",
-      "thumbnail": "https://i.ytimg.com/vi/DNpsc4sa67A/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=DNpsc4sa67A"
     }
   ]
 }
