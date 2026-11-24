@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-11-24T01:15:22.995Z",
+  "updatedAt": "2026-11-24T11:07:17.025Z",
   "videos": [
+    {
+      "id": "iQcAd0LITK8",
+      "title": "三年後的車票｜離開三年後，我終於敢回到原點｜Yu Stellar｜星語",
+      "publishedAt": "2026-11-24T09:30:29Z",
+      "thumbnail": "https://i.ytimg.com/vi/iQcAd0LITK8/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=iQcAd0LITK8"
+    },
     {
       "id": "MMUsSWuSzhg",
       "title": "最後一班船｜最後一班船，只載我們把那天走完｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-11-21T21:30:31Z",
       "thumbnail": "https://i.ytimg.com/vi/XPRtmQXNbKA/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=XPRtmQXNbKA"
-    },
-    {
-      "id": "LCGHuGlIjjM",
-      "title": "遠行的週末｜一個人旅行後，我才發現世界很大｜Yu Stellar｜星語",
-      "publishedAt": "2026-11-21T09:30:23Z",
-      "thumbnail": "https://i.ytimg.com/vi/LCGHuGlIjjM/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=LCGHuGlIjjM"
     }
   ]
 }
