@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-11-24T11:07:17.025Z",
+  "updatedAt": "2026-11-25T04:12:54.639Z",
   "videos": [
+    {
+      "id": "i_X-PsSvUys",
+      "title": "沿河走到底｜陪你走到底，不等於還要一起回去｜Yu Stellar｜星語",
+      "publishedAt": "2026-11-24T21:30:22Z",
+      "thumbnail": "https://i.ytimg.com/vi/i_X-PsSvUys/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=i_X-PsSvUys"
+    },
     {
       "id": "iQcAd0LITK8",
       "title": "三年後的車票｜離開三年後，我終於敢回到原點｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-11-22T09:30:31Z",
       "thumbnail": "https://i.ytimg.com/vi/rEMze84l3wE/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=rEMze84l3wE"
-    },
-    {
-      "id": "XPRtmQXNbKA",
-      "title": "那天沒說完｜那天沒說完的，不是挽留，是一聲保重｜Yu Stellar｜星語",
-      "publishedAt": "2026-11-21T21:30:31Z",
-      "thumbnail": "https://i.ytimg.com/vi/XPRtmQXNbKA/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=XPRtmQXNbKA"
     }
   ]
 }
