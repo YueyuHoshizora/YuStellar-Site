@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-11-25T23:16:33.328Z",
+  "updatedAt": "2026-11-26T15:23:23.536Z",
   "videos": [
+    {
+      "id": "zb2SeHeozrw",
+      "title": "河邊的空位｜我回來不是找你，只想陪自己坐一會｜Yu Stellar｜星語",
+      "publishedAt": "2026-11-26T09:30:35Z",
+      "thumbnail": "https://i.ytimg.com/vi/zb2SeHeozrw/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=zb2SeHeozrw"
+    },
     {
       "id": "pKpM39ii-Vk",
       "title": "把名字還我｜你把名字還我，我把背影還給時間｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-11-23T21:30:39Z",
       "thumbnail": "https://i.ytimg.com/vi/MMUsSWuSzhg/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=MMUsSWuSzhg"
-    },
-    {
-      "id": "B_pgjTliqYk",
-      "title": "晚風知道｜我還會想起你，卻不再靠回憶呼吸｜Yu Stellar｜星語",
-      "publishedAt": "2026-11-23T09:30:01Z",
-      "thumbnail": "https://i.ytimg.com/vi/B_pgjTliqYk/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=B_pgjTliqYk"
     }
   ]
 }
