@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-11-26T23:56:34.237Z",
+  "updatedAt": "2026-11-27T18:04:47.007Z",
   "videos": [
+    {
+      "id": "a6kOtgpgWZE",
+      "title": "同一本書｜兜兜轉轉，我們竟在同一頁再次相遇｜Yu Stellar｜星語",
+      "publishedAt": "2026-11-27T09:30:20Z",
+      "thumbnail": "https://i.ytimg.com/vi/a6kOtgpgWZE/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=a6kOtgpgWZE"
+    },
     {
       "id": "l_RDCscf5iY",
       "title": "天亮之後｜天亮沒有帶走你，只是把我帶回自己｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-11-24T21:30:22Z",
       "thumbnail": "https://i.ytimg.com/vi/i_X-PsSvUys/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=i_X-PsSvUys"
-    },
-    {
-      "id": "iQcAd0LITK8",
-      "title": "三年後的車票｜離開三年後，我終於敢回到原點｜Yu Stellar｜星語",
-      "publishedAt": "2026-11-24T09:30:29Z",
-      "thumbnail": "https://i.ytimg.com/vi/iQcAd0LITK8/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=iQcAd0LITK8"
     }
   ]
 }
