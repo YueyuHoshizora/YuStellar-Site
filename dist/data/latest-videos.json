@@ -1,7 +1,14 @@
 {
   "playlistId": "UU4sQ-mQ_AiZrNtSOEzqY7FA",
-  "updatedAt": "2026-11-28T01:25:26.262Z",
+  "updatedAt": "2026-11-28T17:40:02.219Z",
   "videos": [
+    {
+      "id": "FIMHSXAFcJc",
+      "title": "門口的風｜以為早已忘記，聽見你的聲音仍停住｜Yu Stellar｜星語",
+      "publishedAt": "2026-11-28T09:30:30Z",
+      "thumbnail": "https://i.ytimg.com/vi/FIMHSXAFcJc/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=FIMHSXAFcJc"
+    },
     {
       "id": "Y4kP_CzyWGg",
       "title": "新的通勤｜不再經過你，也能把我送到明天｜Yu Stellar｜星語",
@@ -36,13 +43,6 @@
       "publishedAt": "2026-11-25T21:30:15Z",
       "thumbnail": "https://i.ytimg.com/vi/pKpM39ii-Vk/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=pKpM39ii-Vk"
-    },
-    {
-      "id": "GCmSPIlvD1k",
-      "title": "舊城換了顏色｜回到熟悉的地方，才發現我們都變了｜Yu Stellar｜星語",
-      "publishedAt": "2026-11-25T09:30:06Z",
-      "thumbnail": "https://i.ytimg.com/vi/GCmSPIlvD1k/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=GCmSPIlvD1k"
     }
   ]
 }
